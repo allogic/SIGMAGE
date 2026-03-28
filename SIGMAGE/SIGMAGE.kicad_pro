@@ -418,8 +418,16 @@
       "USB_PWR"
     ],
     [
-      "5845d2fd-509f-41c4-9aa2-482bb99b21e9",
-      "CONNECTOR"
+      "18b68461-36dd-4edc-b616-36f19e6bfdd8",
+      "MCU"
+    ],
+    [
+      "8d960e2f-c11f-41fd-bf31-8fb5723bf354",
+      "TRS_ADC"
+    ],
+    [
+      "c7230a02-11e8-4e0e-86c6-3c608fa6bb1d",
+      "RJ45_PHY"
     ]
   ],
   "text_variables": {}
