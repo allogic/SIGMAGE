@@ -54,66 +54,6 @@
 		)
 	)
 	(attr smd)
-	(fp_poly
-		(pts
-			(xy -0.6635 -1.0635) (xy -0.2 -1.0635) (xy -0.2 1.0635) (xy -0.6635 1.0635)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.Mask")
-		(uuid "51c22608-cca4-45c5-9963-71286f2fa373")
-	)
-	(fp_poly
-		(pts
-			(xy -0.6635 -1.0635) (xy 0.6635 -1.0635) (xy 0.6635 -0.5937) (xy -0.6635 -0.5937)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.Mask")
-		(uuid "f332e8f3-6648-4e7f-a4ed-34e158f4f1eb")
-	)
-	(fp_poly
-		(pts
-			(xy -0.6635 -0.1937) (xy 0.6635 -0.1937) (xy 0.6635 0.1937) (xy -0.6635 0.1937)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.Mask")
-		(uuid "2e531916-9cac-4e9a-8c1d-d4b2142e3ef2")
-	)
-	(fp_poly
-		(pts
-			(xy -0.6635 0.5937) (xy 0.6635 0.5937) (xy 0.6635 1.0635) (xy -0.6635 1.0635)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.Mask")
-		(uuid "0a3d2413-1b2f-4586-93b1-f3fda36d7fd8")
-	)
-	(fp_poly
-		(pts
-			(xy 0.2 -1.0635) (xy 0.6635 -1.0635) (xy 0.6635 1.0635) (xy 0.2 1.0635)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.Mask")
-		(uuid "4b78bd5f-1ae1-435b-a6f7-bc090959dde1")
-	)
 	(fp_line
 		(start -1.676999 -1.676999)
 		(end -1.676999 -1.222741)
@@ -184,54 +124,6 @@
 		(fill no)
 		(layer "F.SilkS")
 		(uuid "aeca8a95-9601-476a-99e8-85c5d9b5a6d8")
-	)
-	(fp_poly
-		(pts
-			(xy -0.52507 -0.92507) (xy -0.52507 -0.4937) (xy -0.241421 -0.4937) (xy -0.1 -0.635121) (xy -0.1 -0.92507)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.Paste")
-		(uuid "49ff8096-5125-4e05-9f84-afb4f922db35")
-	)
-	(fp_poly
-		(pts
-			(xy -0.52507 0.4937) (xy -0.52507 0.92507) (xy -0.1 0.92507) (xy -0.1 0.635121) (xy -0.241421 0.4937)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.Paste")
-		(uuid "cea32aff-96de-4433-8c03-5520c032ea8c")
-	)
-	(fp_poly
-		(pts
-			(xy 0.1 -0.92507) (xy 0.1 -0.635121) (xy 0.241421 -0.4937) (xy 0.52507 -0.4937) (xy 0.52507 -0.92507)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.Paste")
-		(uuid "fc1866ec-6a33-4316-8a0f-316637bba321")
-	)
-	(fp_poly
-		(pts
-			(xy 0.241421 0.4937) (xy 0.1 0.635121) (xy 0.1 0.92507) (xy 0.52507 0.92507) (xy 0.52507 0.4937)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.Paste")
-		(uuid "34f92231-a95a-41c3-8c0c-a1e3ec73820a")
 	)
 	(fp_poly
 		(pts
@@ -430,17 +322,6 @@
 		(layer "F.Fab")
 		(uuid "fea227a4-26ae-4524-bb00-bb4bc2ace191")
 	)
-	(fp_circle
-		(center -0.950067 -0.75)
-		(end -0.873867 -0.75)
-		(stroke
-			(width 0.0254)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.Fab")
-		(uuid "8862bb8a-a109-46af-a3c5-ef9ec2f762ba")
-	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.85 0)
 		(unlocked yes)
@@ -506,22 +387,6 @@
 		(size 1.2 2)
 		(layers "F.Cu")
 		(uuid "a176ebce-a2da-45fb-bbd5-8b21c4dabadb")
-	)
-	(pad "V" thru_hole circle
-		(at 0 -0.3937)
-		(size 0.508 0.508)
-		(drill 0.254)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "8818f584-622b-48ec-8d4f-87cda262f1c1")
-	)
-	(pad "V" thru_hole circle
-		(at 0 0.3937)
-		(size 0.508 0.508)
-		(drill 0.254)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "6e71690d-8eac-45ee-9dc8-8bf495daf2f6")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/../MODELS/OPA1612AIDRGR.step"
