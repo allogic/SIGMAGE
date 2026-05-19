@@ -719,7 +719,7 @@
         "uuid": "6fbe3371-b6a3-4e28-aef4-4e5865f4674e"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR39-68,#PWR95-96,#PWR107-110,C12-27,R13-20,J2-5,J7-8,J20-23,U3-7,U10",
     "variants": []
   },
   "sheets": [
@@ -732,16 +732,20 @@
       "USB_PWR"
     ],
     [
+      "c18ee788-5c1c-4ec9-b3a5-05f8703968e7",
+      "ADC"
+    ],
+    [
       "18b68461-36dd-4edc-b616-36f19e6bfdd8",
       "MCU"
     ],
     [
-      "8d960e2f-c11f-41fd-bf31-8fb5723bf354",
-      "TRS_ADC"
-    ],
-    [
       "c7230a02-11e8-4e0e-86c6-3c608fa6bb1d",
       "RJ45_PHY"
+    ],
+    [
+      "cd2254a0-a1bd-47ae-a6e6-754d8df3d2e2",
+      "DAC"
     ]
   ],
   "text_variables": {},
