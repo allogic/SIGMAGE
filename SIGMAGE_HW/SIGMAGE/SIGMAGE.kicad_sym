@@ -4262,7 +4262,7 @@
 				)
 			)
 			(pin output line
-				(at 35.56 -22.86 180)
+				(at 35.56 -12.7 180)
 				(length 5.08)
 				(name "CAPP"
 					(effects
@@ -4298,7 +4298,7 @@
 				)
 			)
 			(pin output line
-				(at 35.56 -30.48 180)
+				(at 35.56 -22.86 180)
 				(length 5.08)
 				(name "CAPM"
 					(effects
@@ -4316,7 +4316,7 @@
 				)
 			)
 			(pin power_in line
-				(at 35.56 -38.1 180)
+				(at 35.56 -25.4 180)
 				(length 5.08)
 				(name "VNEG"
 					(effects
@@ -4334,7 +4334,7 @@
 				)
 			)
 			(pin output line
-				(at 35.56 -10.16 180)
+				(at 35.56 -2.54 180)
 				(length 5.08)
 				(name "OUTL"
 					(effects
@@ -4352,7 +4352,7 @@
 				)
 			)
 			(pin output line
-				(at 35.56 -15.24 180)
+				(at 35.56 -5.08 180)
 				(length 5.08)
 				(name "OUTR"
 					(effects
@@ -4370,7 +4370,7 @@
 				)
 			)
 			(pin power_in line
-				(at -5.08 -7.62 0)
+				(at -5.08 -48.26 0)
 				(length 5.08)
 				(name "AVDD"
 					(effects
@@ -4406,7 +4406,7 @@
 				)
 			)
 			(pin input line
-				(at -5.08 -38.1 0)
+				(at 35.56 -43.18 180)
 				(length 5.08)
 				(name "DEMP"
 					(effects
@@ -4424,7 +4424,7 @@
 				)
 			)
 			(pin input line
-				(at -5.08 -33.02 0)
+				(at 35.56 -40.64 180)
 				(length 5.08)
 				(name "FLT"
 					(effects
@@ -4442,7 +4442,7 @@
 				)
 			)
 			(pin input line
-				(at -5.08 -25.4 0)
+				(at -5.08 -30.48 0)
 				(length 5.08)
 				(name "SCK"
 					(effects
@@ -4460,7 +4460,7 @@
 				)
 			)
 			(pin input line
-				(at -5.08 -22.86 0)
+				(at -5.08 -27.94 0)
 				(length 5.08)
 				(name "BCK"
 					(effects
@@ -4478,7 +4478,7 @@
 				)
 			)
 			(pin input line
-				(at -5.08 -20.32 0)
+				(at -5.08 -25.4 0)
 				(length 5.08)
 				(name "DIN"
 					(effects
@@ -4496,7 +4496,7 @@
 				)
 			)
 			(pin input line
-				(at -5.08 -27.94 0)
+				(at -5.08 -33.02 0)
 				(length 5.08)
 				(name "LRCK"
 					(effects
@@ -4514,7 +4514,7 @@
 				)
 			)
 			(pin input line
-				(at -5.08 -45.72 0)
+				(at 35.56 -38.1 180)
 				(length 5.08)
 				(name "FMT"
 					(effects
@@ -4532,7 +4532,7 @@
 				)
 			)
 			(pin input line
-				(at -5.08 -50.8 0)
+				(at -5.08 -35.56 0)
 				(length 5.08)
 				(name "XSMT"
 					(effects
@@ -4550,7 +4550,7 @@
 				)
 			)
 			(pin power_in line
-				(at 35.56 -2.54 180)
+				(at -5.08 -5.08 0)
 				(length 5.08)
 				(name "LDOO"
 					(effects
@@ -4586,7 +4586,7 @@
 				)
 			)
 			(pin power_in line
-				(at -5.08 -12.7 0)
+				(at -5.08 -50.8 0)
 				(length 5.08)
 				(name "DVDD"
 					(effects
