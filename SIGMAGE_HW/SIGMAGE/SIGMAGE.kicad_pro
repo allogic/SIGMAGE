@@ -719,17 +719,13 @@
         "uuid": "6fbe3371-b6a3-4e28-aef4-4e5865f4674e"
       }
     ],
-    "used_designators": "U9,U11-12,D3,D5,L1-2,#PWR17,#PWR68-88,J22-23,R7-8,R21-26,C7-9,C28-32,C86-87,FB3,FB5",
+    "used_designators": "R42,#PWR100",
     "variants": []
   },
   "sheets": [
     [
       "6fbe3371-b6a3-4e28-aef4-4e5865f4674e",
       "SIGMAGE"
-    ],
-    [
-      "235daf91-2b59-4415-8b4f-a5ae9861f33b",
-      "USB_PWR"
     ],
     [
       "c18ee788-5c1c-4ec9-b3a5-05f8703968e7",
@@ -746,6 +742,10 @@
     [
       "cd2254a0-a1bd-47ae-a6e6-754d8df3d2e2",
       "DAC"
+    ],
+    [
+      "ccd460ba-3ae1-4da8-87e1-cc701b1f693c",
+      "USB"
     ]
   ],
   "text_variables": {},
