@@ -719,13 +719,17 @@
         "uuid": "6fbe3371-b6a3-4e28-aef4-4e5865f4674e"
       }
     ],
-    "used_designators": "R44-47,R56-58,J5,U15,#PWR191-200,C112-115",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
     [
       "6fbe3371-b6a3-4e28-aef4-4e5865f4674e",
       "SIGMAGE"
+    ],
+    [
+      "b3987280-7aa2-4404-b6bc-75f9bcd7239c",
+      "MCU"
     ],
     [
       "c18ee788-5c1c-4ec9-b3a5-05f8703968e7",
@@ -746,6 +750,10 @@
     [
       "ccd460ba-3ae1-4da8-87e1-cc701b1f693c",
       "USB"
+    ],
+    [
+      "f7b8a0b0-6306-4c3a-bc41-8d7982aa0aa6",
+      "ENC"
     ]
   ],
   "text_variables": {},
