@@ -160,146 +160,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "SIGMAGE:LFE5U25F6BG256I"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5502,12 +5362,6 @@
 		(uuid "02b03394-4dca-4011-81c9-f58f549dcd81")
 	)
 	(junction
-		(at 326.39 187.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "04125482-b89b-417f-a575-f29f1dfd6765")
-	)
-	(junction
 		(at 151.13 190.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5526,16 +5380,22 @@
 		(uuid "0c74e7d4-0090-450b-97d6-012263b439d5")
 	)
 	(junction
-		(at 326.39 182.88)
+		(at 326.39 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0d065515-b415-4e2e-a9e7-afae80d668f3")
+		(uuid "0d3d7f65-2b3d-47f7-b4b0-4efa3cc6f1eb")
 	)
 	(junction
 		(at 162.56 200.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "10bc00ad-9b47-465a-88ee-c7f724a3bf74")
+	)
+	(junction
+		(at 326.39 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "129749ca-d81a-4c74-92b7-9421a4970fb1")
 	)
 	(junction
 		(at 372.11 185.42)
@@ -5550,10 +5410,10 @@
 		(uuid "14711feb-9d43-43b1-85d2-e149f58ccd02")
 	)
 	(junction
-		(at 326.39 172.72)
+		(at 326.39 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "27d13abb-23c7-4539-9bb8-a26ecb99784d")
+		(uuid "19f25522-ddc0-4ea3-acce-0da7852ea692")
 	)
 	(junction
 		(at 372.11 213.36)
@@ -5566,6 +5426,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "31e02934-bc54-43e4-aa78-e74a8064ffdb")
+	)
+	(junction
+		(at 326.39 190.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "344cdac8-572a-42a0-a92b-870ac208de5e")
 	)
 	(junction
 		(at 185.42 200.66)
@@ -5604,12 +5470,6 @@
 		(uuid "43f59e91-8a1b-41fd-8d82-80deab5f4fdd")
 	)
 	(junction
-		(at 326.39 177.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "460fca91-ccef-4e53-8a8d-5620cdbfc487")
-	)
-	(junction
 		(at 101.6 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5620,6 +5480,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "46a0e991-ca0d-4ab4-bccc-4ed31a84f003")
+	)
+	(junction
+		(at 326.39 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a721054-9b02-4855-be8b-5df047f70940")
+	)
+	(junction
+		(at 326.39 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ad30ba4-028e-42ea-a503-19501ce9037a")
 	)
 	(junction
 		(at 372.11 177.8)
@@ -5638,6 +5510,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "549c73e5-7a05-4d6a-bbcf-62065f4170ff")
+	)
+	(junction
+		(at 326.39 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "54fb7735-e959-4a7a-a369-b6a0b86d6717")
 	)
 	(junction
 		(at 372.11 190.5)
@@ -5754,12 +5632,6 @@
 		(uuid "91707200-203c-4d62-905b-3bbc259154fe")
 	)
 	(junction
-		(at 326.39 193.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "93090ef1-a848-4d80-8478-d2de9ea487dd")
-	)
-	(junction
 		(at 372.11 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5814,12 +5686,6 @@
 		(uuid "a907bb26-dd51-4beb-ba56-87ea7e86d59d")
 	)
 	(junction
-		(at 326.39 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aa9cbf4f-5b0a-47d3-a1ad-5f9e073078bf")
-	)
-	(junction
 		(at 113.03 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5836,6 +5702,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ad96f566-6626-4273-9238-36110dc1428b")
+	)
+	(junction
+		(at 326.39 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0ec255c-aea4-4b81-a242-455a5edc0be0")
 	)
 	(junction
 		(at 372.11 170.18)
@@ -5856,6 +5728,18 @@
 		(uuid "b87d252a-2e23-4b3b-9746-07621dc20494")
 	)
 	(junction
+		(at 326.39 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9822b1b-86ff-4a72-bd47-fe9cf54ba289")
+	)
+	(junction
+		(at 326.39 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c78c435b-c869-4593-9e13-a8db87675a34")
+	)
+	(junction
 		(at 25.4 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5866,6 +5750,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cdcb861f-96fe-4ddc-8535-c3627b5ec6db")
+	)
+	(junction
+		(at 326.39 195.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d49d7c61-8140-4027-89d6-992b37c62b82")
 	)
 	(junction
 		(at 173.99 190.5)
@@ -5896,6 +5786,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e2602f55-b47c-45fd-a54f-2d8baa47b1f3")
+	)
+	(junction
+		(at 326.39 193.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e3a79070-3f6b-4e6d-8e7a-c94d970d68f9")
 	)
 	(junction
 		(at 63.5 160.02)
@@ -5979,16 +5875,6 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 177.8) (xy 304.8 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02ebc838-ac0e-4105-986f-4510e5e57168")
-	)
-	(wire
-		(pts
 			(xy 372.11 195.58) (xy 372.11 198.12)
 		)
 		(stroke
@@ -6049,26 +5935,6 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 237.49) (xy 222.25 237.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07b743ed-94cf-425f-8602-a2f189185e6b")
-	)
-	(wire
-		(pts
-			(xy 382.27 58.42) (xy 401.32 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "083b6caa-410a-4211-a0c8-90650f15cbce")
-	)
-	(wire
-		(pts
 			(xy 101.6 199.39) (xy 101.6 200.66)
 		)
 		(stroke
@@ -6106,6 +5972,16 @@
 			(type default)
 		)
 		(uuid "0b430bfa-f0d9-48c7-8ce9-e1f4ff8d4332")
+	)
+	(wire
+		(pts
+			(xy 330.2 198.12) (xy 326.39 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c1dceee-a56b-4715-a805-4e486b87d1c1")
 	)
 	(wire
 		(pts
@@ -6149,16 +6025,6 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 257.81) (xy 191.77 261.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f6ed9fe-6bdb-4fce-87bc-317bc48e762a")
-	)
-	(wire
-		(pts
 			(xy 368.3 152.4) (xy 372.11 152.4)
 		)
 		(stroke
@@ -6189,16 +6055,6 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 257.81) (xy 281.94 261.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15101455-0ed1-4570-8676-6a087b52c030")
-	)
-	(wire
-		(pts
 			(xy 368.3 154.94) (xy 372.11 154.94)
 		)
 		(stroke
@@ -6206,16 +6062,6 @@
 			(type default)
 		)
 		(uuid "16582bd1-94b1-4a7e-a960-342e9aae0fea")
-	)
-	(wire
-		(pts
-			(xy 218.44 261.62) (xy 222.25 261.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "195e187b-3da4-4aad-8075-6c91c30a7d43")
 	)
 	(wire
 		(pts
@@ -6236,16 +6082,6 @@
 			(type default)
 		)
 		(uuid "1bb682d9-9219-49c3-94e4-0e17187a37bc")
-	)
-	(wire
-		(pts
-			(xy 382.27 48.26) (xy 401.32 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c6c631f-7629-4393-b908-9a1b01f33ca1")
 	)
 	(wire
 		(pts
@@ -6276,16 +6112,6 @@
 			(type default)
 		)
 		(uuid "1da85202-d4eb-4997-bd19-71826e4c68de")
-	)
-	(wire
-		(pts
-			(xy 311.15 172.72) (xy 311.15 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1dcb45c2-3c21-4c68-8d23-d6f94ee70c60")
 	)
 	(wire
 		(pts
@@ -6349,16 +6175,6 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 261.62) (xy 251.46 261.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21805edf-e07e-4dee-8f81-8a163e1415ac")
-	)
-	(wire
-		(pts
 			(xy 25.4 168.91) (xy 25.4 170.18)
 		)
 		(stroke
@@ -6396,16 +6212,6 @@
 			(type default)
 		)
 		(uuid "24047c72-3145-47cb-aa7f-240ae819d5f0")
-	)
-	(wire
-		(pts
-			(xy 266.7 233.68) (xy 266.7 237.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24aa5a58-1698-479d-be61-db76ce7bb7d7")
 	)
 	(wire
 		(pts
@@ -6469,16 +6275,6 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 257.81) (xy 251.46 261.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2de9d703-ed46-4b1d-acbc-d9d350a2cc42")
-	)
-	(wire
-		(pts
 			(xy 74.93 199.39) (xy 74.93 200.66)
 		)
 		(stroke
@@ -6499,7 +6295,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 147.32) (xy 326.39 143.51)
+			(xy 317.5 147.32) (xy 317.5 143.51)
 		)
 		(stroke
 			(width 0)
@@ -6539,7 +6335,7 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 165.1) (xy 317.5 167.64)
+			(xy 317.5 163.83) (xy 317.5 167.64)
 		)
 		(stroke
 			(width 0)
@@ -6596,16 +6392,6 @@
 			(type default)
 		)
 		(uuid "355c122a-f87e-402c-ae06-5f9c05a35101")
-	)
-	(wire
-		(pts
-			(xy 326.39 187.96) (xy 292.1 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35aa4337-fd8f-472b-9286-48ce53482833")
 	)
 	(wire
 		(pts
@@ -6669,16 +6455,6 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 233.68) (xy 281.94 237.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3870da2f-4cd1-4a7a-878a-6f92afa428c0")
-	)
-	(wire
-		(pts
 			(xy 372.11 198.12) (xy 372.11 200.66)
 		)
 		(stroke
@@ -6709,16 +6485,6 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 261.62) (xy 240.03 261.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ccdc4ed-3db7-4c4a-b5b6-10263feb41ac")
-	)
-	(wire
-		(pts
 			(xy 86.36 190.5) (xy 74.93 190.5)
 		)
 		(stroke
@@ -6739,23 +6505,13 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 233.68) (xy 236.22 237.49)
+			(xy 326.39 190.5) (xy 326.39 193.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3d90773a-7b4e-45d9-b2f3-929a76020182")
-	)
-	(wire
-		(pts
-			(xy 247.65 237.49) (xy 251.46 237.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d9b8835-e47f-4e26-9a5a-fcac1c99f5da")
+		(uuid "3e6e6744-cd60-4377-ab76-6c9b385fc742")
 	)
 	(wire
 		(pts
@@ -6776,16 +6532,6 @@
 			(type default)
 		)
 		(uuid "4091765b-1401-4189-9e33-ac8596fc465c")
-	)
-	(wire
-		(pts
-			(xy 207.01 257.81) (xy 207.01 261.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4239cc81-9fe9-4bcb-92e0-66c9e2e26767")
 	)
 	(wire
 		(pts
@@ -6859,16 +6605,6 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 237.49) (xy 270.51 237.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4cfd2c9f-8c68-438c-a8f4-366d4859beb4")
-	)
-	(wire
-		(pts
 			(xy 326.39 160.02) (xy 326.39 157.48)
 		)
 		(stroke
@@ -6909,16 +6645,6 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 237.49) (xy 210.82 237.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "526e3ea1-6bc7-45b0-a7ed-54230e099f85")
-	)
-	(wire
-		(pts
 			(xy 326.39 195.58) (xy 326.39 193.04)
 		)
 		(stroke
@@ -6926,36 +6652,6 @@
 			(type default)
 		)
 		(uuid "526ee5cc-fbbf-4e50-9237-d1fd3e21d083")
-	)
-	(wire
-		(pts
-			(xy 326.39 182.88) (xy 298.45 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53101655-6155-4dfa-a108-4f718f6eecea")
-	)
-	(wire
-		(pts
-			(xy 266.7 257.81) (xy 266.7 261.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53e6006c-abcd-4d70-b613-885c5ec33a3a")
-	)
-	(wire
-		(pts
-			(xy 251.46 233.68) (xy 251.46 237.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54f3105b-c2e0-48e9-8a3a-86a60e6c3301")
 	)
 	(wire
 		(pts
@@ -6986,16 +6682,6 @@
 			(type default)
 		)
 		(uuid "57813cb5-1673-425b-bd39-3379472b7ab3")
-	)
-	(wire
-		(pts
-			(xy 304.8 177.8) (xy 304.8 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5938d6ad-aa5b-4b56-883f-d8b8f751371c")
 	)
 	(wire
 		(pts
@@ -7036,16 +6722,6 @@
 			(type default)
 		)
 		(uuid "5c774f5d-a0d3-422b-8c22-3b717038c92c")
-	)
-	(wire
-		(pts
-			(xy 382.27 50.8) (xy 401.32 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f4a4f43-d69f-40bb-96a4-076a824224b2")
 	)
 	(wire
 		(pts
@@ -7159,13 +6835,13 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 237.49) (xy 180.34 237.49)
+			(xy 326.39 170.18) (xy 326.39 172.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "68e61e90-51fb-45e6-b711-620a7c237865")
+		(uuid "6a242057-d9c2-4b6c-8c80-65042e7359d9")
 	)
 	(wire
 		(pts
@@ -7219,16 +6895,6 @@
 	)
 	(wire
 		(pts
-			(xy 285.75 193.04) (xy 285.75 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f4e20d6-c22f-4d98-926a-bcea05c22154")
-	)
-	(wire
-		(pts
 			(xy 151.13 199.39) (xy 151.13 200.66)
 		)
 		(stroke
@@ -7279,13 +6945,23 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 237.49) (xy 281.94 237.49)
+			(xy 326.39 198.12) (xy 326.39 195.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "76713f2a-3559-4de0-b714-d2075fa13c09")
+		(uuid "79d6a536-3976-42aa-a705-07a8bf261b28")
+	)
+	(wire
+		(pts
+			(xy 326.39 185.42) (xy 326.39 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7af01ef8-bc1d-45db-975e-44fabb0b8dac")
 	)
 	(wire
 		(pts
@@ -7379,16 +7055,6 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 257.81) (xy 236.22 261.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "874d59ac-5433-48bc-bec1-702d54b05714")
-	)
-	(wire
-		(pts
 			(xy 86.36 168.91) (xy 86.36 170.18)
 		)
 		(stroke
@@ -7419,16 +7085,6 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 257.81) (xy 222.25 261.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "889c7928-ef4a-4b57-bd97-ba6571abfe73")
-	)
-	(wire
-		(pts
 			(xy 25.4 199.39) (xy 25.4 200.66)
 		)
 		(stroke
@@ -7436,26 +7092,6 @@
 			(type default)
 		)
 		(uuid "892051e2-88e6-47d3-9322-07553e13214d")
-	)
-	(wire
-		(pts
-			(xy 326.39 193.04) (xy 285.75 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89f7a51b-191e-435f-bea8-4d14f92d7db9")
-	)
-	(wire
-		(pts
-			(xy 222.25 233.68) (xy 222.25 237.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a0b5a25-96c0-4454-aa7a-e6e3f74e59cf")
 	)
 	(wire
 		(pts
@@ -7579,6 +7215,16 @@
 	)
 	(wire
 		(pts
+			(xy 326.39 180.34) (xy 326.39 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "951a0c72-f43b-4795-8461-ebca9c9a1408")
+	)
+	(wire
+		(pts
 			(xy 330.2 147.32) (xy 326.39 147.32)
 		)
 		(stroke
@@ -7596,26 +7242,6 @@
 			(type default)
 		)
 		(uuid "966cf691-a74f-4c86-a807-f8cc8011f6f4")
-	)
-	(wire
-		(pts
-			(xy 298.45 182.88) (xy 298.45 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96f19d80-fcb3-4434-87ec-abc04e0a4812")
-	)
-	(wire
-		(pts
-			(xy 236.22 237.49) (xy 240.03 237.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "975e8642-871c-4c9c-b54d-93b15bfec984")
 	)
 	(wire
 		(pts
@@ -7639,16 +7265,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 233.68) (xy 176.53 237.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c3afa6a-703e-4317-b278-c8bb954907f5")
-	)
-	(wire
-		(pts
 			(xy 330.2 190.5) (xy 326.39 190.5)
 		)
 		(stroke
@@ -7666,16 +7282,6 @@
 			(type default)
 		)
 		(uuid "a02ebcb8-a3be-465e-bfb7-771316098d6d")
-	)
-	(wire
-		(pts
-			(xy 330.2 198.12) (xy 279.4 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a083c539-7bcb-42be-8215-857632694513")
 	)
 	(wire
 		(pts
@@ -7699,6 +7305,16 @@
 	)
 	(wire
 		(pts
+			(xy 326.39 175.26) (xy 326.39 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a44bcc42-2eac-4856-8445-218f9f565475")
+	)
+	(wire
+		(pts
 			(xy 25.4 160.02) (xy 25.4 161.29)
 		)
 		(stroke
@@ -7709,16 +7325,6 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 187.96) (xy 292.1 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4ca6ab8-b827-4dfe-95b7-0e96a69350b2")
-	)
-	(wire
-		(pts
 			(xy 326.39 170.18) (xy 326.39 167.64)
 		)
 		(stroke
@@ -7726,16 +7332,6 @@
 			(type default)
 		)
 		(uuid "a8597283-8041-4406-8e79-76ad53c23d5f")
-	)
-	(wire
-		(pts
-			(xy 279.4 198.12) (xy 279.4 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a86742ec-fe1c-4ca5-9ee7-a970fda757df")
 	)
 	(wire
 		(pts
@@ -7759,16 +7355,6 @@
 	)
 	(wire
 		(pts
-			(xy 382.27 53.34) (xy 401.32 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae433cb1-c766-473a-b022-1e64106060c7")
-	)
-	(wire
-		(pts
 			(xy 151.13 168.91) (xy 151.13 170.18)
 		)
 		(stroke
@@ -7776,16 +7362,6 @@
 			(type default)
 		)
 		(uuid "af55de21-31b0-4fd0-ba83-669b51cfd01a")
-	)
-	(wire
-		(pts
-			(xy 191.77 233.68) (xy 191.77 237.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b13edae2-2f38-4f9d-9c9c-4c1534b5c54b")
 	)
 	(wire
 		(pts
@@ -7826,16 +7402,6 @@
 			(type default)
 		)
 		(uuid "b266c47f-7278-490d-af89-1eddf171da01")
-	)
-	(wire
-		(pts
-			(xy 176.53 257.81) (xy 176.53 261.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2f942fc-8404-4e78-b06b-038cc48ead33")
 	)
 	(wire
 		(pts
@@ -7886,16 +7452,6 @@
 			(type default)
 		)
 		(uuid "b4a6b7cb-c7b1-4241-9ed9-914050ce4a3b")
-	)
-	(wire
-		(pts
-			(xy 278.13 261.62) (xy 281.94 261.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b51706b9-9518-4ce6-bfa3-54d4ff72a390")
 	)
 	(wire
 		(pts
@@ -7979,16 +7535,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 261.62) (xy 180.34 261.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c458a56d-40f4-4722-beeb-afc0efde45a7")
-	)
-	(wire
-		(pts
 			(xy 368.3 165.1) (xy 372.11 165.1)
 		)
 		(stroke
@@ -7996,16 +7542,6 @@
 			(type default)
 		)
 		(uuid "c5add0f0-4868-47b1-819f-edc77712024a")
-	)
-	(wire
-		(pts
-			(xy 326.39 172.72) (xy 311.15 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5f881eb-a162-40e2-a979-3c7b15bbd10a")
 	)
 	(wire
 		(pts
@@ -8139,16 +7675,6 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 261.62) (xy 270.51 261.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d17cc229-d495-4e39-924e-eb26c68983c2")
-	)
-	(wire
-		(pts
 			(xy 101.6 189.23) (xy 101.6 190.5)
 		)
 		(stroke
@@ -8156,16 +7682,6 @@
 			(type default)
 		)
 		(uuid "d1eaee9d-61ba-4aa1-b8dc-42209f6a88bc")
-	)
-	(wire
-		(pts
-			(xy 187.96 261.62) (xy 191.77 261.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d28954bc-ba84-40ff-9113-d383f7355531")
 	)
 	(wire
 		(pts
@@ -8239,6 +7755,16 @@
 	)
 	(wire
 		(pts
+			(xy 317.5 147.32) (xy 326.39 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbfa2427-d78a-4f27-a698-2536344a5f7c")
+	)
+	(wire
+		(pts
 			(xy 330.2 193.04) (xy 326.39 193.04)
 		)
 		(stroke
@@ -8279,26 +7805,6 @@
 	)
 	(wire
 		(pts
-			(xy 382.27 45.72) (xy 401.32 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e06b2447-fde2-47ab-a8ec-694a714e1c98")
-	)
-	(wire
-		(pts
-			(xy 207.01 261.62) (xy 210.82 261.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2d36df5-ca18-4748-a235-5d643d3e1a94")
-	)
-	(wire
-		(pts
 			(xy 48.26 160.02) (xy 36.83 160.02)
 		)
 		(stroke
@@ -8326,16 +7832,6 @@
 			(type default)
 		)
 		(uuid "e6460835-c278-470f-9441-9ea2837f2343")
-	)
-	(wire
-		(pts
-			(xy 382.27 55.88) (xy 401.32 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e68d4a69-400b-4cb7-855a-b0b0d64bf5e5")
 	)
 	(wire
 		(pts
@@ -8396,16 +7892,6 @@
 			(type default)
 		)
 		(uuid "f04afa1d-6710-4f0e-bb95-5b3e20156c2b")
-	)
-	(wire
-		(pts
-			(xy 191.77 237.49) (xy 187.96 237.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1e4e557-209f-412f-a541-585ccfb2e1a1")
 	)
 	(wire
 		(pts
@@ -8527,16 +8013,6 @@
 		)
 		(uuid "fd572ec8-10fd-4b4e-bbab-dda3774d27cb")
 	)
-	(wire
-		(pts
-			(xy 207.01 233.68) (xy 207.01 237.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe907c56-365e-4050-8cd9-915e22377e8c")
-	)
 	(label "FPGA_DONE"
 		(at 401.32 35.56 180)
 		(effects
@@ -8597,26 +8073,6 @@
 		)
 		(uuid "3f1bffe2-7e15-4565-bc10-61325df82fe2")
 	)
-	(label "FPGA_FLASH_SCK"
-		(at 401.32 48.26 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "42502301-b83c-4c5d-b71f-8e316103dcfc")
-	)
-	(label "FPGA_FLASH_DQ2"
-		(at 401.32 55.88 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "47374e34-398b-417c-bf11-6451829a6521")
-	)
 	(label "FPGA_CFG0"
 		(at 401.32 27.94 180)
 		(effects
@@ -8656,26 +8112,6 @@
 			(justify right bottom)
 		)
 		(uuid "71b8fd7c-bf37-4f53-b2ff-3821a3afb3e0")
-	)
-	(label "FPGA_FLASH_DQ1"
-		(at 401.32 53.34 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "77926cda-e840-46b7-aede-2f695c086992")
-	)
-	(label "FPGA_FLASH_DQ0"
-		(at 401.32 50.8 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7d42c762-7611-4495-b1fa-15830e78aaa7")
 	)
 	(label "FPGA_JTAG_TCK"
 		(at 74.93 121.92 180)
@@ -8717,26 +8153,6 @@
 		)
 		(uuid "bca25f86-401e-4926-b41d-a50ab854d052")
 	)
-	(label "FPGA_FLASH_DQ3"
-		(at 401.32 58.42 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e0c821da-a1de-43e8-9a22-2293f04f96e3")
-	)
-	(label "FPGA_FLASH_CS"
-		(at 401.32 45.72 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e145fe92-5b08-420c-a921-9316ece18dd7")
-	)
 	(label "FPGA_PROGRAMN"
 		(at 247.65 147.32 180)
 		(effects
@@ -8756,162 +8172,6 @@
 			(justify right bottom)
 		)
 		(uuid "fc9499dd-dcbf-4556-88c1-f4033523a904")
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 281.94 233.68 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "07e21952-a04f-4005-b29d-ead718828d13")
-		(property "Reference" "#PWR0179"
-			(at 281.94 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC_IO2"
-			(at 281.94 228.6 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 281.94 233.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 281.94 233.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 281.94 233.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "359e3bd9-3a52-45a6-b810-70e90674f806")
-		)
-		(instances
-			(project "SIGMAGE"
-				(path "/6fbe3371-b6a3-4e28-aef4-4e5865f4674e/3446725c-4d67-4d86-a9de-be0a52e7f5ee"
-					(reference "#PWR0179")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 191.77 257.81 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0939accc-ab4f-4f1d-be76-c814e6674979")
-		(property "Reference" "#PWR0178"
-			(at 191.77 261.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC_IO3"
-			(at 191.77 252.73 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 191.77 257.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 191.77 257.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 191.77 257.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bc0d2a83-869b-48b8-82ec-e3fc524c3d93")
-		)
-		(instances
-			(project "SIGMAGE"
-				(path "/6fbe3371-b6a3-4e28-aef4-4e5865f4674e/3446725c-4d67-4d86-a9de-be0a52e7f5ee"
-					(reference "#PWR0178")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -9238,84 +8498,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 281.94 257.81 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "14d2f83f-b2a4-4423-accf-132d6e39e15e")
-		(property "Reference" "#PWR0175"
-			(at 281.94 261.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC_IO8"
-			(at 281.94 252.73 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 281.94 257.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 281.94 257.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 281.94 257.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e65be3be-9771-4ca4-b65f-928f8dd8bd2a")
-		)
-		(instances
-			(project "SIGMAGE"
-				(path "/6fbe3371-b6a3-4e28-aef4-4e5865f4674e/3446725c-4d67-4d86-a9de-be0a52e7f5ee"
-					(reference "#PWR0175")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 151.13 195.58 0)
 		(unit 1)
@@ -9391,324 +8573,6 @@
 			(project "SIGMAGE"
 				(path "/6fbe3371-b6a3-4e28-aef4-4e5865f4674e/3446725c-4d67-4d86-a9de-be0a52e7f5ee"
 					(reference "C54")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 236.22 233.68 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "16ee541c-bc13-4bfb-ba2d-6a57ba2edbaa")
-		(property "Reference" "#PWR0183"
-			(at 236.22 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DVCC_3V3"
-			(at 236.22 228.6 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 236.22 233.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 236.22 233.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 236.22 233.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c3f650e4-b56d-4ff3-b078-7f407f7f154e")
-		)
-		(instances
-			(project "SIGMAGE"
-				(path "/6fbe3371-b6a3-4e28-aef4-4e5865f4674e/3446725c-4d67-4d86-a9de-be0a52e7f5ee"
-					(reference "#PWR0183")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 292.1 185.42 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "19aea3de-18ee-415a-88e6-8ffe5d18e495")
-		(property "Reference" "#PWR0172"
-			(at 292.1 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC_IO6"
-			(at 292.1 180.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 292.1 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 292.1 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 292.1 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d17af0ee-fb96-4480-946f-f9958b6b4e3a")
-		)
-		(instances
-			(project "SIGMAGE"
-				(path "/6fbe3371-b6a3-4e28-aef4-4e5865f4674e/3446725c-4d67-4d86-a9de-be0a52e7f5ee"
-					(reference "#PWR0172")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 184.15 261.62 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1ae54e94-7293-4d71-9cf7-6d6487be879f")
-		(property "Reference" "R52"
-			(at 185.928 259.08 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0"
-			(at 184.912 264.16 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 184.15 263.398 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 184.15 261.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 184.15 261.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c47991e8-4adc-4061-bfeb-c4fcb6e373e1")
-		)
-		(pin "1"
-			(uuid "f5078b4e-cd93-416d-a642-2ddc9828f375")
-		)
-		(instances
-			(project "SIGMAGE"
-				(path "/6fbe3371-b6a3-4e28-aef4-4e5865f4674e/3446725c-4d67-4d86-a9de-be0a52e7f5ee"
-					(reference "R52")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 214.63 261.62 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "20f40f3a-8149-4e72-bbea-5233faa23ddf")
-		(property "Reference" "R53"
-			(at 216.408 259.08 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0"
-			(at 215.392 264.16 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 214.63 263.398 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 214.63 261.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 214.63 261.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "651eaf99-cc76-458c-babf-42a7f1016dcd")
-		)
-		(pin "1"
-			(uuid "059553ac-a9f1-46ef-a936-7b4910f63101")
-		)
-		(instances
-			(project "SIGMAGE"
-				(path "/6fbe3371-b6a3-4e28-aef4-4e5865f4674e/3446725c-4d67-4d86-a9de-be0a52e7f5ee"
-					(reference "R53")
 					(unit 1)
 				)
 			)
@@ -10723,6 +9587,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 63.5 158.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28ce9781-8b06-446a-8301-9a53b77613bf")
+		(property "Reference" "#PWR0209"
+			(at 63.5 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DVCC_3V3"
+			(at 63.5 153.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 63.5 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b9535022-821c-44c2-a97b-bba64d57c8b4")
+		)
+		(instances
+			(project "SIGMAGE"
+				(path "/6fbe3371-b6a3-4e28-aef4-4e5865f4674e/3446725c-4d67-4d86-a9de-be0a52e7f5ee"
+					(reference "#PWR0209")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 162.56 165.1 0)
 		(unit 1)
@@ -10885,84 +9827,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 222.25 233.68 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "36c04e5f-c324-4e67-b785-55f7443a1e39")
-		(property "Reference" "#PWR0181"
-			(at 222.25 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC_IO0"
-			(at 222.25 228.6 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 222.25 233.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 222.25 233.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 222.25 233.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d5c890d0-c299-42f0-aaf8-805eeff5e3e5")
-		)
-		(instances
-			(project "SIGMAGE"
-				(path "/6fbe3371-b6a3-4e28-aef4-4e5865f4674e/3446725c-4d67-4d86-a9de-be0a52e7f5ee"
-					(reference "#PWR0181")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 151.13 165.1 0)
 		(unit 1)
@@ -11119,162 +9983,6 @@
 			(project "SIGMAGE"
 				(path "/6fbe3371-b6a3-4e28-aef4-4e5865f4674e/3446725c-4d67-4d86-a9de-be0a52e7f5ee"
 					(reference "C52")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 285.75 190.5 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "448d1823-cb78-4183-86b6-c54b42d41ed1")
-		(property "Reference" "#PWR0173"
-			(at 285.75 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC_IO7"
-			(at 285.75 185.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 285.75 190.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 285.75 190.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 285.75 190.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "05b632b4-224a-43ec-a02f-7a24d9b8b058")
-		)
-		(instances
-			(project "SIGMAGE"
-				(path "/6fbe3371-b6a3-4e28-aef4-4e5865f4674e/3446725c-4d67-4d86-a9de-be0a52e7f5ee"
-					(reference "#PWR0173")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 298.45 180.34 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "44caa0a7-8e0c-4abf-9004-d3d5bb2dac3e")
-		(property "Reference" "#PWR0171"
-			(at 298.45 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC_IO3"
-			(at 298.45 175.26 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 298.45 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 298.45 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 298.45 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "31660917-f187-48bb-a830-e2d08db28651")
-		)
-		(instances
-			(project "SIGMAGE"
-				(path "/6fbe3371-b6a3-4e28-aef4-4e5865f4674e/3446725c-4d67-4d86-a9de-be0a52e7f5ee"
-					(reference "#PWR0171")
 					(unit 1)
 				)
 			)
@@ -12287,7 +10995,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 191.77 233.68 0)
+		(at 25.4 158.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12296,9 +11004,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4b5bac80-1cf9-4aa7-b9b3-cc998d546bbc")
-		(property "Reference" "#PWR0152"
-			(at 191.77 237.49 0)
+		(uuid "485b32ec-9a45-4da9-88e4-d5887c04367a")
+		(property "Reference" "#PWR0208"
+			(at 25.4 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12308,8 +11016,8 @@
 				)
 			)
 		)
-		(property "Value" "VCC_CORE"
-			(at 191.77 228.6 0)
+		(property "Value" "DVCC_3V3"
+			(at 25.4 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12319,7 +11027,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 191.77 233.68 0)
+			(at 25.4 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12330,7 +11038,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.77 233.68 0)
+			(at 25.4 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12341,7 +11049,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 191.77 233.68 0)
+			(at 25.4 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12352,12 +11060,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "ac85f888-eaa2-4017-b586-3201ecd41dd4")
+			(uuid "a7a5b3ba-87ce-4a4f-ad3f-3640528c0439")
 		)
 		(instances
 			(project "SIGMAGE"
 				(path "/6fbe3371-b6a3-4e28-aef4-4e5865f4674e/3446725c-4d67-4d86-a9de-be0a52e7f5ee"
-					(reference "#PWR0152")
+					(reference "#PWR0208")
 					(unit 1)
 				)
 			)
@@ -12523,162 +11231,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 222.25 257.81 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "533b57b4-c7a9-4b5f-96a5-e783873fface")
-		(property "Reference" "#PWR0177"
-			(at 222.25 261.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC_IO6"
-			(at 222.25 252.73 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 222.25 257.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 222.25 257.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 222.25 257.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "20563dbb-d309-4b0f-a30d-b01f2c8bfe8a")
-		)
-		(instances
-			(project "SIGMAGE"
-				(path "/6fbe3371-b6a3-4e28-aef4-4e5865f4674e/3446725c-4d67-4d86-a9de-be0a52e7f5ee"
-					(reference "#PWR0177")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 176.53 233.68 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5491019b-91b7-45f7-a706-4585075b65d9")
-		(property "Reference" "#PWR0148"
-			(at 176.53 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DVCC_1V2"
-			(at 176.53 228.6 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 176.53 233.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 176.53 233.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 176.53 233.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ee6c25f8-0c30-4f05-9786-8431defda852")
-		)
-		(instances
-			(project "SIGMAGE"
-				(path "/6fbe3371-b6a3-4e28-aef4-4e5865f4674e/3446725c-4d67-4d86-a9de-be0a52e7f5ee"
-					(reference "#PWR0148")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 113.03 195.58 0)
 		(unit 1)
@@ -12760,89 +11312,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 274.32 261.62 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6139141c-8956-4b76-99b7-a968cfe55692")
-		(property "Reference" "R55"
-			(at 276.098 259.08 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0"
-			(at 275.082 264.16 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 274.32 263.398 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 274.32 261.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 274.32 261.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e3ea667a-e41f-4a5f-80cb-d0bdb1cf327d")
-		)
-		(pin "1"
-			(uuid "5dec632a-2a7b-41ef-9f38-7b0130757749")
-		)
-		(instances
-			(project "SIGMAGE"
-				(path "/6fbe3371-b6a3-4e28-aef4-4e5865f4674e/3446725c-4d67-4d86-a9de-be0a52e7f5ee"
-					(reference "R55")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
-		(at 207.01 257.81 0)
+		(at 63.5 189.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12851,9 +11322,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "615f9361-b438-4c3a-8c39-a98f1761adee")
-		(property "Reference" "#PWR0186"
-			(at 207.01 261.62 0)
+		(uuid "67be04bb-3a94-40bb-a7b7-c5cdacff9a4b")
+		(property "Reference" "#PWR0213"
+			(at 63.5 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12864,7 +11335,7 @@
 			)
 		)
 		(property "Value" "DVCC_3V3"
-			(at 207.01 252.73 0)
+			(at 63.5 184.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12874,7 +11345,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 207.01 257.81 0)
+			(at 63.5 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12885,7 +11356,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 257.81 0)
+			(at 63.5 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12896,7 +11367,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 207.01 257.81 0)
+			(at 63.5 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12907,90 +11378,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "bc9c1099-13eb-453c-ae5e-09764ca46dd6")
+			(uuid "fdf37292-e84b-41d8-8343-c6b84d0a59a9")
 		)
 		(instances
 			(project "SIGMAGE"
 				(path "/6fbe3371-b6a3-4e28-aef4-4e5865f4674e/3446725c-4d67-4d86-a9de-be0a52e7f5ee"
-					(reference "#PWR0186")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 279.4 195.58 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "67666a8d-809c-4d36-8f5b-e536f4ceb7a5")
-		(property "Reference" "#PWR0174"
-			(at 279.4 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC_IO8"
-			(at 279.4 190.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 279.4 195.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 279.4 195.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 279.4 195.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c7459ae4-8ccd-4351-8b65-c3faf6619aca")
-		)
-		(instances
-			(project "SIGMAGE"
-				(path "/6fbe3371-b6a3-4e28-aef4-4e5865f4674e/3446725c-4d67-4d86-a9de-be0a52e7f5ee"
-					(reference "#PWR0174")
+					(reference "#PWR0213")
 					(unit 1)
 				)
 			)
@@ -13150,84 +11543,6 @@
 			(project "SIGMAGE"
 				(path "/6fbe3371-b6a3-4e28-aef4-4e5865f4674e/3446725c-4d67-4d86-a9de-be0a52e7f5ee"
 					(reference "C106")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 25.4 189.23 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6aef420f-bd70-4c53-8f09-192395056d37")
-		(property "Reference" "#PWR0162"
-			(at 25.4 193.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC_IO6"
-			(at 25.4 184.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 25.4 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 25.4 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 25.4 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "35e09462-1c30-45c0-a533-e31d5341a222")
-		)
-		(instances
-			(project "SIGMAGE"
-				(path "/6fbe3371-b6a3-4e28-aef4-4e5865f4674e/3446725c-4d67-4d86-a9de-be0a52e7f5ee"
-					(reference "#PWR0162")
 					(unit 1)
 				)
 			)
@@ -14161,84 +12476,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 236.22 257.81 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7005c6e5-9b43-49bd-a879-3c1c38ceb000")
-		(property "Reference" "#PWR0187"
-			(at 236.22 261.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DVCC_3V3"
-			(at 236.22 252.73 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 236.22 257.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 236.22 257.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 236.22 257.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "68504a05-27b9-4377-b2ac-ce15995d540d")
-		)
-		(instances
-			(project "SIGMAGE"
-				(path "/6fbe3371-b6a3-4e28-aef4-4e5865f4674e/3446725c-4d67-4d86-a9de-be0a52e7f5ee"
-					(reference "#PWR0187")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 63.5 201.93 0)
 		(unit 1)
@@ -14557,168 +12794,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 274.32 237.49 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "824cbc22-bde4-4c8f-8661-8cb7cbe13828")
-		(property "Reference" "R51"
-			(at 276.098 234.95 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0"
-			(at 275.082 240.03 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 274.32 239.268 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 274.32 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 274.32 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "1e560fba-1d90-4a24-94a1-f81d037b63d0")
-		)
-		(pin "1"
-			(uuid "d694efdc-e271-4952-b81e-075ed7e35e1f")
-		)
-		(instances
-			(project "SIGMAGE"
-				(path "/6fbe3371-b6a3-4e28-aef4-4e5865f4674e/3446725c-4d67-4d86-a9de-be0a52e7f5ee"
-					(reference "R51")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 243.84 237.49 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "83b588c1-dc82-4b3a-b8d9-da9d95880b4e")
-		(property "Reference" "R50"
-			(at 245.618 234.95 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0"
-			(at 244.602 240.03 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 243.84 239.268 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 243.84 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 243.84 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "d5cd5368-5ecf-4f21-aca0-6070af721bb9")
-		)
-		(pin "1"
-			(uuid "c9829a0b-1c37-4828-9f80-b88180fe2cac")
-		)
-		(instances
-			(project "SIGMAGE"
-				(path "/6fbe3371-b6a3-4e28-aef4-4e5865f4674e/3446725c-4d67-4d86-a9de-be0a52e7f5ee"
-					(reference "R50")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 63.5 165.1 0)
 		(unit 1)
@@ -14875,6 +12950,84 @@
 			(project "SIGMAGE"
 				(path "/6fbe3371-b6a3-4e28-aef4-4e5865f4674e/3446725c-4d67-4d86-a9de-be0a52e7f5ee"
 					(reference "C92")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 139.7 189.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89b40d8b-81e3-4543-9c2e-a8b24b675aba")
+		(property "Reference" "#PWR0151"
+			(at 139.7 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DVCC_1V2"
+			(at 139.7 184.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 139.7 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "45c7476b-63dd-40c1-beb0-d9ac84a97927")
+		)
+		(instances
+			(project "SIGMAGE"
+				(path "/6fbe3371-b6a3-4e28-aef4-4e5865f4674e/3446725c-4d67-4d86-a9de-be0a52e7f5ee"
+					(reference "#PWR0151")
 					(unit 1)
 				)
 			)
@@ -16978,84 +15131,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 317.5 165.1 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9f4770fb-5343-4333-8d21-48155192ac2e")
-		(property "Reference" "#PWR0168"
-			(at 317.5 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC_IO0"
-			(at 317.5 160.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 317.5 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 317.5 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 317.5 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6cf86266-eb28-47be-9118-a3e071f96366")
-		)
-		(instances
-			(project "SIGMAGE"
-				(path "/6fbe3371-b6a3-4e28-aef4-4e5865f4674e/3446725c-4d67-4d86-a9de-be0a52e7f5ee"
-					(reference "#PWR0168")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 25.4 165.1 0)
 		(unit 1)
@@ -17218,89 +15293,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 184.15 237.49 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a7cc0420-ebcd-4379-9360-d1c0a46a8aad")
-		(property "Reference" "R48"
-			(at 185.928 234.95 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0"
-			(at 184.912 240.03 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 184.15 239.268 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 184.15 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 184.15 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "917022af-5236-4171-8e31-965f11590c6a")
-		)
-		(pin "1"
-			(uuid "482004f6-248b-40bd-8605-9a5680a58f66")
-		)
-		(instances
-			(project "SIGMAGE"
-				(path "/6fbe3371-b6a3-4e28-aef4-4e5865f4674e/3446725c-4d67-4d86-a9de-be0a52e7f5ee"
-					(reference "R48")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
-		(at 266.7 257.81 0)
+		(at 139.7 158.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17309,9 +15303,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ad46f493-2615-44e8-91eb-5ca84fb2918b")
-		(property "Reference" "#PWR0188"
-			(at 266.7 261.62 0)
+		(uuid "b10fe301-99ab-434f-b765-18484133ab96")
+		(property "Reference" "#PWR0211"
+			(at 139.7 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17322,7 +15316,7 @@
 			)
 		)
 		(property "Value" "DVCC_3V3"
-			(at 266.7 252.73 0)
+			(at 139.7 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17332,7 +15326,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 266.7 257.81 0)
+			(at 139.7 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17343,7 +15337,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 266.7 257.81 0)
+			(at 139.7 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17354,7 +15348,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 266.7 257.81 0)
+			(at 139.7 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17365,90 +15359,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "bd4eb3c4-b203-42fb-a07a-caf4b9039bf1")
+			(uuid "5fea0d94-96ba-4a53-aba1-0c57001bae9b")
 		)
 		(instances
 			(project "SIGMAGE"
 				(path "/6fbe3371-b6a3-4e28-aef4-4e5865f4674e/3446725c-4d67-4d86-a9de-be0a52e7f5ee"
-					(reference "#PWR0188")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 251.46 233.68 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "addf5569-7c42-467f-9cb0-0cc6fff5b212")
-		(property "Reference" "#PWR0180"
-			(at 251.46 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC_IO1"
-			(at 251.46 228.6 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 251.46 233.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 251.46 233.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 251.46 233.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8c59a5f2-63c4-4cc1-acf8-1e32f5d29293")
-		)
-		(instances
-			(project "SIGMAGE"
-				(path "/6fbe3371-b6a3-4e28-aef4-4e5865f4674e/3446725c-4d67-4d86-a9de-be0a52e7f5ee"
-					(reference "#PWR0180")
+					(reference "#PWR0211")
 					(unit 1)
 				)
 			)
@@ -18383,7 +16299,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 139.7 189.23 0)
+		(at 101.6 158.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18392,9 +16308,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b66f71aa-f0f2-44d6-abdd-314802e4ce5b")
-		(property "Reference" "#PWR0151"
-			(at 139.7 193.04 0)
+		(uuid "b349584e-5812-4b84-81d5-715c2f81b6c4")
+		(property "Reference" "#PWR0210"
+			(at 101.6 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18404,8 +16320,8 @@
 				)
 			)
 		)
-		(property "Value" "VCC_CORE"
-			(at 139.7 184.15 0)
+		(property "Value" "DVCC_3V3"
+			(at 101.6 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18415,7 +16331,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 189.23 0)
+			(at 101.6 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18426,7 +16342,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 189.23 0)
+			(at 101.6 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18437,7 +16353,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 139.7 189.23 0)
+			(at 101.6 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18448,12 +16364,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "b8547eca-10c3-4b56-93cd-be1ea7c0e8d5")
+			(uuid "16151764-914a-46b8-ab4f-453f0feef4fc")
 		)
 		(instances
 			(project "SIGMAGE"
 				(path "/6fbe3371-b6a3-4e28-aef4-4e5865f4674e/3446725c-4d67-4d86-a9de-be0a52e7f5ee"
-					(reference "#PWR0151")
+					(reference "#PWR0210")
 					(unit 1)
 				)
 			)
@@ -18613,84 +16529,6 @@
 			(project "SIGMAGE"
 				(path "/6fbe3371-b6a3-4e28-aef4-4e5865f4674e/3446725c-4d67-4d86-a9de-be0a52e7f5ee"
 					(reference "#PWR0163")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 266.7 233.68 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bc1f824b-eb36-4946-85c9-7ae5bbffd1b1")
-		(property "Reference" "#PWR0184"
-			(at 266.7 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DVCC_3V3"
-			(at 266.7 228.6 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 266.7 233.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 266.7 233.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 266.7 233.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2db34cdb-43d1-4c5c-b676-d955399e23f8")
-		)
-		(instances
-			(project "SIGMAGE"
-				(path "/6fbe3371-b6a3-4e28-aef4-4e5865f4674e/3446725c-4d67-4d86-a9de-be0a52e7f5ee"
-					(reference "#PWR0184")
 					(unit 1)
 				)
 			)
@@ -19625,7 +17463,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 207.01 233.68 0)
+		(at 317.5 143.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19634,9 +17472,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c2d67f82-247c-4994-bc88-0035b5f8405d")
-		(property "Reference" "#PWR0182"
-			(at 207.01 237.49 0)
+		(uuid "cf44c111-dd57-49b6-8be2-0ced11e4708e")
+		(property "Reference" "#PWR0152"
+			(at 317.5 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19646,8 +17484,8 @@
 				)
 			)
 		)
-		(property "Value" "DVCC_3V3"
-			(at 207.01 228.6 0)
+		(property "Value" "DVCC_1V2"
+			(at 317.5 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19657,7 +17495,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 207.01 233.68 0)
+			(at 317.5 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19668,7 +17506,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 233.68 0)
+			(at 317.5 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19679,7 +17517,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 207.01 233.68 0)
+			(at 317.5 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19690,561 +17528,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "162a4c71-25c4-4806-acac-5234f493a1c6")
+			(uuid "403788df-7d18-4c9d-bd01-706d8f944fb9")
 		)
 		(instances
 			(project "SIGMAGE"
 				(path "/6fbe3371-b6a3-4e28-aef4-4e5865f4674e/3446725c-4d67-4d86-a9de-be0a52e7f5ee"
-					(reference "#PWR0182")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 176.53 257.81 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c3c3ef95-fd1c-45e1-aea0-0a40929726a9")
-		(property "Reference" "#PWR0185"
-			(at 176.53 261.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DVCC_3V3"
-			(at 176.53 252.73 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 176.53 257.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 176.53 257.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 176.53 257.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1ca6b05e-d82b-4260-8451-19b26d68c2c7")
-		)
-		(instances
-			(project "SIGMAGE"
-				(path "/6fbe3371-b6a3-4e28-aef4-4e5865f4674e/3446725c-4d67-4d86-a9de-be0a52e7f5ee"
-					(reference "#PWR0185")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 25.4 158.75 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c98f2339-5d70-4fb2-9629-854dbc1a22cf")
-		(property "Reference" "#PWR0154"
-			(at 25.4 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC_IO0"
-			(at 25.4 153.67 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 25.4 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 25.4 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 25.4 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7612306f-648a-4bd4-9f71-39d61b468f74")
-		)
-		(instances
-			(project "SIGMAGE"
-				(path "/6fbe3371-b6a3-4e28-aef4-4e5865f4674e/3446725c-4d67-4d86-a9de-be0a52e7f5ee"
-					(reference "#PWR0154")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 139.7 158.75 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cb82ca2d-3f78-4112-9c44-00e7b86c17ad")
-		(property "Reference" "#PWR0160"
-			(at 139.7 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC_IO3"
-			(at 139.7 153.67 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 139.7 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 139.7 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3bda865e-43c4-4023-8c41-afdea34bbd9e")
-		)
-		(instances
-			(project "SIGMAGE"
-				(path "/6fbe3371-b6a3-4e28-aef4-4e5865f4674e/3446725c-4d67-4d86-a9de-be0a52e7f5ee"
-					(reference "#PWR0160")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 101.6 158.75 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ce52bad9-156c-42e1-8945-6713fc6f16b0")
-		(property "Reference" "#PWR0158"
-			(at 101.6 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC_IO2"
-			(at 101.6 153.67 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 101.6 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f7576d47-4893-4801-ba2e-b6303584afba")
-		)
-		(instances
-			(project "SIGMAGE"
-				(path "/6fbe3371-b6a3-4e28-aef4-4e5865f4674e/3446725c-4d67-4d86-a9de-be0a52e7f5ee"
-					(reference "#PWR0158")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 243.84 261.62 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d1e2b8e0-f67c-4757-b4bd-089e0c6a0562")
-		(property "Reference" "R54"
-			(at 245.618 259.08 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0"
-			(at 244.602 264.16 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 243.84 263.398 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 243.84 261.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 243.84 261.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "49e24011-4f14-46da-af88-fbf731f37bc6")
-		)
-		(pin "1"
-			(uuid "e12073df-063b-411d-8a3f-b9dc6547dc6e")
-		)
-		(instances
-			(project "SIGMAGE"
-				(path "/6fbe3371-b6a3-4e28-aef4-4e5865f4674e/3446725c-4d67-4d86-a9de-be0a52e7f5ee"
-					(reference "R54")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 101.6 189.23 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d384e0e8-443f-43ae-aaa0-d05adcb2fb79")
-		(property "Reference" "#PWR0166"
-			(at 101.6 193.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC_IO8"
-			(at 101.6 184.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 101.6 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f79ca892-a4b1-429a-a4e3-ca605d2776f8")
-		)
-		(instances
-			(project "SIGMAGE"
-				(path "/6fbe3371-b6a3-4e28-aef4-4e5865f4674e/3446725c-4d67-4d86-a9de-be0a52e7f5ee"
-					(reference "#PWR0166")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 251.46 257.81 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d39c6683-0ae7-45ca-adaa-7e2d45ac6dc1")
-		(property "Reference" "#PWR0176"
-			(at 251.46 261.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC_IO7"
-			(at 251.46 252.73 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 251.46 257.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 251.46 257.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 251.46 257.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "44f97d20-974f-4ca4-9da6-f4e07d8334d3")
-		)
-		(instances
-			(project "SIGMAGE"
-				(path "/6fbe3371-b6a3-4e28-aef4-4e5865f4674e/3446725c-4d67-4d86-a9de-be0a52e7f5ee"
-					(reference "#PWR0176")
+					(reference "#PWR0152")
 					(unit 1)
 				)
 			)
@@ -20413,6 +17702,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 25.4 189.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6559466-c0ef-4ebb-8927-00bb2e77f532")
+		(property "Reference" "#PWR0212"
+			(at 25.4 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DVCC_3V3"
+			(at 25.4 184.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 25.4 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5cf08a8f-b759-453d-810c-2bec7444cb3d")
+		)
+		(instances
+			(project "SIGMAGE"
+				(path "/6fbe3371-b6a3-4e28-aef4-4e5865f4674e/3446725c-4d67-4d86-a9de-be0a52e7f5ee"
+					(reference "#PWR0212")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 208.28 195.58 0)
 		(unit 1)
@@ -20488,162 +17855,6 @@
 			(project "SIGMAGE"
 				(path "/6fbe3371-b6a3-4e28-aef4-4e5865f4674e/3446725c-4d67-4d86-a9de-be0a52e7f5ee"
 					(reference "C50")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 326.39 143.51 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d855c8aa-764f-4e1a-84ba-ed9d0c4d9e08")
-		(property "Reference" "#PWR067"
-			(at 326.39 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC_CORE"
-			(at 326.39 138.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 326.39 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 326.39 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 326.39 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4ec3b989-5582-4f97-8e6b-c211a8caa981")
-		)
-		(instances
-			(project "SIGMAGE"
-				(path "/6fbe3371-b6a3-4e28-aef4-4e5865f4674e/3446725c-4d67-4d86-a9de-be0a52e7f5ee"
-					(reference "#PWR067")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 63.5 158.75 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dd16385f-9051-47e0-9442-5a6e0033c523")
-		(property "Reference" "#PWR0156"
-			(at 63.5 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC_IO1"
-			(at 63.5 153.67 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 63.5 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "45467861-c37f-44a2-b10e-5ac2050d266b")
-		)
-		(instances
-			(project "SIGMAGE"
-				(path "/6fbe3371-b6a3-4e28-aef4-4e5865f4674e/3446725c-4d67-4d86-a9de-be0a52e7f5ee"
-					(reference "#PWR0156")
 					(unit 1)
 				)
 			)
@@ -21572,165 +18783,6 @@
 				(path "/6fbe3371-b6a3-4e28-aef4-4e5865f4674e/3446725c-4d67-4d86-a9de-be0a52e7f5ee"
 					(reference "U8")
 					(unit 8)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 214.63 237.49 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "df914b79-e653-4f5c-8292-5af824f543cb")
-		(property "Reference" "R49"
-			(at 216.408 234.95 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0"
-			(at 215.392 240.03 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 214.63 239.268 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 214.63 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 214.63 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "55e6ff92-f079-425c-9268-4b758d131e95")
-		)
-		(pin "1"
-			(uuid "48c12735-a00f-4aa6-a311-9e8f0f2b4a82")
-		)
-		(instances
-			(project "SIGMAGE"
-				(path "/6fbe3371-b6a3-4e28-aef4-4e5865f4674e/3446725c-4d67-4d86-a9de-be0a52e7f5ee"
-					(reference "R49")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 63.5 189.23 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e656e62d-9a9c-4918-bfca-6c382973ee45")
-		(property "Reference" "#PWR0164"
-			(at 63.5 193.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC_IO7"
-			(at 63.5 184.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 63.5 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c1c2a7dc-c1dc-4257-a1b7-937a139f45f6")
-		)
-		(instances
-			(project "SIGMAGE"
-				(path "/6fbe3371-b6a3-4e28-aef4-4e5865f4674e/3446725c-4d67-4d86-a9de-be0a52e7f5ee"
-					(reference "#PWR0164")
-					(unit 1)
 				)
 			)
 		)
@@ -22901,7 +19953,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 311.15 170.18 0)
+		(at 101.6 189.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22910,9 +19962,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f4a299f4-3c4f-4667-8127-d255fac5cc73")
-		(property "Reference" "#PWR0169"
-			(at 311.15 173.99 0)
+		(uuid "f56615ae-2b96-4ce2-93f7-3232285c3c35")
+		(property "Reference" "#PWR0214"
+			(at 101.6 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22922,8 +19974,8 @@
 				)
 			)
 		)
-		(property "Value" "VCC_IO1"
-			(at 311.15 165.1 0)
+		(property "Value" "DVCC_3V3"
+			(at 101.6 184.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22933,7 +19985,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 311.15 170.18 0)
+			(at 101.6 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22944,7 +19996,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 311.15 170.18 0)
+			(at 101.6 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22955,7 +20007,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 311.15 170.18 0)
+			(at 101.6 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22966,12 +20018,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "6556c66e-1d00-4369-b48f-024073f6e3d9")
+			(uuid "c8b1102e-113a-4882-95e9-934ff9f5961f")
 		)
 		(instances
 			(project "SIGMAGE"
 				(path "/6fbe3371-b6a3-4e28-aef4-4e5865f4674e/3446725c-4d67-4d86-a9de-be0a52e7f5ee"
-					(reference "#PWR0169")
+					(reference "#PWR0214")
 					(unit 1)
 				)
 			)
@@ -23060,7 +20112,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 304.8 175.26 0)
+		(at 317.5 163.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23069,9 +20121,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f9fc4c1b-2108-4f74-b035-8afc77790b91")
-		(property "Reference" "#PWR0170"
-			(at 304.8 179.07 0)
+		(uuid "f8849af1-265b-494e-92c5-796f735fdc64")
+		(property "Reference" "#PWR0215"
+			(at 317.5 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23081,8 +20133,8 @@
 				)
 			)
 		)
-		(property "Value" "VCC_IO2"
-			(at 304.8 170.18 0)
+		(property "Value" "DVCC_3V3"
+			(at 317.5 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23092,7 +20144,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 304.8 175.26 0)
+			(at 317.5 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23103,7 +20155,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 304.8 175.26 0)
+			(at 317.5 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23114,7 +20166,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 304.8 175.26 0)
+			(at 317.5 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23125,12 +20177,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "e7d510e5-45fa-445c-b693-85c893b6797a")
+			(uuid "0290fdc9-8f44-4d67-b920-5a6983c1c86f")
 		)
 		(instances
 			(project "SIGMAGE"
 				(path "/6fbe3371-b6a3-4e28-aef4-4e5865f4674e/3446725c-4d67-4d86-a9de-be0a52e7f5ee"
-					(reference "#PWR0170")
+					(reference "#PWR0215")
 					(unit 1)
 				)
 			)
