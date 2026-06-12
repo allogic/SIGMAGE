@@ -5270,6 +5270,16 @@
 		)
 		(uuid "ff1a8194-e49c-4ec4-8407-358f7cf71054")
 	)
+	(label "FPGA_INITN"
+		(at 182.88 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "324cb774-d770-43c1-b464-b96fce6c8f62")
+	)
 	(label "Serial Terminal"
 		(at 229.87 91.44 0)
 		(effects
@@ -5283,6 +5293,16 @@
 			(justify left bottom)
 		)
 		(uuid "5bb53e91-6edc-4cf4-9e47-25a6dd2f7958")
+	)
+	(label "FPGA_CFG0"
+		(at 182.88 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7874ffa3-0da8-4629-af09-3e4ed854a15f")
 	)
 	(label "MCU_JTAG_TMS"
 		(at 144.78 76.2 180)
@@ -5313,6 +5333,16 @@
 			(justify right bottom)
 		)
 		(uuid "8c920eea-9565-40e9-bf11-804099155466")
+	)
+	(label "FPGA_CFG1"
+		(at 182.88 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "911fbf22-4c5d-410a-98e6-185c36099c80")
 	)
 	(label "MCU_USART1_RX"
 		(at 222.25 101.6 0)
@@ -5353,6 +5383,36 @@
 			(justify left bottom)
 		)
 		(uuid "cf587c13-65e9-4824-91d9-bdec101dd3ba")
+	)
+	(label "FPGA_CFG2"
+		(at 182.88 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "de18474a-d01f-43b1-8595-ee5e8b49d567")
+	)
+	(label "FPGA_DONE"
+		(at 182.88 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f71f0624-9ef0-40f3-870c-6d9f9a1a5b46")
+	)
+	(label "FPGA_PROGRAMN"
+		(at 182.88 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fe74ac1a-efda-4128-9366-d5af220e863f")
 	)
 	(label "MCU_JTAG_TCK"
 		(at 144.78 78.74 180)

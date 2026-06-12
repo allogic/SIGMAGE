@@ -5100,6 +5100,590 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SIGMAGE:TSW10607GS"
+			(body_styles demorgan)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0.762 1.524 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "TSW10607GS"
+				(at 7.366 -19.558 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "SIGMAGE:TSW10607GS"
+				(at 3.302 5.334 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Datasheet" "TSW-106-07-G-S"
+				(at 3.302 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Description" "TSW10607GS"
+				(at 3.556 9.906 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "TSW-106-07-G-S"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "CON6_1X6_TU_TSW"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TSW10607GS_1_1"
+				(rectangle
+					(start 0 0)
+					(end 6.35 -17.78)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -2.54 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -5.08 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -7.62 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -10.16 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -12.7 0)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -15.24 0)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TSW10607GS_1_2"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -15.24)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -15.24) (xy 12.7 -15.24)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 8.89 0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 8.89 -0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 8.89 -1.6933)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 8.89 -3.3867)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -5.08) (xy 5.08 -5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -5.08) (xy 8.89 -4.2333)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -5.08) (xy 8.89 -5.9267)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -7.62) (xy 5.08 -7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -7.62) (xy 8.89 -6.7733)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -7.62) (xy 8.89 -8.4667)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -10.16) (xy 5.08 -10.16)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -10.16) (xy 8.89 -9.3133)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -10.16) (xy 8.89 -11.0067)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -12.7) (xy 5.08 -12.7)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -12.7) (xy 8.89 -11.8533)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -12.7) (xy 8.89 -13.5467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -15.24) (xy 12.7 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -12.7 0)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+5V"
 			(power global)
 			(pin_numbers
@@ -5853,6 +6437,18 @@
 		(color 0 0 0 0)
 		(uuid "ff27e93d-3fc8-418a-adeb-23c2abc9a449")
 	)
+	(no_connect
+		(at 254 248.92)
+		(uuid "1737550f-13e8-46b0-8bcd-492f6bb3fcfc")
+	)
+	(no_connect
+		(at 254 254)
+		(uuid "322d13fa-6fd1-432a-9be9-2d4cfeef3c91")
+	)
+	(no_connect
+		(at 254 251.46)
+		(uuid "a2f1b338-5fb8-4982-b4df-5a6217896abc")
+	)
 	(wire
 		(pts
 			(xy 173.99 190.5) (xy 162.56 190.5)
@@ -5965,7 +6561,7 @@
 	)
 	(wire
 		(pts
-			(xy 382.27 30.48) (xy 401.32 30.48)
+			(xy 369.57 30.48) (xy 388.62 30.48)
 		)
 		(stroke
 			(width 0)
@@ -6065,7 +6661,7 @@
 	)
 	(wire
 		(pts
-			(xy 382.27 38.1) (xy 401.32 38.1)
+			(xy 369.57 38.1) (xy 388.62 38.1)
 		)
 		(stroke
 			(width 0)
@@ -6205,7 +6801,7 @@
 	)
 	(wire
 		(pts
-			(xy 382.27 43.18) (xy 401.32 43.18)
+			(xy 369.57 43.18) (xy 388.62 43.18)
 		)
 		(stroke
 			(width 0)
@@ -6695,7 +7291,7 @@
 	)
 	(wire
 		(pts
-			(xy 382.27 35.56) (xy 401.32 35.56)
+			(xy 369.57 35.56) (xy 388.62 35.56)
 		)
 		(stroke
 			(width 0)
@@ -6885,7 +7481,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 124.46) (xy 74.93 124.46)
+			(xy 191.77 255.27) (xy 209.55 255.27)
 		)
 		(stroke
 			(width 0)
@@ -6995,6 +7591,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 243.84) (xy 254 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f5f1ce3-9cdf-4a17-80fd-b484821b002b")
+	)
+	(wire
+		(pts
 			(xy 368.3 210.82) (xy 372.11 210.82)
 		)
 		(stroke
@@ -7095,6 +7701,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 256.54) (xy 246.38 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89dec100-9929-4c58-8780-ce4a2715bf4e")
+	)
+	(wire
+		(pts
 			(xy 74.93 160.02) (xy 63.5 160.02)
 		)
 		(stroke
@@ -7105,7 +7721,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 119.38) (xy 74.93 119.38)
+			(xy 191.77 250.19) (xy 209.55 250.19)
 		)
 		(stroke
 			(width 0)
@@ -7185,7 +7801,7 @@
 	)
 	(wire
 		(pts
-			(xy 382.27 27.94) (xy 401.32 27.94)
+			(xy 369.57 27.94) (xy 388.62 27.94)
 		)
 		(stroke
 			(width 0)
@@ -7322,6 +7938,16 @@
 			(type default)
 		)
 		(uuid "a49cab60-1b30-43a0-be3f-6a8b2b1dbc66")
+	)
+	(wire
+		(pts
+			(xy 233.68 246.38) (xy 254 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a76775fd-d185-4d93-a403-a5bd4151d87f")
 	)
 	(wire
 		(pts
@@ -7525,7 +8151,7 @@
 	)
 	(wire
 		(pts
-			(xy 382.27 33.02) (xy 401.32 33.02)
+			(xy 369.57 33.02) (xy 388.62 33.02)
 		)
 		(stroke
 			(width 0)
@@ -7545,7 +8171,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 116.84) (xy 74.93 116.84)
+			(xy 191.77 247.65) (xy 209.55 247.65)
 		)
 		(stroke
 			(width 0)
@@ -7725,6 +8351,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 256.54) (xy 246.38 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5d0aa83-c19d-44ce-8c73-00281217fd1a")
+	)
+	(wire
+		(pts
 			(xy 185.42 200.66) (xy 173.99 200.66)
 		)
 		(stroke
@@ -7735,7 +8371,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 121.92) (xy 74.93 121.92)
+			(xy 191.77 252.73) (xy 209.55 252.73)
 		)
 		(stroke
 			(width 0)
@@ -8013,8 +8649,32 @@
 		)
 		(uuid "fd572ec8-10fd-4b4e-bbab-dda3774d27cb")
 	)
+	(label "JTAG"
+		(at 176.53 237.49 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(italic yes)
+				(color 0 0 194 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "033953f4-6ba6-45ec-9ea9-daf3882273fe")
+	)
+	(label "ADC3_BCK"
+		(at 261.62 154.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "05175042-a703-401b-9269-9e1a4886ddbd")
+	)
 	(label "FPGA_DONE"
-		(at 401.32 35.56 180)
+		(at 388.62 35.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8023,8 +8683,138 @@
 		)
 		(uuid "05924ef9-6737-4638-bbfb-14d0544df19a")
 	)
+	(label "ADC3_OSR"
+		(at 261.62 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "098215f1-3377-4a5d-8d74-22c1c1c0fcfc")
+	)
+	(label "ADC2_SCKI"
+		(at 243.84 181.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0a0eab49-13bb-446f-a286-ed5be59253cf")
+	)
+	(label "ADC1_PDWN"
+		(at 243.84 160.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0cb4dd92-fcff-43b8-ab44-84896f9fd33c")
+	)
+	(label "RE4_B"
+		(at 215.9 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0da199a4-d0e6-4162-9065-3e1a73bef38e")
+	)
+	(label "DAC4_XSMT"
+		(at 294.64 176.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0db5fb96-e5c9-4a2e-9447-6ad144fdabe1")
+	)
+	(label "RE8_B"
+		(at 215.9 167.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "102beb47-0db9-4e34-9cd7-8704da02afd4")
+	)
+	(label "DAC2_CK"
+		(at 278.13 171.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "11ee87de-75fb-4aa9-bd69-d865047785f3")
+	)
+	(label "ADC1_BYPAS"
+		(at 243.84 162.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "14bacefa-da07-4729-b80a-cbec92966b62")
+	)
+	(label "ADC2_FMT1"
+		(at 243.84 176.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1588cd8c-5ae9-41f8-b13b-00902875a61c")
+	)
+	(label "ADC4_FMT0"
+		(at 261.62 173.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1912d52a-91e5-4e66-a554-21a9f64f13e1")
+	)
+	(label "RE6_A"
+		(at 195.58 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "222fd85d-f11e-431a-9a68-60ea88da16d7")
+	)
+	(label "DAC1_FMT"
+		(at 278.13 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "23b2d65f-566a-42d3-9f71-b5b9cf940ba1")
+	)
+	(label "ADC2_DOUT"
+		(at 243.84 184.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "23dfcaee-aefc-495c-a8c2-096962b1e5a0")
+	)
 	(label "FPGA_PROGRAMN"
-		(at 401.32 38.1 180)
+		(at 388.62 38.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8033,8 +8823,48 @@
 		)
 		(uuid "263861f7-368a-49f6-8c12-db58b2e25bf0")
 	)
+	(label "ADC1_FMT1"
+		(at 243.84 144.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2c89e916-a8d6-445f-842e-8186325a2ad4")
+	)
+	(label "FPGA_USART1_RX"
+		(at 226.06 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2cf19487-04d1-4517-80b5-69b9e48a9de7")
+	)
+	(label "ADC3_FMT0"
+		(at 261.62 142.24 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2dfadeca-ea6d-4e5a-9f7b-a7a52c9d3841")
+	)
+	(label "RE3_A"
+		(at 205.74 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2e02e02f-7a3b-4196-8499-08689ebaf10a")
+	)
 	(label "FPGA_JTAG_TDO"
-		(at 74.93 124.46 180)
+		(at 209.55 255.27 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8043,8 +8873,28 @@
 		)
 		(uuid "2e7bc518-2500-4c18-8d46-e227f2a266cb")
 	)
+	(label "DAC3_FLT"
+		(at 294.64 152.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "33419037-a8e2-418e-9e17-4bd050f11192")
+	)
+	(label "RE7_C"
+		(at 205.74 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "35dfd501-8d66-4090-bada-128f989115a0")
+	)
 	(label "FPGA_JTAG_TDI"
-		(at 74.93 119.38 180)
+		(at 209.55 250.19 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8053,28 +8903,108 @@
 		)
 		(uuid "36269400-8751-490e-b504-081405e5b28b")
 	)
-	(label "FPGA_CFG0"
-		(at 247.65 137.16 180)
+	(label "RE3_C"
+		(at 205.74 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "36d5e955-f55c-4223-8327-48b14134296b")
+	)
+	(label "ADC3_MODE1"
+		(at 261.62 139.7 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "399d2e69-db4e-428e-af4f-4a688ae85402")
+		(uuid "387dfccc-5569-4f06-bc66-9595fd049968")
 	)
-	(label "FPGA_CFG1"
-		(at 247.65 142.24 180)
+	(label "ADC2_OSR"
+		(at 243.84 179.07 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "3f1bffe2-7e15-4565-bc10-61325df82fe2")
+		(uuid "39cdf623-a77a-4b81-9245-d1580b85510f")
+	)
+	(label "ADC2_PDWN"
+		(at 243.84 191.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3ab22b9a-d841-430a-b5fb-ee4ecb4b405d")
+	)
+	(label "RE6_B"
+		(at 195.58 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3b765da5-f966-40b3-bc8f-e7c0debd77ab")
+	)
+	(label "ADC4_MODE1"
+		(at 261.62 171.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3dcbfd87-5262-4a50-b42f-2dc606033fa9")
+	)
+	(label "ADC3_LRCK"
+		(at 261.62 157.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4497348b-410b-4c21-9871-9344b6d9b490")
+	)
+	(label "ADC2_LRCK"
+		(at 243.84 189.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4b4c3eef-aaa2-41c8-8ea2-35c442ce23ce")
+	)
+	(label "RE5_C"
+		(at 185.42 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "52b029ec-c2bb-4e90-be87-67406704762d")
+	)
+	(label "RE1_C"
+		(at 185.42 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "52b05b6f-b91e-4299-b894-56479ded7674")
 	)
 	(label "FPGA_CFG0"
-		(at 401.32 27.94 180)
+		(at 388.62 27.94 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8083,18 +9013,48 @@
 		)
 		(uuid "530b9e27-89cf-484e-9e43-85f7fc728c35")
 	)
-	(label "FPGA_CFG2"
-		(at 247.65 139.7 180)
+	(label "ADC3_FMT1"
+		(at 261.62 144.78 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "546df00c-1c3c-4eec-918e-96d2cdf8207f")
+		(uuid "5715b842-f05a-4660-9205-482c24e15c11")
+	)
+	(label "DAC3_CK"
+		(at 294.64 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "58d9cb99-0daa-4641-bb40-c2c5f4a81d1d")
+	)
+	(label "ADC1_SCKI"
+		(at 243.84 149.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5a08fa7c-572d-4a05-a328-64efcd770f69")
+	)
+	(label "RE1_B"
+		(at 185.42 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5aeb893d-9cfd-4929-b357-6a7e026dfbe9")
 	)
 	(label "FPGA_CFG1"
-		(at 401.32 33.02 180)
+		(at 388.62 33.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8103,18 +9063,206 @@
 		)
 		(uuid "5e140f4b-09ca-44db-8828-844380215e59")
 	)
-	(label "FPGA_INITN"
-		(at 247.65 152.4 180)
+	(label "Check PullUp{slash}Down"
+		(at 377.19 52.07 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.508)
+				(bold yes)
+				(italic yes)
+				(color 255 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "5f79cd31-c8e9-4b9e-b587-9903ae264aec")
+	)
+	(label "DAC1_WS"
+		(at 278.13 142.24 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "71b8fd7c-bf37-4f53-b2ff-3821a3afb3e0")
+		(uuid "64953dfd-e976-445e-ba7e-23d9d50bcf19")
+	)
+	(label "DAC3_XSMT"
+		(at 294.64 144.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "667a0415-631f-499a-bddd-051005df719c")
+	)
+	(label "ADC4_OSR"
+		(at 261.62 179.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6824f25e-a4fd-45ac-a859-f6fe8f02a4e4")
+	)
+	(label "Serial Terminal"
+		(at 241.3 236.22 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(italic yes)
+				(color 0 0 194 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "6a40219d-438f-4122-81c3-4f08f9122935")
+	)
+	(label "ADC4_PDWN"
+		(at 261.62 191.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6afcd0d7-1c77-491f-a96c-32d641b1875a")
+	)
+	(label "DAC3_WS"
+		(at 294.64 142.24 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6b0c68a9-babb-4c8c-9e5c-1d25739a61c3")
+	)
+	(label "DAC1_FLT"
+		(at 278.13 152.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6c6cb2a8-0b4a-4826-9d16-55ccb34d8434")
+	)
+	(label "ADC3_SCKI"
+		(at 261.62 149.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6d34316a-ca66-48ee-bbb4-d03d9aaccf6f")
+	)
+	(label "ADC4_FMT1"
+		(at 261.62 176.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6f180cee-7d79-4e6c-ad27-0a90a239f5ce")
+	)
+	(label "FPGA_USART1_RX"
+		(at 233.68 246.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7276e73b-e5cf-44bb-8729-9833cf4882a6")
+	)
+	(label "RE6_C"
+		(at 195.58 167.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "74707180-c827-43d3-a4dc-65428283cea8")
+	)
+	(label "ADC4_LRCK"
+		(at 261.62 189.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "751bb2a5-41b4-4919-bc0f-d9eabf19c56b")
+	)
+	(label "RE2_A"
+		(at 195.58 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7bb487d0-1ddf-4dd2-bb12-7fb541ed7c0d")
+	)
+	(label "DAC2_FLT"
+		(at 278.13 184.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7c80c29e-f956-41e0-b69f-d4dd33f5e79e")
+	)
+	(label "DAC1_CK"
+		(at 278.13 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7dcf3a61-f66f-4bfb-8882-54077bd74e02")
+	)
+	(label "DAC4_DEMP"
+		(at 294.64 181.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7e48d7a5-e156-42a2-b757-81ab1f3179b8")
+	)
+	(label "DAC1_SD"
+		(at 278.13 137.16 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7e9172dd-a0f7-44e7-b874-d5041c15000d")
+	)
+	(label "ADC1_BCK"
+		(at 243.84 154.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7ee84a82-3298-4469-82c1-29960d84aebf")
 	)
 	(label "FPGA_JTAG_TCK"
-		(at 74.93 121.92 180)
+		(at 209.55 252.73 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8123,8 +9271,48 @@
 		)
 		(uuid "80e85b97-c2a6-4b98-8395-f126c13ef2b4")
 	)
+	(label "RE3_B"
+		(at 205.74 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "83c87036-9135-4757-81b6-271f6da89500")
+	)
+	(label "RE8_A"
+		(at 215.9 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "872a9a67-43d7-4f44-9bb0-3ae426a84e9f")
+	)
+	(label "DAC2_FMT"
+		(at 278.13 179.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "886bde15-d560-411e-a4ac-b9e4771ce2d2")
+	)
+	(label "ADC1_DOUT"
+		(at 243.84 152.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8aa3251c-db8d-4bc6-9bf7-4c9a421af5d6")
+	)
 	(label "FPGA_JTAG_TMS"
-		(at 74.93 116.84 180)
+		(at 209.55 247.65 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8133,8 +9321,118 @@
 		)
 		(uuid "8de8e00b-ff8c-4f89-ba82-29f20212705c")
 	)
+	(label "RE5_B"
+		(at 185.42 167.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "90ca4224-cf97-4d83-bfae-d03cb5458965")
+	)
+	(label "ADC1_OSR"
+		(at 243.84 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "90e5f48f-a307-4794-955b-89268a6afb20")
+	)
+	(label "RE1_A"
+		(at 185.42 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "960ff13b-1303-4d5c-8169-e28cf7491d69")
+	)
+	(label "RE7_B"
+		(at 205.74 167.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "97c85ce3-ab5e-43c1-990f-126f6a9f72eb")
+	)
+	(label "DAC3_SD"
+		(at 294.64 137.16 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9deb08aa-5e45-42e3-8395-995ed04ca263")
+	)
+	(label "RE4_C"
+		(at 215.9 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a2a0bc1c-8cd5-42cb-a897-1f48b2bfd92a")
+	)
+	(label "ADC3_DOUT"
+		(at 261.62 152.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a303864f-2ce4-4dbf-9009-f883c0bf62f3")
+	)
+	(label "ADC1_MODE1"
+		(at 243.84 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a4d64255-0237-4754-a4f6-f704e669081a")
+	)
+	(label "FPGA_USART1_TX"
+		(at 233.68 243.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a537f52a-f884-494a-bc16-8bb2563f13b4")
+	)
+	(label "ADC2_MODE0"
+		(at 243.84 168.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a6881078-af08-4af5-8a7e-b16c26cdfa5f")
+	)
+	(label "DAC2_WS"
+		(at 278.13 173.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a9633ae1-af87-40e7-9549-2d5f13759017")
+	)
 	(label "FPGA_INITN"
-		(at 401.32 43.18 180)
+		(at 388.62 43.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8143,28 +9441,362 @@
 		)
 		(uuid "a9c088e0-7400-4765-852f-56aafc477cc3")
 	)
-	(label "FPGA_DONE"
-		(at 247.65 144.78 180)
+	(label "ADC3_MODE0"
+		(at 261.62 137.16 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "bca25f86-401e-4926-b41d-a50ab854d052")
+		(uuid "adb6df0e-6a8b-40ff-98c0-a68cb6574787")
 	)
-	(label "FPGA_PROGRAMN"
-		(at 247.65 147.32 180)
+	(label "RE8_C"
+		(at 215.9 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "addd7367-f348-4555-964a-224b93cf6aec")
+	)
+	(label "ADC3_PDWN"
+		(at 261.62 160.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "f7b4dbc3-85d3-43e6-a6f4-a075aea94977")
+		(uuid "b2c2e29a-4634-4f09-86b3-4c86cd085f6a")
+	)
+	(label "DAC2_SD"
+		(at 278.13 168.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b533ab02-ddc2-4a9b-8f32-4cae55e738d1")
+	)
+	(label "DAC4_FLT"
+		(at 294.64 184.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b98766aa-ebea-4ac6-b544-d18279c5da81")
+	)
+	(label "DAC3_DEMP"
+		(at 294.64 149.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ba9e4328-6d15-4450-9b57-a5321dee398f")
+	)
+	(label "RE2_B"
+		(at 195.58 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bb0a6f07-0734-432f-92b4-11f27b6527c6")
+	)
+	(label "DAC4_CK"
+		(at 294.64 171.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c09baca5-9007-4c91-b9bb-6e9b37a244ef")
+	)
+	(label "DAC4_WS"
+		(at 294.64 173.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c3f60f24-51dd-4ce2-972f-fcb74dae254d")
+	)
+	(label "ADC4_BCK"
+		(at 261.62 186.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c5640bd2-e2af-4549-8850-79815cf9b070")
+	)
+	(label "ADC4_MODE0"
+		(at 261.62 168.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c714d6c3-4bd6-4e2d-87fb-46f7e1d76d90")
+	)
+	(label "FPGA_USART1_TX"
+		(at 226.06 137.16 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c87a88f7-b688-4631-87dc-2c1cbe9dd08a")
+	)
+	(label "DAC1_DEMP"
+		(at 278.13 149.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c88e1453-09ea-45af-a265-8712b8f62327")
+	)
+	(label "ADC4_SCKI"
+		(at 261.62 181.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d13768ad-f290-4d41-977f-26e36478e8da")
+	)
+	(label "DAC3_FMT"
+		(at 294.64 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d6eacf5f-7fae-46fa-92e6-01a3835bc4cd")
+	)
+	(label "ADC2_BCK"
+		(at 243.84 186.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dba23b3a-94a1-4782-88ab-2c0df7a13926")
+	)
+	(label "ADC4_BYPAS"
+		(at 261.62 194.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dc36da67-b486-4af2-8ded-c30225b5b42a")
+	)
+	(label "RE4_A"
+		(at 215.9 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ddbe38c8-87fb-4724-852d-56aa6000da69")
+	)
+	(label "ADC3_BYPAS"
+		(at 261.62 162.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dece9f19-47a4-4ff1-93b3-b937aeb690ac")
+	)
+	(label "ADC1_FMT0"
+		(at 243.84 142.24 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e0556a04-ac3e-4e66-a7c6-d267bb1ff548")
+	)
+	(label "RE2_C"
+		(at 195.58 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e1fb451c-a799-454e-80df-45fc61baa119")
+	)
+	(label "DAC2_XSMT"
+		(at 278.13 176.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e57bde7e-38dc-43d2-81c8-2c6b12fe30d1")
+	)
+	(label "ADC1_MODE0"
+		(at 243.84 137.16 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e6d56966-8bdb-4433-9677-6f4f609aa308")
+	)
+	(label "ADC2_FMT0"
+		(at 243.84 173.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e7dfa821-34ba-4381-9249-bc8129c2e4e1")
+	)
+	(label "ADC1_LRCK"
+		(at 243.84 157.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e88246d1-620e-49ac-bd3d-c9ad2c1ad698")
+	)
+	(label "DAC1_XSMT"
+		(at 278.13 144.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e9452d30-f4d9-48c8-befc-9baa4f560d71")
+	)
+	(label "ADC2_BYPAS"
+		(at 243.84 194.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e9baa3d6-0d8a-4c5f-825d-5ebd0bd6599e")
+	)
+	(label "RE5_A"
+		(at 185.42 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ea041ee4-cd1b-4860-aa82-1bed906662e0")
+	)
+	(label "RE7_A"
+		(at 205.74 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ea6da1c3-34e7-451f-89b7-90e8c8d449eb")
+	)
+	(label "ADC2_MODE1"
+		(at 243.84 171.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f118546e-3bb3-4c91-a0e5-6606de45fa6b")
+	)
+	(label "DVCC_2V5 required"
+		(at 302.26 213.36 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.508)
+				(bold yes)
+				(italic yes)
+				(color 255 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "f57cde67-8f70-48ac-a7ac-b244da4cdbb7")
+	)
+	(label "ADC4_DOUT"
+		(at 261.62 184.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f64bc9b0-5987-4aa0-8c08-be804f3fe017")
+	)
+	(label "DAC2_DEMP"
+		(at 278.13 181.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f70103ad-fdd3-4f86-b870-a3a434cd156a")
+	)
+	(label "DAC4_FMT"
+		(at 294.64 179.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f790e7f6-cf4f-4a2d-90a5-06ab2097d96e")
+	)
+	(label "DAC4_SD"
+		(at 294.64 168.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fa1f2d28-917f-45a1-aaa9-b61be3e41c35")
 	)
 	(label "FPGA_CFG2"
-		(at 401.32 30.48 180)
+		(at 388.62 30.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8580,7 +10212,7 @@
 	)
 	(symbol
 		(lib_id "SIGMAGE:LFE5U25F6BG256I")
-		(at 245.11 25.4 0)
+		(at 232.41 25.4 0)
 		(unit 7)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8590,7 +10222,7 @@
 		(dnp no)
 		(uuid "257c12c8-0544-41f4-8b15-55901c802a29")
 		(property "Reference" "U8"
-			(at 246.888 24.13 0)
+			(at 234.188 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8600,7 +10232,7 @@
 			)
 		)
 		(property "Value" "LFE5U25F6BG256I"
-			(at 253.746 110.744 0)
+			(at 241.046 110.744 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8610,7 +10242,7 @@
 			)
 		)
 		(property "Footprint" "SIGMAGE:LFE5U25F6BG256I"
-			(at 241.046 10.668 0)
+			(at 228.346 10.668 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8622,7 +10254,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/DKDS41/DSANUWW0025462.pdf"
-			(at 215.392 6.604 0)
+			(at 202.692 6.604 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8634,7 +10266,7 @@
 			)
 		)
 		(property "Description" "FPGA - Field Programmable Gate Array ECP5; 24.3K LUTs; 1.1V"
-			(at 259.588 14.986 0)
+			(at 246.888 14.986 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8645,7 +10277,7 @@
 			)
 		)
 		(property "Height" "1.7"
-			(at 257.556 1.27 0)
+			(at 244.856 1.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8657,7 +10289,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Lattice Semiconductor"
-			(at 248.666 3.556 0)
+			(at 235.966 3.556 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8669,7 +10301,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "LFE5U-25F-6BG256I"
-			(at 274.32 622.86 0)
+			(at 261.62 622.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8681,7 +10313,7 @@
 			)
 		)
 		(property "Mouser Part Number" "842-LFE5U25F6BG256I"
-			(at 274.32 722.86 0)
+			(at 261.62 722.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8693,7 +10325,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lattice/LFE5U-25F-6BG256I?qs=w%2Fv1CP2dgqpEY7AiGO6aWg%3D%3D"
-			(at 274.32 822.86 0)
+			(at 261.62 822.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8705,7 +10337,7 @@
 			)
 		)
 		(property "Arrow Part Number" "LFE5U-25F-6BG256I"
-			(at 274.32 922.86 0)
+			(at 261.62 922.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8717,7 +10349,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/lfe5u-25f-6bg256i/lattice-semiconductor?utm_currency=USD&region=nac"
-			(at 274.32 1022.86 0)
+			(at 261.62 1022.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9990,7 +11622,7 @@
 	)
 	(symbol
 		(lib_id "SIGMAGE:LFE5U25F6BG256I")
-		(at 193.04 25.4 0)
+		(at 180.34 25.4 0)
 		(unit 5)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10000,7 +11632,7 @@
 		(dnp no)
 		(uuid "45166385-ef48-4524-9f6c-98bd9f8e4789")
 		(property "Reference" "U8"
-			(at 194.818 24.13 0)
+			(at 182.118 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10010,7 +11642,7 @@
 			)
 		)
 		(property "Value" "LFE5U25F6BG256I"
-			(at 201.676 110.744 0)
+			(at 188.976 110.744 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10020,7 +11652,7 @@
 			)
 		)
 		(property "Footprint" "SIGMAGE:LFE5U25F6BG256I"
-			(at 188.976 10.668 0)
+			(at 176.276 10.668 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10032,7 +11664,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/DKDS41/DSANUWW0025462.pdf"
-			(at 163.322 6.604 0)
+			(at 150.622 6.604 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10044,7 +11676,7 @@
 			)
 		)
 		(property "Description" "FPGA - Field Programmable Gate Array ECP5; 24.3K LUTs; 1.1V"
-			(at 207.518 14.986 0)
+			(at 194.818 14.986 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10055,7 +11687,7 @@
 			)
 		)
 		(property "Height" "1.7"
-			(at 205.486 1.27 0)
+			(at 192.786 1.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10067,7 +11699,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Lattice Semiconductor"
-			(at 196.596 3.556 0)
+			(at 183.896 3.556 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10079,7 +11711,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "LFE5U-25F-6BG256I"
-			(at 222.25 622.86 0)
+			(at 209.55 622.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10091,7 +11723,7 @@
 			)
 		)
 		(property "Mouser Part Number" "842-LFE5U25F6BG256I"
-			(at 222.25 722.86 0)
+			(at 209.55 722.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10103,7 +11735,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lattice/LFE5U-25F-6BG256I?qs=w%2Fv1CP2dgqpEY7AiGO6aWg%3D%3D"
-			(at 222.25 822.86 0)
+			(at 209.55 822.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10115,7 +11747,7 @@
 			)
 		)
 		(property "Arrow Part Number" "LFE5U-25F-6BG256I"
-			(at 222.25 922.86 0)
+			(at 209.55 922.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10127,7 +11759,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/lfe5u-25f-6bg256i/lattice-semiconductor?utm_currency=USD&region=nac"
-			(at 222.25 1022.86 0)
+			(at 209.55 1022.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11550,7 +13182,7 @@
 	)
 	(symbol
 		(lib_id "SIGMAGE:LFE5U25F6BG256I")
-		(at 88.9 25.4 0)
+		(at 76.2 25.4 0)
 		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11560,7 +13192,7 @@
 		(dnp no)
 		(uuid "6ec10977-4ba6-42e2-902d-93d79e155259")
 		(property "Reference" "U8"
-			(at 90.678 24.13 0)
+			(at 77.978 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11570,7 +13202,7 @@
 			)
 		)
 		(property "Value" "LFE5U25F6BG256I"
-			(at 97.536 110.744 0)
+			(at 84.836 110.744 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11580,7 +13212,7 @@
 			)
 		)
 		(property "Footprint" "SIGMAGE:LFE5U25F6BG256I"
-			(at 84.836 10.668 0)
+			(at 72.136 10.668 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11592,7 +13224,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/DKDS41/DSANUWW0025462.pdf"
-			(at 59.182 6.604 0)
+			(at 46.482 6.604 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11604,7 +13236,7 @@
 			)
 		)
 		(property "Description" "FPGA - Field Programmable Gate Array ECP5; 24.3K LUTs; 1.1V"
-			(at 103.378 14.986 0)
+			(at 90.678 14.986 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11615,7 +13247,7 @@
 			)
 		)
 		(property "Height" "1.7"
-			(at 101.346 1.27 0)
+			(at 88.646 1.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11627,7 +13259,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Lattice Semiconductor"
-			(at 92.456 3.556 0)
+			(at 79.756 3.556 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11639,7 +13271,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "LFE5U-25F-6BG256I"
-			(at 118.11 622.86 0)
+			(at 105.41 622.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11651,7 +13283,7 @@
 			)
 		)
 		(property "Mouser Part Number" "842-LFE5U25F6BG256I"
-			(at 118.11 722.86 0)
+			(at 105.41 722.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11663,7 +13295,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lattice/LFE5U-25F-6BG256I?qs=w%2Fv1CP2dgqpEY7AiGO6aWg%3D%3D"
-			(at 118.11 822.86 0)
+			(at 105.41 822.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11675,7 +13307,7 @@
 			)
 		)
 		(property "Arrow Part Number" "LFE5U-25F-6BG256I"
-			(at 118.11 922.86 0)
+			(at 105.41 922.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11687,7 +13319,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/lfe5u-25f-6bg256i/lattice-semiconductor?utm_currency=USD&region=nac"
-			(at 118.11 1022.86 0)
+			(at 105.41 1022.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12956,6 +14588,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 246.38 261.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8800b854-b988-4458-b78f-097f667557f6")
+		(property "Reference" "#PWR0216"
+			(at 246.38 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 246.38 266.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 246.38 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dd72d71d-22f4-464e-ab9a-0e52d336e307")
+		)
+		(instances
+			(project "SIGMAGE"
+				(path "/6fbe3371-b6a3-4e28-aef4-4e5865f4674e/3446725c-4d67-4d86-a9de-be0a52e7f5ee"
+					(reference "#PWR0216")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 139.7 189.23 0)
 		(unit 1)
@@ -13962,7 +15672,7 @@
 	)
 	(symbol
 		(lib_id "SIGMAGE:LFE5U25F6BG256I")
-		(at 36.83 25.4 0)
+		(at 24.13 25.4 0)
 		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13972,7 +15682,7 @@
 		(dnp no)
 		(uuid "90771647-4ff6-4af0-98ed-2b40525d73d7")
 		(property "Reference" "U8"
-			(at 38.608 24.13 0)
+			(at 25.908 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13982,7 +15692,7 @@
 			)
 		)
 		(property "Value" "LFE5U25F6BG256I"
-			(at 45.466 90.424 0)
+			(at 32.766 90.424 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13992,7 +15702,7 @@
 			)
 		)
 		(property "Footprint" "SIGMAGE:LFE5U25F6BG256I"
-			(at 32.766 10.668 0)
+			(at 20.066 10.668 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14004,7 +15714,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/DKDS41/DSANUWW0025462.pdf"
-			(at 7.112 6.604 0)
+			(at -5.588 6.604 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14016,7 +15726,7 @@
 			)
 		)
 		(property "Description" "FPGA - Field Programmable Gate Array ECP5; 24.3K LUTs; 1.1V"
-			(at 51.308 14.986 0)
+			(at 38.608 14.986 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14027,7 +15737,7 @@
 			)
 		)
 		(property "Height" "1.7"
-			(at 49.276 1.27 0)
+			(at 36.576 1.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14039,7 +15749,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Lattice Semiconductor"
-			(at 40.386 3.556 0)
+			(at 27.686 3.556 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14051,7 +15761,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "LFE5U-25F-6BG256I"
-			(at 66.04 622.86 0)
+			(at 53.34 622.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14063,7 +15773,7 @@
 			)
 		)
 		(property "Mouser Part Number" "842-LFE5U25F6BG256I"
-			(at 66.04 722.86 0)
+			(at 53.34 722.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14075,7 +15785,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lattice/LFE5U-25F-6BG256I?qs=w%2Fv1CP2dgqpEY7AiGO6aWg%3D%3D"
-			(at 66.04 822.86 0)
+			(at 53.34 822.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14087,7 +15797,7 @@
 			)
 		)
 		(property "Arrow Part Number" "LFE5U-25F-6BG256I"
-			(at 66.04 922.86 0)
+			(at 53.34 922.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14099,7 +15809,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/lfe5u-25f-6bg256i/lattice-semiconductor?utm_currency=USD&region=nac"
-			(at 66.04 1022.86 0)
+			(at 53.34 1022.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15372,7 +17082,7 @@
 	)
 	(symbol
 		(lib_id "SIGMAGE:LFE5U25F6BG256I")
-		(at 349.25 25.4 0)
+		(at 336.55 25.4 0)
 		(unit 6)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15382,7 +17092,7 @@
 		(dnp no)
 		(uuid "b265c523-bbd9-4f2b-a4a3-00f09f275361")
 		(property "Reference" "U8"
-			(at 351.028 24.13 0)
+			(at 338.328 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15392,7 +17102,7 @@
 			)
 		)
 		(property "Value" "LFE5U25F6BG256I"
-			(at 357.886 80.264 0)
+			(at 345.186 80.264 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15402,7 +17112,7 @@
 			)
 		)
 		(property "Footprint" "SIGMAGE:LFE5U25F6BG256I"
-			(at 345.186 10.668 0)
+			(at 332.486 10.668 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15414,7 +17124,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/DKDS41/DSANUWW0025462.pdf"
-			(at 319.532 6.604 0)
+			(at 306.832 6.604 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15426,7 +17136,7 @@
 			)
 		)
 		(property "Description" "FPGA - Field Programmable Gate Array ECP5; 24.3K LUTs; 1.1V"
-			(at 363.728 14.986 0)
+			(at 351.028 14.986 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15437,7 +17147,7 @@
 			)
 		)
 		(property "Height" "1.7"
-			(at 361.696 1.27 0)
+			(at 348.996 1.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15449,7 +17159,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Lattice Semiconductor"
-			(at 352.806 3.556 0)
+			(at 340.106 3.556 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15461,7 +17171,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "LFE5U-25F-6BG256I"
-			(at 378.46 622.86 0)
+			(at 365.76 622.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15473,7 +17183,7 @@
 			)
 		)
 		(property "Mouser Part Number" "842-LFE5U25F6BG256I"
-			(at 378.46 722.86 0)
+			(at 365.76 722.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15485,7 +17195,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lattice/LFE5U-25F-6BG256I?qs=w%2Fv1CP2dgqpEY7AiGO6aWg%3D%3D"
-			(at 378.46 822.86 0)
+			(at 365.76 822.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15497,7 +17207,7 @@
 			)
 		)
 		(property "Arrow Part Number" "LFE5U-25F-6BG256I"
-			(at 378.46 922.86 0)
+			(at 365.76 922.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15509,7 +17219,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/lfe5u-25f-6bg256i/lattice-semiconductor?utm_currency=USD&region=nac"
-			(at 378.46 1022.86 0)
+			(at 365.76 1022.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16536,7 +18246,7 @@
 	)
 	(symbol
 		(lib_id "SIGMAGE:LFE5U25F6BG256I")
-		(at 24.13 114.3 0)
+		(at 158.75 245.11 0)
 		(unit 9)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16546,7 +18256,7 @@
 		(dnp no)
 		(uuid "bcac0b9b-1066-488d-8e57-05205158896a")
 		(property "Reference" "U8"
-			(at 25.908 113.03 0)
+			(at 160.528 243.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16556,7 +18266,7 @@
 			)
 		)
 		(property "Value" "LFE5U25F6BG256I"
-			(at 32.766 128.524 0)
+			(at 167.386 259.334 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16566,7 +18276,7 @@
 			)
 		)
 		(property "Footprint" "SIGMAGE:LFE5U25F6BG256I"
-			(at 20.066 99.568 0)
+			(at 154.686 230.378 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16578,7 +18288,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/DKDS41/DSANUWW0025462.pdf"
-			(at -5.588 95.504 0)
+			(at 129.032 226.314 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16590,7 +18300,7 @@
 			)
 		)
 		(property "Description" "FPGA - Field Programmable Gate Array ECP5; 24.3K LUTs; 1.1V"
-			(at 38.608 103.886 0)
+			(at 173.228 234.696 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16601,7 +18311,7 @@
 			)
 		)
 		(property "Height" "1.7"
-			(at 36.576 90.17 0)
+			(at 171.196 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16613,7 +18323,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Lattice Semiconductor"
-			(at 27.686 92.456 0)
+			(at 162.306 223.266 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16625,7 +18335,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "LFE5U-25F-6BG256I"
-			(at 53.34 711.76 0)
+			(at 187.96 842.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16637,7 +18347,7 @@
 			)
 		)
 		(property "Mouser Part Number" "842-LFE5U25F6BG256I"
-			(at 53.34 811.76 0)
+			(at 187.96 942.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16649,7 +18359,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lattice/LFE5U-25F-6BG256I?qs=w%2Fv1CP2dgqpEY7AiGO6aWg%3D%3D"
-			(at 53.34 911.76 0)
+			(at 187.96 1042.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16661,7 +18371,7 @@
 			)
 		)
 		(property "Arrow Part Number" "LFE5U-25F-6BG256I"
-			(at 53.34 1011.76 0)
+			(at 187.96 1142.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16673,7 +18383,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/lfe5u-25f-6bg256i/lattice-semiconductor?utm_currency=USD&region=nac"
-			(at 53.34 1111.76 0)
+			(at 187.96 1242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17862,7 +19572,7 @@
 	)
 	(symbol
 		(lib_id "SIGMAGE:LFE5U25F6BG256I")
-		(at 297.18 25.4 0)
+		(at 284.48 25.4 0)
 		(unit 8)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17872,7 +19582,7 @@
 		(dnp no)
 		(uuid "dd3faaaf-a4ba-4689-bb15-81cda64d38c6")
 		(property "Reference" "U8"
-			(at 298.958 24.13 0)
+			(at 286.258 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17882,7 +19592,7 @@
 			)
 		)
 		(property "Value" "LFE5U25F6BG256I"
-			(at 305.816 110.744 0)
+			(at 293.116 110.744 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17892,7 +19602,7 @@
 			)
 		)
 		(property "Footprint" "SIGMAGE:LFE5U25F6BG256I"
-			(at 293.116 10.668 0)
+			(at 280.416 10.668 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17904,7 +19614,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/DKDS41/DSANUWW0025462.pdf"
-			(at 267.462 6.604 0)
+			(at 254.762 6.604 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17916,7 +19626,7 @@
 			)
 		)
 		(property "Description" "FPGA - Field Programmable Gate Array ECP5; 24.3K LUTs; 1.1V"
-			(at 311.658 14.986 0)
+			(at 298.958 14.986 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17927,7 +19637,7 @@
 			)
 		)
 		(property "Height" "1.7"
-			(at 309.626 1.27 0)
+			(at 296.926 1.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17939,7 +19649,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Lattice Semiconductor"
-			(at 300.736 3.556 0)
+			(at 288.036 3.556 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17951,7 +19661,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "LFE5U-25F-6BG256I"
-			(at 326.39 622.86 0)
+			(at 313.69 622.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17963,7 +19673,7 @@
 			)
 		)
 		(property "Mouser Part Number" "842-LFE5U25F6BG256I"
-			(at 326.39 722.86 0)
+			(at 313.69 722.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17975,7 +19685,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lattice/LFE5U-25F-6BG256I?qs=w%2Fv1CP2dgqpEY7AiGO6aWg%3D%3D"
-			(at 326.39 822.86 0)
+			(at 313.69 822.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17987,7 +19697,7 @@
 			)
 		)
 		(property "Arrow Part Number" "LFE5U-25F-6BG256I"
-			(at 326.39 922.86 0)
+			(at 313.69 922.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17999,7 +19709,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/lfe5u-25f-6bg256i/lattice-semiconductor?utm_currency=USD&region=nac"
-			(at 326.39 1022.86 0)
+			(at 313.69 1022.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18789,7 +20499,7 @@
 	)
 	(symbol
 		(lib_id "SIGMAGE:LFE5U25F6BG256I")
-		(at 140.97 25.4 0)
+		(at 128.27 25.4 0)
 		(unit 4)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18799,7 +20509,7 @@
 		(dnp no)
 		(uuid "e6fa637a-09da-45b9-9e3d-3ce57ca4ecfb")
 		(property "Reference" "U8"
-			(at 142.748 24.13 0)
+			(at 130.048 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18809,7 +20519,7 @@
 			)
 		)
 		(property "Value" "LFE5U25F6BG256I"
-			(at 149.606 110.744 0)
+			(at 136.906 110.744 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18819,7 +20529,7 @@
 			)
 		)
 		(property "Footprint" "SIGMAGE:LFE5U25F6BG256I"
-			(at 136.906 10.668 0)
+			(at 124.206 10.668 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18831,7 +20541,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/DKDS41/DSANUWW0025462.pdf"
-			(at 111.252 6.604 0)
+			(at 98.552 6.604 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18843,7 +20553,7 @@
 			)
 		)
 		(property "Description" "FPGA - Field Programmable Gate Array ECP5; 24.3K LUTs; 1.1V"
-			(at 155.448 14.986 0)
+			(at 142.748 14.986 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18854,7 +20564,7 @@
 			)
 		)
 		(property "Height" "1.7"
-			(at 153.416 1.27 0)
+			(at 140.716 1.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18866,7 +20576,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Lattice Semiconductor"
-			(at 144.526 3.556 0)
+			(at 131.826 3.556 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18878,7 +20588,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "LFE5U-25F-6BG256I"
-			(at 170.18 622.86 0)
+			(at 157.48 622.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18890,7 +20600,7 @@
 			)
 		)
 		(property "Mouser Part Number" "842-LFE5U25F6BG256I"
-			(at 170.18 722.86 0)
+			(at 157.48 722.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18902,7 +20612,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lattice/LFE5U-25F-6BG256I?qs=w%2Fv1CP2dgqpEY7AiGO6aWg%3D%3D"
-			(at 170.18 822.86 0)
+			(at 157.48 822.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18914,7 +20624,7 @@
 			)
 		)
 		(property "Arrow Part Number" "LFE5U-25F-6BG256I"
-			(at 170.18 922.86 0)
+			(at 157.48 922.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18926,7 +20636,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/lfe5u-25f-6bg256i/lattice-semiconductor?utm_currency=USD&region=nac"
-			(at 170.18 1022.86 0)
+			(at 157.48 1022.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20261,6 +21971,101 @@
 			(project "SIGMAGE"
 				(path "/6fbe3371-b6a3-4e28-aef4-4e5865f4674e/3446725c-4d67-4d86-a9de-be0a52e7f5ee"
 					(reference "#PWR0167")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SIGMAGE:TSW10607GS")
+		(at 259.08 241.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fd988220-bfd7-40e6-836d-c11ad21c0c37")
+		(property "Reference" "J9"
+			(at 259.08 239.522 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TSW10607GS"
+			(at 259.334 261.366 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SIGMAGE:TSW10607GS"
+			(at 262.382 235.966 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "TSW-106-07-G-S"
+			(at 262.382 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" "TSW10607GS"
+			(at 262.636 231.394 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7f7757f1-dd43-478e-b189-dd3136d7cc37")
+		)
+		(pin "4"
+			(uuid "e70f2872-73d9-4b5a-ad1b-001f8a80342e")
+		)
+		(pin "3"
+			(uuid "d4d4f645-96fc-431d-946a-37590ad4a59b")
+		)
+		(pin "5"
+			(uuid "a7f29c6b-ce4f-496f-8ed7-36fe5561bc8e")
+		)
+		(pin "6"
+			(uuid "7bb2891b-3d8d-4ba2-9ca5-0d5ae3a32993")
+		)
+		(pin "1"
+			(uuid "82dac843-f921-4dca-b7ec-efe8f67abe0a")
+		)
+		(instances
+			(project "SIGMAGE"
+				(path "/6fbe3371-b6a3-4e28-aef4-4e5865f4674e/3446725c-4d67-4d86-a9de-be0a52e7f5ee"
+					(reference "J9")
 					(unit 1)
 				)
 			)

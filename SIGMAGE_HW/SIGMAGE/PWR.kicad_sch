@@ -4157,7 +4157,7 @@
 		(uuid "3fd00c92-3921-44e9-9957-646c8ddd9461")
 	)
 	(label "Digital Supply Reference"
-		(at 138.43 149.86 0)
+		(at 138.43 154.94 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -4195,7 +4195,7 @@
 		(uuid "4c3c14f0-d541-4e47-a81c-0221acc6727d")
 	)
 	(label "Analog Supply Reference"
-		(at 138.43 35.56 0)
+		(at 138.43 40.64 0)
 		(effects
 			(font
 				(size 2.54 2.54)
