@@ -5160,20 +5160,6 @@
 		)
 		(uuid "bdd60c72-37cc-44d8-ab00-2f935fe928b0")
 	)
-	(label "Adjust filters up to 25kHz"
-		(at 92.71 30.48 0)
-		(effects
-			(font
-				(size 3.81 3.81)
-				(thickness 0.508)
-				(bold yes)
-				(italic yes)
-				(color 255 0 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "be1e9adc-0a4e-4162-ae46-e219fe3bb9fc")
-	)
 	(label "ADC1_BCK"
 		(at 384.81 36.83 180)
 		(effects
@@ -5463,7 +5449,7 @@
 		)
 		(uuid "ef63532d-525e-4e73-8fc1-2f5cb22f05f2")
 	)
-	(label "Fc = 1 {slash} (2 * PI * 100 * 0.000000001) = ~16kHz"
+	(label "Fc = 1 {slash} (2 * PI * 6500 * 0.000000001) = ~25kHz"
 		(at 17.78 43.18 0)
 		(effects
 			(font
@@ -5676,7 +5662,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10n"
+		(property "Value" "1n"
 			(at 144.018 204.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7734,8 +7720,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100"
-			(at 131.318 210.82 90)
+		(property "Value" "6500"
+			(at 132.08 210.82 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7815,8 +7801,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100"
-			(at 131.318 59.69 90)
+		(property "Value" "6500"
+			(at 132.08 59.69 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8295,7 +8281,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10n"
+		(property "Value" "1n"
 			(at 144.018 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8642,8 +8628,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100"
-			(at 131.318 86.36 90)
+		(property "Value" "6500"
+			(at 132.08 86.36 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10101,7 +10087,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10n"
+		(property "Value" "1n"
 			(at 144.018 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10419,7 +10405,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10n"
+		(property "Value" "1n"
 			(at 144.018 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10977,7 +10963,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10n"
+		(property "Value" "1n"
 			(at 144.018 267.97 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11730,8 +11716,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100"
-			(at 131.318 121.92 90)
+		(property "Value" "6500"
+			(at 132.08 121.92 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11811,7 +11797,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10n"
+		(property "Value" "1n"
 			(at 144.018 177.8 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11892,8 +11878,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100"
-			(at 131.318 148.59 90)
+		(property "Value" "6500"
+			(at 132.08 148.59 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12210,8 +12196,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100"
-			(at 131.318 247.65 90)
+		(property "Value" "6500"
+			(at 132.08 247.65 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12944,7 +12930,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10n"
+		(property "Value" "1n"
 			(at 144.018 241.3 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13703,8 +13689,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100"
-			(at 131.318 184.15 90)
+		(property "Value" "6500"
+			(at 132.08 184.15 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14359,8 +14345,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100"
-			(at 131.318 274.32 90)
+		(property "Value" "6500"
+			(at 132.08 274.32 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15048,7 +15034,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10n"
+		(property "Value" "1n"
 			(at 144.018 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
