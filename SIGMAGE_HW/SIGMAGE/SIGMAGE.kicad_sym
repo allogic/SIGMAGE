@@ -650,7 +650,7 @@
 		(symbol "473521001_1_1"
 			(rectangle
 				(start 0 0)
-				(end 7.62 -22.86)
+				(end 10.16 -22.86)
 				(stroke
 					(width 0)
 					(type solid)
@@ -662,7 +662,7 @@
 			(pin unspecified line
 				(at -5.08 -2.54 0)
 				(length 5.08)
-				(name "1"
+				(name "DATA2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -680,7 +680,7 @@
 			(pin unspecified line
 				(at -5.08 -5.08 0)
 				(length 5.08)
-				(name "2"
+				(name "DATA3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -698,7 +698,7 @@
 			(pin unspecified line
 				(at -5.08 -7.62 0)
 				(length 5.08)
-				(name "3"
+				(name "CMD"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -716,7 +716,7 @@
 			(pin unspecified line
 				(at -5.08 -10.16 0)
 				(length 5.08)
-				(name "4"
+				(name "VDD"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -734,7 +734,7 @@
 			(pin unspecified line
 				(at -5.08 -12.7 0)
 				(length 5.08)
-				(name "5"
+				(name "CLK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -752,7 +752,7 @@
 			(pin unspecified line
 				(at -5.08 -15.24 0)
 				(length 5.08)
-				(name "6"
+				(name "VSS"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -770,7 +770,7 @@
 			(pin unspecified line
 				(at -5.08 -17.78 0)
 				(length 5.08)
-				(name "7"
+				(name "DATA0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -788,7 +788,7 @@
 			(pin unspecified line
 				(at -5.08 -20.32 0)
 				(length 5.08)
-				(name "8"
+				(name "DATA1"
 					(effects
 						(font
 							(size 1.27 1.27)

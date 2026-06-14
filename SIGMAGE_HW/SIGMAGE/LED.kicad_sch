@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "3e7041f9-f81c-4532-8578-c0000a539d28")
+	(uuid "c230148c-72c7-478a-94a7-d216da526cc8")
 	(paper "A3")
 	(lib_symbols
 		(symbol "Device:LED"
@@ -13636,6 +13636,20 @@
 			(justify right bottom)
 		)
 		(uuid "05b5c212-2cf9-471b-81dc-f025d9a9e700")
+	)
+	(label "Verify FPGA GPIO's can handle 33mA"
+		(at 275.59 66.04 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.508)
+				(bold yes)
+				(italic yes)
+				(color 255 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "06e317ef-8572-4c6e-8c55-7daa8e088a13")
 	)
 	(label "LED_C7"
 		(at 119.38 29.21 270)
