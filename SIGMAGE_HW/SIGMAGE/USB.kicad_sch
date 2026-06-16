@@ -10018,7 +10018,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "1500"
 			(at 375.158 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11722,7 +11722,7 @@
 				)
 			)
 		)
-		(property "Value" "500 @ 100 MHz"
+		(property "Value" "600 @ 100 MHz"
 			(at 55.88 141.478 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13145,7 +13145,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2u2"
+		(property "Value" "2.2u"
 			(at 359.918 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13385,7 +13385,7 @@
 				)
 			)
 		)
-		(property "Value" "500 @ 100 MHz"
+		(property "Value" "600 @ 100 MHz"
 			(at 55.88 121.158 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14441,7 +14441,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2u2"
+		(property "Value" "2.2u"
 			(at 325.628 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)

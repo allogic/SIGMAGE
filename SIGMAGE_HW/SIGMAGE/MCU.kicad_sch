@@ -5305,6 +5305,16 @@
 		)
 		(uuid "9c554a59-341c-4518-88cf-c5000a49fc62")
 	)
+	(label "FPGA_HOLDN"
+		(at 187.96 120.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9c898dd7-3e65-447f-807b-7d06c0b03259")
+	)
 	(label "FPGA_SPI_CLK"
 		(at 144.78 119.38 180)
 		(effects

@@ -13637,7 +13637,7 @@
 		)
 		(uuid "05b5c212-2cf9-471b-81dc-f025d9a9e700")
 	)
-	(label "Verify FPGA GPIO's can handle 33mA"
+	(label "Use LED's with 2Vfwd at 5mA"
 		(at 275.59 66.04 0)
 		(effects
 			(font
@@ -15547,8 +15547,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
-			(at 233.68 162.56 90)
+		(property "Value" "260"
+			(at 234.188 162.56 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17744,8 +17744,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
-			(at 233.68 172.72 90)
+		(property "Value" "260"
+			(at 234.188 172.72 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19205,8 +19205,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
-			(at 233.68 101.6 90)
+		(property "Value" "260"
+			(at 234.188 101.6 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20114,8 +20114,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
-			(at 233.68 111.76 90)
+		(property "Value" "260"
+			(at 234.188 111.76 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24979,8 +24979,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
-			(at 233.68 142.24 90)
+		(property "Value" "260"
+			(at 234.188 142.24 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25428,8 +25428,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
-			(at 233.68 60.96 90)
+		(property "Value" "260"
+			(at 234.188 60.96 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26153,8 +26153,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
-			(at 233.68 91.44 90)
+		(property "Value" "260"
+			(at 234.188 91.44 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26878,8 +26878,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
-			(at 233.68 50.8 90)
+		(property "Value" "260"
+			(at 234.188 50.8 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27143,8 +27143,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
-			(at 233.68 132.08 90)
+		(property "Value" "260"
+			(at 234.188 132.08 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29524,8 +29524,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
-			(at 233.68 193.04 90)
+		(property "Value" "260"
+			(at 234.188 193.04 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30249,8 +30249,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
-			(at 233.68 121.92 90)
+		(property "Value" "260"
+			(at 234.188 121.92 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30514,8 +30514,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
-			(at 233.68 81.28 90)
+		(property "Value" "260"
+			(at 234.188 81.28 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32251,8 +32251,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
-			(at 233.68 71.12 90)
+		(property "Value" "260"
+			(at 234.188 71.12 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32424,8 +32424,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
-			(at 233.68 203.2 90)
+		(property "Value" "260"
+			(at 234.188 203.2 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32597,8 +32597,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
-			(at 233.68 182.88 90)
+		(property "Value" "260"
+			(at 234.188 182.88 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37186,8 +37186,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
-			(at 233.68 152.4 90)
+		(property "Value" "260"
+			(at 234.188 152.4 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
