@@ -7291,10 +7291,6 @@
 		(uuid "ff27e93d-3fc8-418a-adeb-23c2abc9a449")
 	)
 	(no_connect
-		(at 203.2 245.11)
-		(uuid "1737550f-13e8-46b0-8bcd-492f6bb3fcfc")
-	)
-	(no_connect
 		(at 203.2 250.19)
 		(uuid "322d13fa-6fd1-432a-9be9-2d4cfeef3c91")
 	)
@@ -7321,6 +7317,16 @@
 			(type default)
 		)
 		(uuid "0067e1df-f4cf-4ffc-80cc-53c31721c3f6")
+	)
+	(wire
+		(pts
+			(xy 182.88 245.11) (xy 203.2 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0094d550-462c-4d61-8c1c-ba7c3f39d935")
 	)
 	(wire
 		(pts
@@ -7351,6 +7357,16 @@
 			(type default)
 		)
 		(uuid "0256390a-c59b-4ceb-9084-4c8a42610a62")
+	)
+	(wire
+		(pts
+			(xy 195.58 232.41) (xy 195.58 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02629adc-0498-4f47-a46d-7d4a6402a625")
 	)
 	(wire
 		(pts
@@ -8724,16 +8740,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 240.03) (xy 203.2 240.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f5f1ce3-9cdf-4a17-80fd-b484821b002b")
-	)
-	(wire
-		(pts
 			(xy 391.16 219.71) (xy 394.97 219.71)
 		)
 		(stroke
@@ -9044,6 +9050,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 240.03) (xy 203.2 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "951fa6e7-ef62-4ce5-9636-5459879e7e66")
+	)
+	(wire
+		(pts
 			(xy 353.06 156.21) (xy 349.25 156.21)
 		)
 		(stroke
@@ -9201,16 +9217,6 @@
 			(type default)
 		)
 		(uuid "a49cab60-1b30-43a0-be3f-6a8b2b1dbc66")
-	)
-	(wire
-		(pts
-			(xy 182.88 242.57) (xy 203.2 242.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a76775fd-d185-4d93-a403-a5bd4151d87f")
 	)
 	(wire
 		(pts
@@ -9394,6 +9400,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 242.57) (xy 203.2 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba5ea51a-7722-44d2-974a-207e634c11cd")
+	)
+	(wire
+		(pts
 			(xy 88.9 233.68) (xy 88.9 237.49)
 		)
 		(stroke
@@ -9501,16 +9517,6 @@
 			(type default)
 		)
 		(uuid "c4005de6-ece3-4928-b5e5-764c5b7524cc")
-	)
-	(wire
-		(pts
-			(xy 369.57 73.66) (xy 389.89 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5730db5-3b4a-4d77-a34b-ac322331a0ed")
 	)
 	(wire
 		(pts
@@ -9631,16 +9637,6 @@
 			(type default)
 		)
 		(uuid "cf34bf51-8a84-4c38-8139-83234c653e8e")
-	)
-	(wire
-		(pts
-			(xy 369.57 76.2) (xy 389.89 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cfa0201b-2bbd-45a8-8587-1e6001640a77")
 	)
 	(wire
 		(pts
@@ -10242,16 +10238,6 @@
 		)
 		(uuid "00f54c3f-f816-4119-b3a9-4e875a4b8766")
 	)
-	(label "RE18_A"
-		(at 190.5 172.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "01418fe6-1d96-4443-9b3f-56c309ba3767")
-	)
 	(label "JTAG"
 		(at 256.54 245.11 0)
 		(effects
@@ -10356,16 +10342,6 @@
 		)
 		(uuid "0cb4dd92-fcff-43b8-ab44-84896f9fd33c")
 	)
-	(label "RE17_B"
-		(at 180.34 175.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0d845566-45a7-41e5-8d16-2ddfc0aee92a")
-	)
 	(label "RE4_B"
 		(at 210.82 134.62 0)
 		(effects
@@ -10385,6 +10361,16 @@
 			(justify right bottom)
 		)
 		(uuid "0db5fb96-e5c9-4a2e-9447-6ad144fdabe1")
+	)
+	(label "FPGA_USART1_TX"
+		(at 389.89 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0e67e555-df51-4275-9c81-5499ee1634c1")
 	)
 	(label "LED_R14"
 		(at 54.61 140.97 180)
@@ -10445,16 +10431,6 @@
 			(justify left bottom)
 		)
 		(uuid "1379e823-ee45-40d5-b07f-a1c70a40d802")
-	)
-	(label "RE18_B"
-		(at 190.5 175.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "14659c2f-5f17-49d3-a9a3-956241354f55")
 	)
 	(label "ADC1_BYPAS"
 		(at 243.84 162.56 180)
@@ -10656,6 +10632,16 @@
 		)
 		(uuid "2ead0fd0-7edd-42b0-8f32-1099823f477f")
 	)
+	(label "FPGA_USART1_RX"
+		(at 182.88 245.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "30029736-b77e-422d-8df3-874de3798d76")
+	)
 	(label "RE15_B"
 		(at 200.66 165.1 0)
 		(effects
@@ -10665,6 +10651,16 @@
 			(justify left bottom)
 		)
 		(uuid "30d5fe25-ec15-4c50-a0ac-d9ead0fa1df3")
+	)
+	(label "SW10"
+		(at 306.07 160.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3143230a-dba4-4476-a011-860bd2deb9ff")
 	)
 	(label "DAC3_FLT"
 		(at 294.64 152.4 180)
@@ -10746,6 +10742,16 @@
 		)
 		(uuid "372ac7b0-6620-434a-8058-93c782164f1e")
 	)
+	(label "SW7"
+		(at 306.07 152.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "377c2f39-cfc4-44e2-aa81-b8ddab557677")
+	)
 	(label "ADC3_MODE1"
 		(at 261.62 139.7 180)
 		(effects
@@ -10826,6 +10832,26 @@
 		)
 		(uuid "4497348b-410b-4c21-9871-9344b6d9b490")
 	)
+	(label "SW1"
+		(at 306.07 137.16 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "45c27945-c032-42ff-900e-db16d7b67601")
+	)
+	(label "SW2"
+		(at 306.07 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "462d0e06-6d13-478c-a5ba-c6c120dc19f1")
+	)
 	(label "FPGA_HOLDN"
 		(at 71.12 264.16 90)
 		(effects
@@ -10886,6 +10912,16 @@
 		)
 		(uuid "4b4c3eef-aaa2-41c8-8ea2-35c442ce23ce")
 	)
+	(label "SW5"
+		(at 306.07 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4bd762c6-cf54-422c-bf84-d495dcc404ed")
+	)
 	(label "ICOM_AUX11"
 		(at 344.17 123.19 0)
 		(effects
@@ -10905,6 +10941,16 @@
 			(justify right bottom)
 		)
 		(uuid "50ebf276-e71c-41a5-9b1d-bfcee95b2a80")
+	)
+	(label "SW3"
+		(at 306.07 142.24 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "51952e7c-b69d-4a7a-a5ea-4b274708be58")
 	)
 	(label "RE5_C"
 		(at 180.34 147.32 0)
@@ -10986,6 +11032,16 @@
 		)
 		(uuid "5a08fa7c-572d-4a05-a328-64efcd770f69")
 	)
+	(label "SW8"
+		(at 306.07 154.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5ac769fa-6a8d-49cb-86c5-cf179f92afdc")
+	)
 	(label "RE1_B"
 		(at 180.34 134.62 0)
 		(effects
@@ -11016,16 +11072,6 @@
 		)
 		(uuid "5ea8748a-00ea-47f0-bdf6-69cab2f81c1d")
 	)
-	(label "RE17_C"
-		(at 180.34 177.8 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "62194e55-3062-440d-a92d-0040d5f83143")
-	)
 	(label "LED_R1"
 		(at 54.61 107.95 180)
 		(effects
@@ -11035,16 +11081,6 @@
 			(justify right bottom)
 		)
 		(uuid "626e6634-99c6-4104-9253-2802e97212b8")
-	)
-	(label "FPGA_USART1_TX"
-		(at 389.89 73.66 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "630dfb9c-166a-41eb-a140-86e9e95effc3")
 	)
 	(label "DAC1_WS"
 		(at 278.13 142.24 180)
@@ -11086,16 +11122,6 @@
 		)
 		(uuid "6824f25e-a4fd-45ac-a859-f6fe8f02a4e4")
 	)
-	(label "RE17_A"
-		(at 180.34 172.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "68c46743-5a3b-446b-b013-b821afb7da28")
-	)
 	(label "ICOM_AUX6"
 		(at 344.17 110.49 0)
 		(effects
@@ -11107,7 +11133,7 @@
 		(uuid "69558bac-2a05-4001-8f25-0c087ec63e66")
 	)
 	(label "Serial Terminal"
-		(at 190.5 232.41 0)
+		(at 203.2 233.68 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -11139,6 +11165,16 @@
 			(justify right bottom)
 		)
 		(uuid "6b0c68a9-babb-4c8c-9e5c-1d25739a61c3")
+	)
+	(label "SW11"
+		(at 306.07 162.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6b449dea-0c40-4ab6-8802-9385d07e3fb1")
 	)
 	(label "LED_R4"
 		(at 54.61 115.57 180)
@@ -11210,16 +11246,6 @@
 		)
 		(uuid "70f1ad36-8d17-4814-9311-b88795237a32")
 	)
-	(label "FPGA_USART1_RX"
-		(at 182.88 242.57 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7276e73b-e5cf-44bb-8729-9833cf4882a6")
-	)
 	(label "RE6_C"
 		(at 190.5 144.78 0)
 		(effects
@@ -11269,6 +11295,16 @@
 			(justify left bottom)
 		)
 		(uuid "783f682b-7fcb-41ff-b576-ef7c50d18e2f")
+	)
+	(label "SW12"
+		(at 306.07 165.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "78d8f1fe-c7fd-4b16-b324-f85ade73a5c7")
 	)
 	(label "RE2_A"
 		(at 190.5 132.08 0)
@@ -11480,6 +11516,16 @@
 		)
 		(uuid "90e5f48f-a307-4794-955b-89268a6afb20")
 	)
+	(label "SW9"
+		(at 306.07 157.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "925e5293-1f6f-456f-84fb-3342400380b8")
+	)
 	(label "RE10_C"
 		(at 190.5 157.48 0)
 		(effects
@@ -11600,6 +11646,16 @@
 		)
 		(uuid "a2a0bc1c-8cd5-42cb-a897-1f48b2bfd92a")
 	)
+	(label "FPGA_USART1_TX"
+		(at 182.88 242.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a2b7c413-c159-4e6e-bf70-02aa520f0b92")
+	)
 	(label "ADC3_DOUT"
 		(at 261.62 152.4 180)
 		(effects
@@ -11640,16 +11696,6 @@
 		)
 		(uuid "a52815a4-f99b-4ed6-8c5c-cd0306eaf398")
 	)
-	(label "FPGA_USART1_TX"
-		(at 182.88 240.03 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a537f52a-f884-494a-bc16-8bb2563f13b4")
-	)
 	(label "RE14_B"
 		(at 190.5 165.1 0)
 		(effects
@@ -11659,6 +11705,16 @@
 			(justify left bottom)
 		)
 		(uuid "a56baaae-1d48-4dc0-af1e-23f2e0058344")
+	)
+	(label "FPGA_USART1_RX"
+		(at 389.89 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a5a14ab4-03b5-45b9-98e5-19a3530f2491")
 	)
 	(label "ADC2_MODE0"
 		(at 243.84 168.91 180)
@@ -11690,16 +11746,6 @@
 		)
 		(uuid "a84cba11-57f6-413b-b985-bd874342cc20")
 	)
-	(label "RE18_C"
-		(at 190.5 177.8 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a86a9856-6795-41e3-bc9f-315c3bebef67")
-	)
 	(label "DAC2_WS"
 		(at 278.13 173.99 180)
 		(effects
@@ -11719,6 +11765,16 @@
 			(justify right bottom)
 		)
 		(uuid "a9c088e0-7400-4765-852f-56aafc477cc3")
+	)
+	(label "ICOM_USART3_TX"
+		(at 389.89 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ac2d91b7-1179-4655-a619-4778099be3c0")
 	)
 	(label "LED_R9"
 		(at 54.61 128.27 180)
@@ -11970,6 +12026,16 @@
 		)
 		(uuid "ca46b7db-d7ea-458f-94ee-9519afb302a1")
 	)
+	(label "SW6"
+		(at 306.07 149.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ca65e953-136b-498d-8347-66d1a33eae8a")
+	)
 	(label "RE16_C"
 		(at 210.82 167.64 0)
 		(effects
@@ -11989,6 +12055,16 @@
 			(justify right bottom)
 		)
 		(uuid "d13768ad-f290-4d41-977f-26e36478e8da")
+	)
+	(label "SW4"
+		(at 306.07 144.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d245c6f8-8ffa-4702-a6d4-6853f299532c")
 	)
 	(label "FPGA_SPI_MOSI"
 		(at 389.89 58.42 180)
@@ -12070,16 +12146,6 @@
 		)
 		(uuid "dc36da67-b486-4af2-8ded-c30225b5b42a")
 	)
-	(label "FPGA_USART1_RX"
-		(at 389.89 76.2 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "dd9cc9be-8686-44ab-82a7-30fcf4072eb0")
-	)
 	(label "RE4_A"
 		(at 210.82 132.08 0)
 		(effects
@@ -12129,6 +12195,16 @@
 			(justify left bottom)
 		)
 		(uuid "e1fb451c-a799-454e-80df-45fc61baa119")
+	)
+	(label "ICOM_USART3_RX"
+		(at 389.89 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e3ca6fef-3442-4784-ac62-f2e83dbd519e")
 	)
 	(label "DAC2_XSMT"
 		(at 278.13 176.53 180)
@@ -23338,6 +23414,84 @@
 				(path "/6fbe3371-b6a3-4e28-aef4-4e5865f4674e/3446725c-4d67-4d86-a9de-be0a52e7f5ee"
 					(reference "U8")
 					(unit 9)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 195.58 232.41 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c0e732e3-6ed7-4d63-814d-331d2fcf25e0")
+		(property "Reference" "#PWR0407"
+			(at 195.58 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DVCC_3V3"
+			(at 195.58 227.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 195.58 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "46b7e0f3-9a4e-4496-8dfa-92aedeee69ac")
+		)
+		(instances
+			(project "SIGMAGE"
+				(path "/6fbe3371-b6a3-4e28-aef4-4e5865f4674e/3446725c-4d67-4d86-a9de-be0a52e7f5ee"
+					(reference "#PWR0407")
+					(unit 1)
 				)
 			)
 		)
