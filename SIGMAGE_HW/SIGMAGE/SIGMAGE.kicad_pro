@@ -719,7 +719,7 @@
         "uuid": "6fbe3371-b6a3-4e28-aef4-4e5865f4674e"
       }
     ],
-    "used_designators": "D263-279,#PWR41,#PWR44-46,#PWR53,#PWR55,#PWR407-439,C17,C24-27,C193-199,S1-12,R157-185",
+    "used_designators": "J8,J12-14,#PWR440-447",
     "variants": []
   },
   "sheets": [
@@ -766,6 +766,10 @@
     [
       "8cd1b8bc-a9c5-4c14-a173-934480b81001",
       "SDCARD"
+    ],
+    [
+      "cae2995a-c013-4b29-9b61-b2d9c9773d27",
+      "MEZZ"
     ]
   ],
   "text_variables": {},

@@ -10228,15 +10228,15 @@
 		)
 		(uuid "00a755f5-89ad-427b-b7b8-7c00ed407ae6")
 	)
-	(label "LED_C2"
-		(at 44.45 110.49 180)
+	(label "B_LED_C11"
+		(at 40.64 130.81 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "00f54c3f-f816-4119-b3a9-4e875a4b8766")
+		(uuid "02f7318e-69e6-4a62-994e-244a2f31cdd3")
 	)
 	(label "JTAG"
 		(at 256.54 245.11 0)
@@ -10251,6 +10251,16 @@
 			(justify left bottom)
 		)
 		(uuid "033953f4-6ba6-45ec-9ea9-daf3882273fe")
+	)
+	(label "B_LED_R4"
+		(at 55.88 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "043b7c43-0e45-4751-80db-ab64035837b3")
 	)
 	(label "FPGA_SPI_MOSI"
 		(at 96.52 264.16 90)
@@ -10282,16 +10292,6 @@
 		)
 		(uuid "05924ef9-6737-4638-bbfb-14d0544df19a")
 	)
-	(label "LED_R13"
-		(at 54.61 138.43 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "071c6ff8-7110-4e65-bdfb-5222d80e6f52")
-	)
 	(label "FPGA_INITN"
 		(at 63.5 264.16 90)
 		(effects
@@ -10321,16 +10321,6 @@
 			(justify right bottom)
 		)
 		(uuid "0a0eab49-13bb-446f-a286-ed5be59253cf")
-	)
-	(label "LED_R12"
-		(at 54.61 135.89 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0b8f3478-3a68-4007-bf77-6451e0e15241")
 	)
 	(label "ADC1_PDWN"
 		(at 243.84 160.02 180)
@@ -10372,16 +10362,6 @@
 		)
 		(uuid "0e67e555-df51-4275-9c81-5499ee1634c1")
 	)
-	(label "LED_R14"
-		(at 54.61 140.97 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0fe57a70-e362-4222-8d68-645e5e1d9eca")
-	)
 	(label "RE8_B"
 		(at 210.82 144.78 0)
 		(effects
@@ -10391,16 +10371,6 @@
 			(justify left bottom)
 		)
 		(uuid "102beb47-0db9-4e34-9cd7-8704da02afd4")
-	)
-	(label "LED_C13"
-		(at 44.45 138.43 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "10e47132-6352-4d81-82b4-27cb5b159d62")
 	)
 	(label "DAC2_CK"
 		(at 278.13 171.45 180)
@@ -10442,16 +10412,6 @@
 		)
 		(uuid "14bacefa-da07-4729-b80a-cbec92966b62")
 	)
-	(label "LED_C8"
-		(at 44.45 125.73 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "151d38c5-f8c6-4c6c-b83a-a77171f4c347")
-	)
 	(label "ADC2_FMT1"
 		(at 243.84 176.53 180)
 		(effects
@@ -10471,6 +10431,26 @@
 			(justify left bottom)
 		)
 		(uuid "16ca97d4-832b-485c-9f2a-d0568e0121c0")
+	)
+	(label "B_LED_R11"
+		(at 55.88 130.81 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "17b628f3-1426-4611-9ea7-d8f2077a3f2e")
+	)
+	(label "B_LED_C7"
+		(at 40.64 120.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "180866ea-3214-4399-911d-5124e6d8ee6b")
 	)
 	(label "RE15_A"
 		(at 200.66 162.56 0)
@@ -10492,15 +10472,15 @@
 		)
 		(uuid "1912d52a-91e5-4e66-a554-21a9f64f13e1")
 	)
-	(label "LED_R10"
-		(at 54.61 130.81 180)
+	(label "B_LED_R5"
+		(at 55.88 115.57 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "1cb1b4c0-3cfc-4380-9122-f1a0a27ed24d")
+		(uuid "1c84889f-c301-4b3f-9da1-768c6a51634b")
 	)
 	(label "RE13_C"
 		(at 180.34 167.64 0)
@@ -10541,16 +10521,6 @@
 			(justify right bottom)
 		)
 		(uuid "23dfcaee-aefc-495c-a8c2-096962b1e5a0")
-	)
-	(label "LED_R6"
-		(at 54.61 120.65 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "24939d94-ca58-4f2c-8ee4-678bc2aa5472")
 	)
 	(label "RE12_B"
 		(at 210.82 154.94 0)
@@ -10662,6 +10632,16 @@
 		)
 		(uuid "3143230a-dba4-4476-a011-860bd2deb9ff")
 	)
+	(label "B_LED_R15"
+		(at 55.88 140.97 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "31771b32-12a8-497b-8f30-1ccdb9f07096")
+	)
 	(label "DAC3_FLT"
 		(at 294.64 152.4 180)
 		(effects
@@ -10681,16 +10661,6 @@
 			(justify left bottom)
 		)
 		(uuid "34338bbc-8554-4375-abc7-1e7c299eeb29")
-	)
-	(label "LED_C15"
-		(at 44.45 143.51 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "347c88d2-0ee5-4b91-96be-23634388ad37")
 	)
 	(label "FPGA_SPI_CLK"
 		(at 111.76 264.16 90)
@@ -10812,15 +10782,25 @@
 		)
 		(uuid "3dcbfd87-5262-4a50-b42f-2dc606033fa9")
 	)
-	(label "LED_R15"
-		(at 54.61 143.51 180)
+	(label "B_LED_C6"
+		(at 40.64 118.11 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "40964d74-e355-45f9-a448-d18df6332965")
+		(uuid "3f9912d9-e605-4226-9368-9a7139fb759b")
+	)
+	(label "B_LED_C5"
+		(at 40.64 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4250e4a2-f655-4d44-aced-919138aa6aef")
 	)
 	(label "ADC3_LRCK"
 		(at 261.62 157.48 180)
@@ -10872,6 +10852,16 @@
 		)
 		(uuid "46c052c2-cdd9-4935-9867-9782134ca4fa")
 	)
+	(label "B_LED_C15"
+		(at 40.64 140.97 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "47e94c48-e250-4a74-b5f7-c41eb2d8d148")
+	)
 	(label "RE11_A"
 		(at 200.66 152.4 0)
 		(effects
@@ -10882,15 +10872,15 @@
 		)
 		(uuid "48479a13-ce26-4d4e-ad65-2a711e66a01e")
 	)
-	(label "LED_R5"
-		(at 54.61 118.11 180)
+	(label "B_LED_R16"
+		(at 55.88 143.51 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "48f24ff0-dba8-4dd1-9e32-e51c8ef24f7c")
+		(uuid "48ea5653-76cd-4b46-9320-7a9d1cd9645d")
 	)
 	(label "RE12_C"
 		(at 210.82 157.48 0)
@@ -10922,6 +10912,16 @@
 		)
 		(uuid "4bd762c6-cf54-422c-bf84-d495dcc404ed")
 	)
+	(label "B_LED_R14"
+		(at 55.88 138.43 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4d0c64da-ea81-4bae-83e8-2fd8a2ab2d73")
+	)
 	(label "ICOM_AUX11"
 		(at 344.17 123.19 0)
 		(effects
@@ -10931,16 +10931,6 @@
 			(justify left bottom)
 		)
 		(uuid "4e9c23ed-18f4-4f90-aa26-c159621f00c1")
-	)
-	(label "LED_C0"
-		(at 44.45 105.41 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "50ebf276-e71c-41a5-9b1d-bfcee95b2a80")
 	)
 	(label "SW3"
 		(at 306.07 142.24 180)
@@ -10981,16 +10971,6 @@
 			(justify right bottom)
 		)
 		(uuid "530b9e27-89cf-484e-9e43-85f7fc728c35")
-	)
-	(label "LED_C10"
-		(at 44.45 130.81 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "555a78d7-2bcd-499a-bd47-15bbdaf77fd7")
 	)
 	(label "ADC3_FMT1"
 		(at 261.62 144.78 180)
@@ -11052,6 +11032,16 @@
 		)
 		(uuid "5aeb893d-9cfd-4929-b357-6a7e026dfbe9")
 	)
+	(label "B_LED_R2"
+		(at 55.88 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5d1c9585-33e0-420e-bef6-20286d0d1a35")
+	)
 	(label "FPGA_CFG1"
 		(at 389.89 33.02 180)
 		(effects
@@ -11062,25 +11052,15 @@
 		)
 		(uuid "5e140f4b-09ca-44db-8828-844380215e59")
 	)
-	(label "LED_C4"
-		(at 44.45 115.57 180)
+	(label "B_LED_R6"
+		(at 55.88 118.11 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "5ea8748a-00ea-47f0-bdf6-69cab2f81c1d")
-	)
-	(label "LED_R1"
-		(at 54.61 107.95 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "626e6634-99c6-4104-9253-2802e97212b8")
+		(uuid "61112620-ebaa-43ab-8221-59ab4a7184ac")
 	)
 	(label "DAC1_WS"
 		(at 278.13 142.24 180)
@@ -11176,16 +11156,6 @@
 		)
 		(uuid "6b449dea-0c40-4ab6-8802-9385d07e3fb1")
 	)
-	(label "LED_R4"
-		(at 54.61 115.57 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6c5f71de-5fb9-4cf5-ab76-2144fe3da039")
-	)
 	(label "DAC1_FLT"
 		(at 278.13 152.4 180)
 		(effects
@@ -11256,6 +11226,16 @@
 		)
 		(uuid "74707180-c827-43d3-a4dc-65428283cea8")
 	)
+	(label "B_LED_R8"
+		(at 55.88 123.19 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "74c61fc5-0976-46b5-b3f1-97f744cffe53")
+	)
 	(label "ADC4_LRCK"
 		(at 261.62 189.23 180)
 		(effects
@@ -11325,6 +11305,16 @@
 			(justify right bottom)
 		)
 		(uuid "7c80c29e-f956-41e0-b69f-d4dd33f5e79e")
+	)
+	(label "B_LED_C1"
+		(at 40.64 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7d047140-5b27-44fb-843d-c1ec4637d780")
 	)
 	(label "ICOM_AUX2"
 		(at 344.17 100.33 0)
@@ -11406,6 +11396,16 @@
 		)
 		(uuid "83c87036-9135-4757-81b6-271f6da89500")
 	)
+	(label "B_LED_C16"
+		(at 40.64 143.51 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "86fce7f4-6e19-453f-9d77-82e5cbc5f947")
+	)
 	(label "RE8_A"
 		(at 210.82 142.24 0)
 		(effects
@@ -11436,6 +11436,16 @@
 		)
 		(uuid "8a0bffa4-eca4-460c-ac31-d45ac1004983")
 	)
+	(label "B_LED_R10"
+		(at 55.88 128.27 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8a9be978-446a-4b27-a96f-6add833d458e")
+	)
 	(label "ADC1_DOUT"
 		(at 243.84 152.4 180)
 		(effects
@@ -11445,16 +11455,6 @@
 			(justify right bottom)
 		)
 		(uuid "8aa3251c-db8d-4bc6-9bf7-4c9a421af5d6")
-	)
-	(label "LED_C11"
-		(at 44.45 133.35 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8abf64fa-c8a9-4676-9cb4-d7d9256c8c60")
 	)
 	(label "FPGA_JTAG_TMS"
 		(at 285.75 251.46 180)
@@ -11476,26 +11476,6 @@
 		)
 		(uuid "8e3e360d-5544-4fbe-b221-9917648f4f71")
 	)
-	(label "LED_R8"
-		(at 54.61 125.73 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8f109ba3-0e33-420e-a6f4-2fa007ba0b92")
-	)
-	(label "LED_R7"
-		(at 54.61 123.19 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8f3b0391-065f-40a8-82e5-aea28d90ce6a")
-	)
 	(label "RE5_B"
 		(at 180.34 144.78 0)
 		(effects
@@ -11515,6 +11495,16 @@
 			(justify right bottom)
 		)
 		(uuid "90e5f48f-a307-4794-955b-89268a6afb20")
+	)
+	(label "B_LED_C3"
+		(at 40.64 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "92198d4d-f0db-4c56-9d3f-7c4a719bbf39")
 	)
 	(label "SW9"
 		(at 306.07 157.48 180)
@@ -11536,6 +11526,26 @@
 		)
 		(uuid "94a51bc1-be7e-4aac-9786-b1b0aecee9a9")
 	)
+	(label "B_LED_R7"
+		(at 55.88 120.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "94a82727-ee28-47de-beb9-00c6c482fd37")
+	)
+	(label "B_LED_R13"
+		(at 55.88 135.89 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "94ae1064-6bb1-4965-bfbd-f418c0ab55d2")
+	)
 	(label "ICOM_AUX15"
 		(at 344.17 133.35 0)
 		(effects
@@ -11545,26 +11555,6 @@
 			(justify left bottom)
 		)
 		(uuid "957b2406-5936-4f2c-b38f-3d39f15869aa")
-	)
-	(label "LED_C7"
-		(at 44.45 123.19 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9592ff24-5cc8-4958-bce2-7495169e09bd")
-	)
-	(label "LED_R11"
-		(at 54.61 133.35 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "95d70e61-7b24-496d-81e3-d10e13fc0077")
 	)
 	(label "RE1_A"
 		(at 180.34 132.08 0)
@@ -11606,16 +11596,6 @@
 		)
 		(uuid "9deb08aa-5e45-42e3-8395-995ed04ca263")
 	)
-	(label "LED_C9"
-		(at 44.45 128.27 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9efd5938-7d0f-4f1a-b881-07077605ae14")
-	)
 	(label "RE14_A"
 		(at 190.5 162.56 0)
 		(effects
@@ -11625,16 +11605,6 @@
 			(justify left bottom)
 		)
 		(uuid "a03e0b18-7a46-4212-bf71-04345dc93c9d")
-	)
-	(label "LED_R3"
-		(at 54.61 113.03 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a15c4453-dafc-42f7-bfb1-5ab73349c70b")
 	)
 	(label "RE4_C"
 		(at 210.82 137.16 0)
@@ -11665,16 +11635,6 @@
 			(justify right bottom)
 		)
 		(uuid "a303864f-2ce4-4dbf-9009-f883c0bf62f3")
-	)
-	(label "LED_C1"
-		(at 44.45 107.95 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a45856c7-59db-4000-9bc9-bf7fa9790d86")
 	)
 	(label "ADC1_MODE1"
 		(at 243.84 139.7 180)
@@ -11726,15 +11686,15 @@
 		)
 		(uuid "a6881078-af08-4af5-8a7e-b16c26cdfa5f")
 	)
-	(label "LED_C14"
-		(at 44.45 140.97 180)
+	(label "B_LED_C12"
+		(at 40.64 133.35 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "a70a0684-3810-4537-890d-925387d73290")
+		(uuid "a77720a2-7da5-4c73-b589-d8774f7bcae8")
 	)
 	(label "RE10_A"
 		(at 190.5 152.4 0)
@@ -11745,6 +11705,26 @@
 			(justify left bottom)
 		)
 		(uuid "a84cba11-57f6-413b-b985-bd874342cc20")
+	)
+	(label "B_LED_C14"
+		(at 40.64 138.43 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a855cea7-392e-4510-86d6-a039c2370f13")
+	)
+	(label "B_LED_R9"
+		(at 55.88 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a8b8be72-3d0e-4e9d-a1ed-26813201b5d1")
 	)
 	(label "DAC2_WS"
 		(at 278.13 173.99 180)
@@ -11766,6 +11746,16 @@
 		)
 		(uuid "a9c088e0-7400-4765-852f-56aafc477cc3")
 	)
+	(label "B_LED_C9"
+		(at 40.64 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "aafd45d6-1325-4ec0-8345-9207de6991aa")
+	)
 	(label "ICOM_USART3_TX"
 		(at 389.89 100.33 180)
 		(effects
@@ -11775,16 +11765,6 @@
 			(justify right bottom)
 		)
 		(uuid "ac2d91b7-1179-4655-a619-4778099be3c0")
-	)
-	(label "LED_R9"
-		(at 54.61 128.27 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ad7f5190-650d-4067-8b4a-c17e9285388e")
 	)
 	(label "ADC3_MODE0"
 		(at 261.62 137.16 180)
@@ -11816,6 +11796,16 @@
 		)
 		(uuid "ae186812-44ac-44f8-96ab-645f1c6e8483")
 	)
+	(label "B_LED_R3"
+		(at 55.88 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ae4c699c-bb83-486f-86a8-373e6cc17b66")
+	)
 	(label "ICOM_AUX4"
 		(at 344.17 105.41 0)
 		(effects
@@ -11826,16 +11816,6 @@
 		)
 		(uuid "aea75590-4e72-43c4-955d-ecbdaa9c5775")
 	)
-	(label "LED_R2"
-		(at 54.61 110.49 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "afd31046-4cae-48c6-96a8-a173b7217d5a")
-	)
 	(label "ADC3_PDWN"
 		(at 261.62 160.02 180)
 		(effects
@@ -11845,6 +11825,16 @@
 			(justify right bottom)
 		)
 		(uuid "b2c2e29a-4634-4f09-86b3-4c86cd085f6a")
+	)
+	(label "B_LED_C4"
+		(at 40.64 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b39101a6-4d1b-488f-8481-98ad384bef5a")
 	)
 	(label "DAC2_SD"
 		(at 278.13 168.91 180)
@@ -11865,16 +11855,6 @@
 			(justify left bottom)
 		)
 		(uuid "b6203cc1-ca0f-44c8-9710-c475e6248868")
-	)
-	(label "LED_R0"
-		(at 54.61 105.41 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b900a266-7ccd-475f-8e7d-63e3defb27ba")
 	)
 	(label "DAC4_FLT"
 		(at 294.64 184.15 180)
@@ -11946,6 +11926,16 @@
 		)
 		(uuid "be46320b-d323-4444-97de-3d2423f96f08")
 	)
+	(label "B_LED_R12"
+		(at 55.88 133.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c09b6cab-90d0-4781-b889-a3b0ccba050b")
+	)
 	(label "DAC4_CK"
 		(at 294.64 171.45 180)
 		(effects
@@ -11965,16 +11955,6 @@
 			(justify right bottom)
 		)
 		(uuid "c3f60f24-51dd-4ce2-972f-fcb74dae254d")
-	)
-	(label "LED_C3"
-		(at 44.45 113.03 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c4bb742a-76f8-41b1-8f5a-38f14f530db7")
 	)
 	(label "ADC4_BCK"
 		(at 261.62 186.69 180)
@@ -12036,6 +12016,16 @@
 		)
 		(uuid "ca65e953-136b-498d-8347-66d1a33eae8a")
 	)
+	(label "B_LED_C10"
+		(at 40.64 128.27 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cd8e1ef0-c07d-422c-bbfd-3fa195473663")
+	)
 	(label "RE16_C"
 		(at 210.82 167.64 0)
 		(effects
@@ -12075,6 +12065,16 @@
 			(justify right bottom)
 		)
 		(uuid "d2fbe7de-e517-4880-a675-8d1a29783527")
+	)
+	(label "B_LED_R1"
+		(at 55.88 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d55663ae-8e66-45d0-8261-cfe7b709c484")
 	)
 	(label "ICOM_AUX9"
 		(at 344.17 118.11 0)
@@ -12146,6 +12146,16 @@
 		)
 		(uuid "dc36da67-b486-4af2-8ded-c30225b5b42a")
 	)
+	(label "B_LED_C8"
+		(at 40.64 123.19 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dc9c4153-47ed-4676-8e1c-04bf7351f07e")
+	)
 	(label "RE4_A"
 		(at 210.82 132.08 0)
 		(effects
@@ -12186,6 +12196,16 @@
 		)
 		(uuid "e0556a04-ac3e-4e66-a7c6-d267bb1ff548")
 	)
+	(label "B_LED_C2"
+		(at 40.64 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e073ed7a-e4cb-4875-a13f-729a18d1acdb")
+	)
 	(label "RE2_C"
 		(at 190.5 137.16 0)
 		(effects
@@ -12225,6 +12245,16 @@
 			(justify left bottom)
 		)
 		(uuid "e60649ae-4bab-4746-b2d0-a90001d07dfa")
+	)
+	(label "B_LED_C13"
+		(at 40.64 135.89 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e694badd-1a91-4c44-aa50-70be797fc57e")
 	)
 	(label "ADC1_MODE0"
 		(at 243.84 137.16 180)
@@ -12346,16 +12376,6 @@
 		)
 		(uuid "f790e7f6-cf4f-4a2d-90a5-06ab2097d96e")
 	)
-	(label "LED_C6"
-		(at 44.45 120.65 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f8d7d1fd-2d55-4628-91bd-901189a97421")
-	)
 	(label "DAC4_SD"
 		(at 294.64 168.91 180)
 		(effects
@@ -12396,16 +12416,6 @@
 		)
 		(uuid "fc9499dd-dcbf-4556-88c1-f4033523a904")
 	)
-	(label "LED_C12"
-		(at 44.45 135.89 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "fce1f357-73a4-4183-93d9-4ff54bdc1ba6")
-	)
 	(label "ICOM_AUX10"
 		(at 344.17 120.65 0)
 		(effects
@@ -12415,16 +12425,6 @@
 			(justify left bottom)
 		)
 		(uuid "fd9813f8-d370-4da4-8ad0-897242317384")
-	)
-	(label "LED_C5"
-		(at 44.45 118.11 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "fdd0cf7d-b4be-4abb-932f-376dcc979226")
 	)
 	(symbol
 		(lib_id "Device:R")

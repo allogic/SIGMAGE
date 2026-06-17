@@ -328,6 +328,52 @@
 		)
 	)
 	(sheet
+		(at 19.05 146.05)
+		(size 36.83 6.35)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "cae2995a-c013-4b29-9b61-b2d9c9773d27")
+		(property "Sheetname" "MEZZ"
+			(at 19.05 145.3384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MEZZ.kicad_sch"
+			(at 19.05 152.9846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SIGMAGE"
+				(path "/6fbe3371-b6a3-4e28-aef4-4e5865f4674e"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 19.05 19.05)
 		(size 36.83 6.35)
 		(exclude_from_sim no)
