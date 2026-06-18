@@ -4280,16 +4280,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 86.36) (xy 78.74 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04f8e1a6-8ede-4908-9289-4119e1786b2f")
-	)
-	(wire
-		(pts
 			(xy 29.21 127) (xy 29.21 129.54)
 		)
 		(stroke
@@ -4330,26 +4320,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 53.34) (xy 148.59 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ccd59bc-7e85-4095-a9a7-9cd6dc109fbd")
-	)
-	(wire
-		(pts
-			(xy 129.54 93.98) (xy 148.59 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "122f0e53-a817-4495-a88f-36af85c8cd43")
-	)
-	(wire
-		(pts
 			(xy 41.91 116.84) (xy 63.5 116.84)
 		)
 		(stroke
@@ -4360,16 +4330,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 76.2) (xy 78.74 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1398239c-6a74-4ca4-9e5c-015a106123d8")
-	)
-	(wire
-		(pts
 			(xy 34.29 116.84) (xy 29.21 116.84)
 		)
 		(stroke
@@ -4377,16 +4337,6 @@
 			(type default)
 		)
 		(uuid "13d9f594-4d94-48d3-bd8e-6b420ccade2c")
-	)
-	(wire
-		(pts
-			(xy 222.25 101.6) (xy 242.57 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13ec2796-6602-4360-8aea-be03c9b5996b")
 	)
 	(wire
 		(pts
@@ -4410,16 +4360,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 60.96) (xy 148.59 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a805fd3-a3e6-493e-aeb2-6ca7fc129269")
-	)
-	(wire
-		(pts
 			(xy 242.57 111.76) (xy 234.95 111.76)
 		)
 		(stroke
@@ -4440,26 +4380,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 96.52) (xy 78.74 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "201285a9-51a3-4967-823d-7e4b151ff9c9")
-	)
-	(wire
-		(pts
-			(xy 129.54 58.42) (xy 148.59 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2289532a-1a71-4a46-8e7f-ba444844d5a6")
-	)
-	(wire
-		(pts
 			(xy 217.17 38.1) (xy 217.17 36.83)
 		)
 		(stroke
@@ -4477,36 +4397,6 @@
 			(type default)
 		)
 		(uuid "230023dc-8c76-45fb-912c-f9f1b7cf8f2c")
-	)
-	(wire
-		(pts
-			(xy 62.23 99.06) (xy 78.74 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "230773bf-f317-452e-b910-b3f9d17011c6")
-	)
-	(wire
-		(pts
-			(xy 62.23 78.74) (xy 78.74 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2308c7f9-7580-47c4-be85-0977621e3323")
-	)
-	(wire
-		(pts
-			(xy 62.23 73.66) (xy 78.74 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "258d161e-fdec-4bbd-9b5e-debce22751ae")
 	)
 	(wire
 		(pts
@@ -4537,16 +4427,6 @@
 			(type default)
 		)
 		(uuid "2a80d0b9-7c45-4aff-8685-a546654e9e28")
-	)
-	(wire
-		(pts
-			(xy 129.54 157.48) (xy 148.59 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ab1e021-3fb0-40c2-b8fb-8311fdd039aa")
 	)
 	(wire
 		(pts
@@ -4620,16 +4500,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 81.28) (xy 78.74 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37f98759-c638-498f-a1af-1bec9ecd32fc")
-	)
-	(wire
-		(pts
 			(xy 57.15 139.7) (xy 78.74 139.7)
 		)
 		(stroke
@@ -4637,16 +4507,6 @@
 			(type default)
 		)
 		(uuid "38c9457e-f4e7-4575-9fc4-6848a7aa0730")
-	)
-	(wire
-		(pts
-			(xy 222.25 104.14) (xy 242.57 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39bb8cb1-43a5-4a80-877a-23d112f9e9eb")
 	)
 	(wire
 		(pts
@@ -4707,16 +4567,6 @@
 			(type default)
 		)
 		(uuid "47a02e59-50bd-438c-9664-657de0001291")
-	)
-	(wire
-		(pts
-			(xy 62.23 71.12) (xy 78.74 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "481ffb70-5638-4898-be42-2422aa7821b1")
 	)
 	(wire
 		(pts
@@ -4880,16 +4730,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 76.2) (xy 148.59 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58f16c39-3142-42e9-8ab3-e3c2924d1616")
-	)
-	(wire
-		(pts
 			(xy 71.12 147.32) (xy 78.74 147.32)
 		)
 		(stroke
@@ -4907,16 +4747,6 @@
 			(type default)
 		)
 		(uuid "5a2784ba-3e1a-47f2-8e94-3f496448a7b3")
-	)
-	(wire
-		(pts
-			(xy 129.54 154.94) (xy 148.59 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ad370e1-12e2-4c7d-965d-0606b92323c9")
 	)
 	(wire
 		(pts
@@ -5200,26 +5030,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 66.04) (xy 148.59 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8682ab4f-367b-4bee-a8cc-14591b0b76b2")
-	)
-	(wire
-		(pts
-			(xy 129.54 81.28) (xy 148.59 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8961fca7-f6f2-4ef0-a7e9-5250b4f5d5b8")
-	)
-	(wire
-		(pts
 			(xy 229.87 36.83) (xy 217.17 36.83)
 		)
 		(stroke
@@ -5300,16 +5110,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 78.74) (xy 148.59 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9399f6f5-a460-40bc-b30d-d9093f1deb36")
-	)
-	(wire
-		(pts
 			(xy 234.95 91.44) (xy 234.95 99.06)
 		)
 		(stroke
@@ -5327,16 +5127,6 @@
 			(type default)
 		)
 		(uuid "97e6de10-06b6-456f-bd6a-1b0b0a29ded7")
-	)
-	(wire
-		(pts
-			(xy 62.23 88.9) (xy 78.74 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98558302-1c44-4da0-a1a1-ab93c00ba77e")
 	)
 	(wire
 		(pts
@@ -5377,16 +5167,6 @@
 			(type default)
 		)
 		(uuid "9b95439c-3795-439e-974a-430871345db1")
-	)
-	(wire
-		(pts
-			(xy 62.23 83.82) (xy 78.74 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9bb9aaf9-bf59-42e6-8a8a-39ff607d2431")
 	)
 	(wire
 		(pts
@@ -5457,16 +5237,6 @@
 			(type default)
 		)
 		(uuid "a4fe9b32-b89f-435b-9919-985032ea7f8c")
-	)
-	(wire
-		(pts
-			(xy 129.54 68.58) (xy 148.59 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6eae647-3297-427c-944d-9a8e6e0bc532")
 	)
 	(wire
 		(pts
@@ -5600,16 +5370,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 66.04) (xy 78.74 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7292668-ac10-4898-91d1-48e2e5f515fa")
-	)
-	(wire
-		(pts
 			(xy 34.29 147.32) (xy 29.21 147.32)
 		)
 		(stroke
@@ -5700,16 +5460,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 101.6) (xy 78.74 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7f945f0-76ee-4c89-81e7-2ac996279511")
-	)
-	(wire
-		(pts
 			(xy 27.94 44.45) (xy 27.94 43.18)
 		)
 		(stroke
@@ -5720,16 +5470,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 91.44) (xy 78.74 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c94b24fa-a177-40cc-b003-7a0b0b976d49")
-	)
-	(wire
-		(pts
 			(xy 29.21 116.84) (xy 29.21 119.38)
 		)
 		(stroke
@@ -5737,16 +5477,6 @@
 			(type default)
 		)
 		(uuid "ccf50478-6070-4dc7-bf6b-c6d7468581a7")
-	)
-	(wire
-		(pts
-			(xy 129.54 55.88) (xy 148.59 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd05a971-a0b9-47fe-9609-e7f302a15815")
 	)
 	(wire
 		(pts
@@ -5840,16 +5570,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 68.58) (xy 78.74 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc690af2-171a-461f-b5bd-f87b9232ddf7")
-	)
-	(wire
-		(pts
 			(xy 48.26 86.36) (xy 48.26 88.9)
 		)
 		(stroke
@@ -5927,16 +5647,6 @@
 			(type default)
 		)
 		(uuid "e865d12b-7ff9-4a7f-94f3-521e883ba2db")
-	)
-	(wire
-		(pts
-			(xy 62.23 93.98) (xy 78.74 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb2942d4-bfcd-4c71-9f5c-ed14e7d3d327")
 	)
 	(wire
 		(pts
@@ -6030,16 +5740,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 104.14) (xy 78.74 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd693539-1161-42af-8162-859c9df08338")
-	)
-	(wire
-		(pts
 			(xy 25.4 69.85) (xy 31.75 69.85)
 		)
 		(stroke
@@ -6058,36 +5758,6 @@
 		)
 		(uuid "ff1a8194-e49c-4ec4-8407-358f7cf71054")
 	)
-	(label "ICOM_AUX2"
-		(at 62.23 71.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "01c1a168-93d4-478f-b308-cf7b16569baa")
-	)
-	(label "ICOM_AUX14"
-		(at 62.23 101.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "07aa7efd-1474-4e28-b3b9-2e45611a5db4")
-	)
-	(label "SDCARD_SPI_CS"
-		(at 148.59 53.34 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "13f7cbee-ed66-4b5a-b0eb-8e7cfc7aaf48")
-	)
 	(label "FPGA_DONE"
 		(at 187.96 113.03 180)
 		(effects
@@ -6098,16 +5768,6 @@
 		)
 		(uuid "1d97fbae-eac0-4b6e-93ed-005c4a978a8c")
 	)
-	(label "ICOM_AUX15"
-		(at 62.23 104.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "23156d08-fda2-4ad2-bba4-b6bad3693881")
-	)
 	(label "FPGA_SPI_MOSI"
 		(at 148.59 124.46 180)
 		(effects
@@ -6117,16 +5777,6 @@
 			(justify right bottom)
 		)
 		(uuid "3c1ed9c5-380e-48a9-80c4-5f88fe3c1acb")
-	)
-	(label "ICOM_AUX3"
-		(at 62.23 73.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "44531477-c2d7-456b-8e8e-dd58b356c720")
 	)
 	(label "RE18_A"
 		(at 179.07 83.82 0)
@@ -6147,16 +5797,6 @@
 			(justify right bottom)
 		)
 		(uuid "55f79b1c-26f0-4ad6-aaeb-8495418055dc")
-	)
-	(label "ICOM_AUX11"
-		(at 62.23 93.98 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5b0efeb9-f024-40ba-8e9a-c4ddbf5a745b")
 	)
 	(label "RE17_B"
 		(at 179.07 76.2 0)
@@ -6182,36 +5822,6 @@
 		)
 		(uuid "5bb53e91-6edc-4cf4-9e47-25a6dd2f7958")
 	)
-	(label "ICOM_AUX4"
-		(at 62.23 76.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "61990f36-7208-4d51-bfc5-0e33f825f22e")
-	)
-	(label "SDCARD_SPI_MISO"
-		(at 148.59 58.42 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6f31a1c2-afe6-4538-befc-f9ea391689da")
-	)
-	(label "MCU_JTAG_TMS"
-		(at 148.59 76.2 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7b82c533-6127-476b-9acc-6911b5d5c1d8")
-	)
 	(label "FPGA_INITN"
 		(at 187.96 115.57 180)
 		(effects
@@ -6222,16 +5832,6 @@
 		)
 		(uuid "82c583d7-845e-4369-8dde-f72e2c4bdb49")
 	)
-	(label "ICOM_USART3_RX"
-		(at 148.59 157.48 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "87112374-50b9-4866-8295-d93b00841ea9")
-	)
 	(label "RE18_C"
 		(at 179.07 88.9 0)
 		(effects
@@ -6241,36 +5841,6 @@
 			(justify left bottom)
 		)
 		(uuid "8729db49-119a-4c9f-a862-6552c2c2a1bb")
-	)
-	(label "MCU_USART1_RX"
-		(at 148.59 68.58 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "872dca18-d5b1-41a4-84d1-4b589bd9dbb6")
-	)
-	(label "MCU_JTAG_TDO"
-		(at 148.59 93.98 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8c920eea-9565-40e9-bf11-804099155466")
-	)
-	(label "ICOM_AUX7"
-		(at 62.23 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "91c89777-0599-465c-b5b7-a1b0fdc67e55")
 	)
 	(label "FPGA_HOLDN"
 		(at 187.96 120.65 180)
@@ -6292,16 +5862,6 @@
 		)
 		(uuid "9ccb3bd7-ffed-4a3b-9fd1-be3280de268c")
 	)
-	(label "ICOM_AUX9"
-		(at 62.23 88.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9e60b810-c262-4526-8fe5-c828d2790510")
-	)
 	(label "FPGA_SPI_CLK"
 		(at 148.59 119.38 180)
 		(effects
@@ -6322,36 +5882,6 @@
 		)
 		(uuid "a2094f82-f220-4328-be4f-7734eaad4c6a")
 	)
-	(label "SDCARD_SPI_SCK"
-		(at 148.59 55.88 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a37a6b03-69ea-4e98-96e0-dd3ff20ed51a")
-	)
-	(label "ICOM_AUX12"
-		(at 62.23 96.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a8c35ce5-94d9-49ff-82af-ac7172d015e1")
-	)
-	(label "MCU_USART1_TX"
-		(at 222.25 101.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a97623b2-9096-40cf-811b-4a259232b744")
-	)
 	(label "FPGA_CFG1"
 		(at 187.96 106.68 180)
 		(effects
@@ -6362,26 +5892,6 @@
 		)
 		(uuid "aa467255-de82-4ce3-8a5e-18f4c8f9a574")
 	)
-	(label "MCU_USART1_TX"
-		(at 148.59 66.04 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b2fa04f3-6d4a-40fd-9d7d-556f00f71998")
-	)
-	(label "MCU_JTAG_TDI"
-		(at 148.59 81.28 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ba56cc32-17d6-4180-94da-fb7a8e6d1f27")
-	)
 	(label "FPGA_SPI_MISO"
 		(at 148.59 121.92 180)
 		(effects
@@ -6391,46 +5901,6 @@
 			(justify right bottom)
 		)
 		(uuid "ba9623a3-1875-44b2-a0d2-d63ce8d3410d")
-	)
-	(label "ICOM_AUX8"
-		(at 62.23 86.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bd4ced1d-a42e-4566-af27-9a926cc54285")
-	)
-	(label "ICOM_AUX1"
-		(at 62.23 68.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bf81df43-a9bb-43e4-96d2-71eacbe108a5")
-	)
-	(label "MCU_USART1_RX"
-		(at 222.25 104.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c6ceea61-cfd0-49c2-a68c-cc024f5200ca")
-	)
-	(label "ICOM_AUX13"
-		(at 62.23 99.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c8dd0d28-16b9-45e8-9af8-a7fc464c8791")
 	)
 	(label "FPGA_CFG2"
 		(at 187.96 104.14 180)
@@ -6462,36 +5932,6 @@
 		)
 		(uuid "e419d5b9-1657-4328-9da0-5660d171b9ea")
 	)
-	(label "ICOM_AUX10"
-		(at 62.23 91.44 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e86623f7-6a73-49e7-94e1-dc879eb647b0")
-	)
-	(label "ICOM_AUX0"
-		(at 62.23 66.04 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e88a5f10-c437-449e-b721-167bffe76129")
-	)
-	(label "ICOM_AUX6"
-		(at 62.23 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ebca7e3f-6d47-45ce-b3fa-1a8a7f569cc1")
-	)
 	(label "FPGA_SPI_CS"
 		(at 148.59 116.84 180)
 		(effects
@@ -6502,45 +5942,725 @@
 		)
 		(uuid "ece4b186-2238-4906-b4a3-40a8c6504e73")
 	)
-	(label "ICOM_AUX5"
-		(at 62.23 78.74 0)
+	(global_label "ICOM_AUX14"
+		(shape bidirectional)
+		(at 78.74 101.6 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "f3ac571d-956b-40d1-8a80-88a94bd2d841")
+		(uuid "0c9c4ccc-0a43-4db2-9492-8139e149cfa9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.9716 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
-	(label "ICOM_USART3_TX"
-		(at 148.59 154.94 180)
+	(global_label "ICOM_AUX6"
+		(shape bidirectional)
+		(at 78.74 81.28 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
-		(uuid "f4d4d53b-3ae5-404b-bc1f-c138efc1d3cd")
+		(uuid "1016757c-ac6f-435d-a5ba-1f6eceae7f73")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 64.1811 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
-	(label "SDCARD_SPI_MOSI"
-		(at 148.59 60.96 180)
+	(global_label "ICOM_AUX10"
+		(shape bidirectional)
+		(at 78.74 91.44 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
-		(uuid "f6dbff33-0634-4dae-8d65-d487c8ff301e")
+		(uuid "11afa33e-47fc-4f30-9bcc-44742336ad5d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.9716 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
-	(label "MCU_JTAG_TCK"
-		(at 148.59 78.74 180)
+	(global_label "MCU_JTAG_TDO"
+		(shape bidirectional)
+		(at 129.54 93.98 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left)
 		)
-		(uuid "ff64943f-3860-4d15-b64c-e60ed880937a")
+		(uuid "13501912-6db2-4b89-a682-a524e8d6c608")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 147.4855 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "ICOM_AUX5"
+		(shape bidirectional)
+		(at 78.74 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "18bbac41-c9cb-4ed6-9ba3-e2af7c380a26")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 64.1811 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "ICOM_AUX1"
+		(shape bidirectional)
+		(at 78.74 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1d50ba11-dff3-405b-b16e-24954d9b02be")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 64.1811 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "ICOM_AUX15"
+		(shape bidirectional)
+		(at 78.74 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "30dd5467-d37a-4633-af2e-7744495e4fcb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.9716 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "ICOM_AUX7"
+		(shape bidirectional)
+		(at 78.74 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "43d35064-7c25-42a8-8624-7416ee2bd1b1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 64.1811 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "MCU_USART1_TX"
+		(shape bidirectional)
+		(at 242.57 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "47e3ef1e-5c5f-4e63-813b-bebf0067e7ec")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 223.2336 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "ICOM_USART3_TX"
+		(shape bidirectional)
+		(at 129.54 154.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "59575d67-cb0e-43e2-8795-4df85e25b41e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 149.4812 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "ICOM_AUX3"
+		(shape bidirectional)
+		(at 78.74 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5f0565a0-7290-4c64-bedd-f11af547fa9d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 64.1811 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "ICOM_AUX12"
+		(shape bidirectional)
+		(at 78.74 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "62b467c1-2cde-44cd-97a5-408fd3d33f70")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.9716 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "SDCARD_SPI_MISO"
+		(shape bidirectional)
+		(at 129.54 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6b24469d-0c8f-43b6-b38e-c1c8d5bcdcf1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 150.6303 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "MCU_JTAG_TCK"
+		(shape bidirectional)
+		(at 129.54 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "717ff59c-b363-46bc-b2c5-91191c8ab86d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 147.425 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "ICOM_AUX13"
+		(shape bidirectional)
+		(at 78.74 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "74fb5fc2-2381-4f3a-a6ca-8c4a4207591a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.9716 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "SDCARD_SPI_CS"
+		(shape bidirectional)
+		(at 129.54 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7720df84-7d8e-48b8-bc13-71080eaf4037")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 148.5136 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "MCU_JTAG_TMS"
+		(shape bidirectional)
+		(at 129.54 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7813848a-c291-4995-9a5b-4b17f108f207")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 147.5459 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "MCU_USART1_TX"
+		(shape bidirectional)
+		(at 129.54 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7b4f7448-cd09-4613-ab89-3f5b09968fbc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 148.8764 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "ICOM_AUX11"
+		(shape bidirectional)
+		(at 78.74 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "80e02963-9eb8-44d3-98f3-2ba6004e76cd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.9716 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "SDCARD_SPI_SCK"
+		(shape bidirectional)
+		(at 129.54 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "96259f46-da97-47fa-8171-002dc2ab4f10")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 149.7836 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "MCU_USART1_RX"
+		(shape bidirectional)
+		(at 129.54 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "96598d64-c7a0-47e5-99b0-db4a18ea07b5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 149.1788 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "MCU_JTAG_TDI"
+		(shape bidirectional)
+		(at 129.54 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a55fee33-c873-4a70-8267-437ce48b1048")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 146.7598 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "ICOM_AUX0"
+		(shape bidirectional)
+		(at 78.74 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a9ebe0d9-d14f-4b6d-97ee-7d097337856e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 64.1811 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "ICOM_USART3_RX"
+		(shape bidirectional)
+		(at 129.54 157.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aa088d3d-a407-48a8-8ccb-61a608c72254")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 149.7836 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "ICOM_AUX9"
+		(shape bidirectional)
+		(at 78.74 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aba736bb-8e53-40eb-a837-ea58dc059269")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 64.1811 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "MCU_USART1_RX"
+		(shape bidirectional)
+		(at 242.57 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c4695915-ac44-4010-9b87-7055a4545027")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 222.9312 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "SDCARD_SPI_MOSI"
+		(shape bidirectional)
+		(at 129.54 60.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cc83a4ba-a952-40a3-998c-acf085a0f713")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 150.6303 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "ICOM_AUX8"
+		(shape bidirectional)
+		(at 78.74 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d0181237-4b69-407c-8838-aa9c6cb43742")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 64.1811 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "ICOM_AUX2"
+		(shape bidirectional)
+		(at 78.74 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "de5fda00-c4df-4040-8d65-09c0e605c0a2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 64.1811 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "ICOM_AUX4"
+		(shape bidirectional)
+		(at 78.74 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f94f7b13-93f1-4d96-867c-15b1cf9e03e0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 64.1811 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
