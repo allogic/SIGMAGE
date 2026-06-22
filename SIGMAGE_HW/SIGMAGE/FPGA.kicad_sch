@@ -11242,7 +11242,7 @@
 			)
 		)
 	)
-	(global_label "0_FPGA_DONE"
+	(global_label "1_FPGA_DONE"
 		(shape bidirectional)
 		(at 135.89 256.54 180)
 		(fields_autoplaced yes)
@@ -12250,7 +12250,7 @@
 			)
 		)
 	)
-	(global_label "0_FPGA_INITN"
+	(global_label "1_FPGA_INITN"
 		(shape bidirectional)
 		(at 135.89 223.52 180)
 		(fields_autoplaced yes)
