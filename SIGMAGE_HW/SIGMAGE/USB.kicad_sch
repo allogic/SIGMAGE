@@ -5199,16 +5199,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 165.1) (xy 149.86 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27a22dd1-8660-468c-a396-ae006ba9c57f")
-	)
-	(wire
-		(pts
 			(xy 146.05 205.74) (xy 149.86 205.74)
 		)
 		(stroke
@@ -5896,16 +5886,6 @@
 			(type default)
 		)
 		(uuid "6b2e8810-35de-4d19-8bee-a004f583507e")
-	)
-	(wire
-		(pts
-			(xy 139.7 167.64) (xy 149.86 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c14a983-05ff-40a2-a40d-a44993df29e0")
 	)
 	(wire
 		(pts
@@ -7407,16 +7387,6 @@
 		)
 		(uuid "ff46cebc-b58c-4149-9d91-2b0d219b289c")
 	)
-	(label "USB_DP"
-		(at 139.7 167.64 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "364d73ba-55cb-4198-a121-6346a90975e0")
-	)
 	(label "High Speed USB"
 		(at 140.97 101.6 0)
 		(effects
@@ -7458,16 +7428,6 @@
 			(justify left bottom)
 		)
 		(uuid "846c149f-c3d9-46b9-96ea-dfe1548ecd64")
-	)
-	(label "USB_DN"
-		(at 139.7 165.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ab5ced8c-72e8-4f1d-b045-7a10ab55f76c")
 	)
 	(label "VBUS Filter"
 		(at 337.82 129.54 0)
@@ -7648,6 +7608,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "0_USB_DN"
+		(shape bidirectional)
+		(at 149.86 165.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "714fb56e-fec1-49bf-b073-20b420b78ada")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 136.2083 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -7864,6 +7848,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "0_USB_DP"
+		(shape bidirectional)
+		(at 149.86 167.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d89f08fb-5b0f-42a4-b26b-c159cdb6df4c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 136.2688 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
