@@ -17155,7 +17155,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 396.24 138.684 90)
+			(at 395.986 139.7 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
