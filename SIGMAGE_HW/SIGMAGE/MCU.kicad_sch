@@ -5732,9 +5732,57 @@
 		)
 		(uuid "5bb53e91-6edc-4cf4-9e47-25a6dd2f7958")
 	)
-	(global_label "1_LED8"
+	(global_label "0_LED12"
 		(shape bidirectional)
-		(at 262.89 132.08 0)
+		(at 78.74 116.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0da494f6-82ee-4fda-becf-a82a29bbf0c7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 66.6003 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "0_LED15"
+		(shape bidirectional)
+		(at 78.74 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0e9f2b11-9614-4ffe-9784-75c3c69b5b74")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 66.6003 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "0_RE9_B"
+		(shape bidirectional)
+		(at 129.54 96.52 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5742,9 +5790,9 @@
 			)
 			(justify left)
 		)
-		(uuid "04c0b261-ee0d-451b-8783-b7ee15cb828f")
+		(uuid "10fc695d-465f-4eed-84ea-ee35721cc581")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 273.8202 132.08 0)
+			(at 141.6797 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5756,19 +5804,19 @@
 			)
 		)
 	)
-	(global_label "0_LED6"
+	(global_label "0_RE9_A"
 		(shape bidirectional)
-		(at 78.74 124.46 180)
+		(at 129.54 101.6 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "082f3a98-dbc2-4e5b-bb86-9d740aceb069")
+		(uuid "11009d5c-7db6-4e1c-b630-16693a5a77fc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 67.8098 124.46 0)
+			(at 141.4983 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5776,79 +5824,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "0_ICOM_AUX14"
-		(shape bidirectional)
-		(at 78.74 101.6 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0c9c4ccc-0a43-4db2-9492-8139e149cfa9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.7945 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "0_ICOM_AUX6"
-		(shape bidirectional)
-		(at 78.74 81.28 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1016757c-ac6f-435d-a5ba-1f6eceae7f73")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.004 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "0_ICOM_AUX10"
-		(shape bidirectional)
-		(at 78.74 91.44 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "11afa33e-47fc-4f30-9bcc-44742336ad5d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.7945 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -5876,9 +5852,9 @@
 			)
 		)
 	)
-	(global_label "0_LED3"
+	(global_label "0_ICOM_AUX11"
 		(shape bidirectional)
-		(at 78.74 116.84 180)
+		(at 45.72 134.62 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5886,9 +5862,9 @@
 			)
 			(justify right)
 		)
-		(uuid "1383e0c7-94c1-41b0-8988-60253cc315ac")
+		(uuid "136d7270-eea1-47a2-bdec-f9e3ef724d15")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 67.8098 116.84 0)
+			(at 27.7745 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5900,57 +5876,9 @@
 			)
 		)
 	)
-	(global_label "0_FPGA_PROGRAMN"
+	(global_label "0_LED0"
 		(shape bidirectional)
-		(at 179.07 110.49 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1426083d-97b1-4fc8-94f7-8f31ce7924e0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 201.3094 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "1_LED9"
-		(shape bidirectional)
-		(at 262.89 134.62 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "14361f0d-6faa-4944-8d5a-848e43ebb4f3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 273.8202 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "0_LED4"
-		(shape bidirectional)
-		(at 78.74 119.38 180)
+		(at 78.74 147.32 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5958,33 +5886,9 @@
 			)
 			(justify right)
 		)
-		(uuid "18671cda-0854-492a-8da3-1987d382e253")
+		(uuid "19f72271-96cc-4b1a-9eae-c091b3f23e1c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 67.8098 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "0_ICOM_AUX5"
-		(shape bidirectional)
-		(at 78.74 78.74 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "18bbac41-c9cb-4ed6-9ba3-e2af7c380a26")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.004 78.74 0)
+			(at 67.8098 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6020,7 +5924,31 @@
 			)
 		)
 	)
-	(global_label "0_LED13"
+	(global_label "0_ICOM_AUX9"
+		(shape bidirectional)
+		(at 45.72 129.54 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "27583305-f9c0-45c3-923c-45765f396406")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 28.984 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "0_LED2"
 		(shape bidirectional)
 		(at 78.74 142.24 180)
 		(fields_autoplaced yes)
@@ -6030,153 +5958,9 @@
 			)
 			(justify right)
 		)
-		(uuid "1c4fda29-970c-49a1-af85-a66c75c35c1f")
+		(uuid "3056936f-3b48-4bad-afa3-fc78dc016f7a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 66.6003 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "0_ICOM_AUX1"
-		(shape bidirectional)
-		(at 78.74 68.58 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1d50ba11-dff3-405b-b16e-24954d9b02be")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.004 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "1_LED11"
-		(shape bidirectional)
-		(at 262.89 139.7 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "200eaa7a-4bac-4712-96bf-56708416193d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 275.0297 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "0_LED9"
-		(shape bidirectional)
-		(at 78.74 132.08 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "226046e6-0f9d-4828-8e50-f34fc8f1a9b2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 67.8098 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "0_FPGA_CFG0"
-		(shape bidirectional)
-		(at 179.07 100.33 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "28187e6a-a5cc-4ebe-9358-35a7692df8a3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.8665 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "0_FPGA_CFG2"
-		(shape bidirectional)
-		(at 179.07 105.41 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2ead2536-06d7-45b5-a631-1ffe55465a91")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.8665 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "0_ICOM_AUX15"
-		(shape bidirectional)
-		(at 78.74 104.14 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "30dd5467-d37a-4633-af2e-7744495e4fcb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.7945 104.14 0)
+			(at 67.8098 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6212,19 +5996,19 @@
 			)
 		)
 	)
-	(global_label "1_LED13"
+	(global_label "0_ICOM_AUX13"
 		(shape bidirectional)
-		(at 262.89 144.78 0)
+		(at 45.72 139.7 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "39a6527a-7511-448f-8dc6-5cbb06bcaa03")
+		(uuid "35cbe2fc-8a44-4aa7-b65b-2b7ca5bb5a2a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 275.0297 144.78 0)
+			(at 27.7745 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6232,23 +6016,23 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
-	(global_label "0_RE9_B"
+	(global_label "0_LED14"
 		(shape bidirectional)
-		(at 179.07 125.73 0)
+		(at 78.74 111.76 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "3da9f8d8-179f-4a76-b55a-0c5ab9c83381")
+		(uuid "36eab7d0-5768-4207-b100-ccd9e7cdf6ef")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 191.2097 125.73 0)
+			(at 66.6003 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6256,7 +6040,31 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
+			)
+		)
+	)
+	(global_label "0_ICOM_AUX14"
+		(shape bidirectional)
+		(at 45.72 142.24 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3f2504fb-038a-47e9-88d6-fcbdb7c5c721")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 27.7745 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -6284,33 +6092,9 @@
 			)
 		)
 	)
-	(global_label "0_RE9_C"
+	(global_label "0_LED1"
 		(shape bidirectional)
-		(at 179.07 128.27 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "42579a71-899f-4ec6-b184-786849a546cd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 191.2097 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "0_ICOM_AUX7"
-		(shape bidirectional)
-		(at 78.74 83.82 180)
+		(at 78.74 144.78 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6318,9 +6102,9 @@
 			)
 			(justify right)
 		)
-		(uuid "43d35064-7c25-42a8-8624-7416ee2bd1b1")
+		(uuid "45661859-6f19-4570-b805-7adb3bb77e0d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.004 83.82 0)
+			(at 67.8098 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6332,9 +6116,9 @@
 			)
 		)
 	)
-	(global_label "1_LED3"
+	(global_label "0_FPGA_PROGRAMN"
 		(shape bidirectional)
-		(at 262.89 119.38 0)
+		(at 129.54 88.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6342,9 +6126,9 @@
 			)
 			(justify left)
 		)
-		(uuid "4431a723-473e-4456-b72d-846a76c86ae7")
+		(uuid "45705570-949a-459d-bac7-6dfc69a66121")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 273.8202 119.38 0)
+			(at 151.7794 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6353,6 +6137,54 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "0_LED13"
+		(shape bidirectional)
+		(at 78.74 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4723054c-83bb-4e98-8343-ed7c21ec0112")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 66.6003 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "0_ICOM_AUX6"
+		(shape bidirectional)
+		(at 45.72 121.92 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "474f3a0a-475b-4890-8ac5-34206520e4db")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 28.984 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -6369,78 +6201,6 @@
 		(uuid "47e3ef1e-5c5f-4e63-813b-bebf0067e7ec")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 215.9765 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "0_FPGA_CFG1"
-		(shape bidirectional)
-		(at 179.07 102.87 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "48c27f04-6496-476b-a31f-03c331b368e7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.8665 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "1_LED12"
-		(shape bidirectional)
-		(at 262.89 142.24 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "504749ee-0c45-441c-b4f4-3dbb7708c42d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 275.0297 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "0_LED0"
-		(shape bidirectional)
-		(at 78.74 109.22 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "57b358ca-d9d3-4ef2-a866-c92401976e28")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 67.8098 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6476,9 +6236,9 @@
 			)
 		)
 	)
-	(global_label "0_ICOM_AUX3"
+	(global_label "0_ICOM_AUX5"
 		(shape bidirectional)
-		(at 78.74 73.66 180)
+		(at 45.72 119.38 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6486,9 +6246,9 @@
 			)
 			(justify right)
 		)
-		(uuid "5f0565a0-7290-4c64-bedd-f11af547fa9d")
+		(uuid "5e105c1e-7dd4-43fe-9f4a-a8f050631cd4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.004 73.66 0)
+			(at 28.984 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6500,81 +6260,9 @@
 			)
 		)
 	)
-	(global_label "0_LED10"
+	(global_label "0_FPGA_CFG0"
 		(shape bidirectional)
-		(at 78.74 134.62 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6138f7ee-ca6e-42df-83f6-0534648da927")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 66.6003 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "0_LED14"
-		(shape bidirectional)
-		(at 78.74 144.78 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "61709e79-6a8b-43ba-b2bf-fab9636293c9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 66.6003 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "0_ICOM_AUX12"
-		(shape bidirectional)
-		(at 78.74 96.52 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "62b467c1-2cde-44cd-97a5-408fd3d33f70")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.7945 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "1_LED10"
-		(shape bidirectional)
-		(at 262.89 137.16 0)
+		(at 129.54 139.7 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6582,9 +6270,9 @@
 			)
 			(justify left)
 		)
-		(uuid "648cd9c6-e685-4a89-a8f0-4a4fe546c488")
+		(uuid "6673ce03-2917-4855-9119-60f235a1fc82")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 275.0297 137.16 0)
+			(at 146.3365 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6596,9 +6284,9 @@
 			)
 		)
 	)
-	(global_label "0_LED7"
+	(global_label "0_ICOM_AUX8"
 		(shape bidirectional)
-		(at 78.74 127 180)
+		(at 45.72 127 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6606,9 +6294,9 @@
 			)
 			(justify right)
 		)
-		(uuid "695b54ff-c2ce-4eb1-b1b7-75abe1043943")
+		(uuid "6847a153-053e-43be-ada4-604ffda21fd8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 67.8098 127 0)
+			(at 28.984 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6644,9 +6332,9 @@
 			)
 		)
 	)
-	(global_label "0_LED2"
+	(global_label "0_LED6"
 		(shape bidirectional)
-		(at 78.74 114.3 180)
+		(at 78.74 132.08 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6654,9 +6342,33 @@
 			)
 			(justify right)
 		)
-		(uuid "6fdace57-7b42-4fce-9055-fe6965ecc9a9")
+		(uuid "6b8f0fc9-6424-43eb-a200-38b63acab19b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 67.8098 114.3 0)
+			(at 67.8098 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "0_ICOM_AUX7"
+		(shape bidirectional)
+		(at 45.72 124.46 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "717d5e38-a369-403d-baa8-69612a0e482b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 28.984 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6692,9 +6404,9 @@
 			)
 		)
 	)
-	(global_label "0_LED1"
+	(global_label "0_ICOM_AUX1"
 		(shape bidirectional)
-		(at 78.74 111.76 180)
+		(at 45.72 109.22 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6702,33 +6414,9 @@
 			)
 			(justify right)
 		)
-		(uuid "747237ef-0337-4758-b914-0a83a6369661")
+		(uuid "74039826-9db8-4eb7-b35f-263fee445a46")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 67.8098 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "0_ICOM_AUX13"
-		(shape bidirectional)
-		(at 78.74 99.06 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "74fb5fc2-2381-4f3a-a6ca-8c4a4207591a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.7945 99.06 0)
+			(at 28.984 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6788,19 +6476,19 @@
 			)
 		)
 	)
-	(global_label "1_LED15"
+	(global_label "0_ICOM_AUX15"
 		(shape bidirectional)
-		(at 262.89 149.86 0)
+		(at 45.72 144.78 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "7a3af774-099a-44a1-99ff-b5ec3cb15c09")
+		(uuid "7992dfe4-d07a-458d-ba9e-c245cd01d4b9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 275.0297 149.86 0)
+			(at 27.7745 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6808,7 +6496,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -6836,9 +6524,9 @@
 			)
 		)
 	)
-	(global_label "0_ICOM_AUX11"
+	(global_label "0_ICOM_AUX2"
 		(shape bidirectional)
-		(at 78.74 93.98 180)
+		(at 45.72 111.76 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6846,9 +6534,9 @@
 			)
 			(justify right)
 		)
-		(uuid "80e02963-9eb8-44d3-98f3-2ba6004e76cd")
+		(uuid "8397bc06-4041-4749-8166-fa70f0be736b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.7945 93.98 0)
+			(at 28.984 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6860,9 +6548,9 @@
 			)
 		)
 	)
-	(global_label "0_LED12"
+	(global_label "0_LED4"
 		(shape bidirectional)
-		(at 78.74 139.7 180)
+		(at 78.74 137.16 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6870,9 +6558,9 @@
 			)
 			(justify right)
 		)
-		(uuid "8b7d9d87-387c-4473-8f1a-d48f122d3c03")
+		(uuid "85363b95-1c40-4c70-9d96-4dcd2f3405cf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 66.6003 139.7 0)
+			(at 67.8098 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6881,54 +6569,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "1_LED4"
-		(shape bidirectional)
-		(at 262.89 121.92 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8dbeaf9b-e314-4564-8637-624e627c450c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 273.8202 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "0_RE9_A"
-		(shape bidirectional)
-		(at 179.07 123.19 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "94f7ee4b-8986-4532-98fa-4ef90e6e4f1e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 191.0283 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -6980,9 +6620,9 @@
 			)
 		)
 	)
-	(global_label "1_LED7"
+	(global_label "0_RE9_C"
 		(shape bidirectional)
-		(at 262.89 129.54 0)
+		(at 129.54 99.06 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6990,9 +6630,9 @@
 			)
 			(justify left)
 		)
-		(uuid "97692615-8db8-4cd2-8f33-87bad87e7d6e")
+		(uuid "9ee0b5f0-8dd0-4ab9-8f92-a4ec1077ec2e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 273.8202 129.54 0)
+			(at 141.6797 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7004,7 +6644,7 @@
 			)
 		)
 	)
-	(global_label "0_LED8"
+	(global_label "0_LED7"
 		(shape bidirectional)
 		(at 78.74 129.54 180)
 		(fields_autoplaced yes)
@@ -7014,7 +6654,7 @@
 			)
 			(justify right)
 		)
-		(uuid "9b7fbd64-0399-406a-8289-0ee6ade5fd76")
+		(uuid "a23b4315-2e02-431f-ba31-3b4a52b66e0b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 67.8098 129.54 0)
 			(hide yes)
@@ -7028,9 +6668,9 @@
 			)
 		)
 	)
-	(global_label "1_LED6"
+	(global_label "0_FPGA_CFG1"
 		(shape bidirectional)
-		(at 262.89 127 0)
+		(at 129.54 142.24 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7038,9 +6678,9 @@
 			)
 			(justify left)
 		)
-		(uuid "a4feea72-58f5-46e0-9270-84cd461997ed")
+		(uuid "a4228859-3578-4f9d-ae5d-da3e4a937b82")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 273.8202 127 0)
+			(at 146.3365 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7076,9 +6716,9 @@
 			)
 		)
 	)
-	(global_label "0_FPGA_HOLDN"
+	(global_label "0_FPGA_CFG2"
 		(shape bidirectional)
-		(at 179.07 115.57 0)
+		(at 129.54 86.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7086,9 +6726,9 @@
 			)
 			(justify left)
 		)
-		(uuid "a6ef09d4-7fa3-47ec-bedb-fd8b27126217")
+		(uuid "a8e568d4-d6be-4f15-95ac-c74e31b06fba")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 197.318 115.57 0)
+			(at 146.3365 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7097,54 +6737,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "1_LED14"
-		(shape bidirectional)
-		(at 262.89 147.32 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a87ac2fb-1cd8-412d-98d7-d601b4c6fdde")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 275.0297 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "0_ICOM_AUX0"
-		(shape bidirectional)
-		(at 78.74 66.04 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a9ebe0d9-d14f-4b6d-97ee-7d097337856e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.004 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -7172,9 +6764,9 @@
 			)
 		)
 	)
-	(global_label "0_LED5"
+	(global_label "0_LED8"
 		(shape bidirectional)
-		(at 78.74 121.92 180)
+		(at 78.74 127 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7182,9 +6774,9 @@
 			)
 			(justify right)
 		)
-		(uuid "ab91c79a-d590-4534-b8d8-0e05c8fe7773")
+		(uuid "ab87ac96-740c-4ba8-af0e-411ac821555c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 67.8098 121.92 0)
+			(at 67.8098 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7196,7 +6788,127 @@
 			)
 		)
 	)
-	(global_label "0_ICOM_AUX9"
+	(global_label "0_ICOM_AUX3"
+		(shape bidirectional)
+		(at 45.72 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b0f0fcd0-b8b5-42e5-a1bd-26e44a99edac")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 28.984 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "0_ICOM_AUX4"
+		(shape bidirectional)
+		(at 45.72 116.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b420412a-f150-495c-bc14-9297668cba98")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 28.984 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "0_ICOM_AUX12"
+		(shape bidirectional)
+		(at 45.72 137.16 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b48bcb23-718e-4664-b9f3-447b078fd0a6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 27.7745 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "0_LED9"
+		(shape bidirectional)
+		(at 78.74 124.46 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b6a451f2-78ab-42ab-b22f-e54b399240dd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 67.8098 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "0_LED3"
+		(shape bidirectional)
+		(at 78.74 139.7 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b9877ac6-fc9d-4e54-aadc-00d65b319964")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 67.8098 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "0_FPGA_HOLDN"
 		(shape bidirectional)
 		(at 78.74 88.9 180)
 		(fields_autoplaced yes)
@@ -7206,9 +6918,9 @@
 			)
 			(justify right)
 		)
-		(uuid "aba736bb-8e53-40eb-a837-ea58dc059269")
+		(uuid "bfc44f31-311c-4e56-925a-5d1b21c83234")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.004 88.9 0)
+			(at 60.492 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7222,17 +6934,17 @@
 	)
 	(global_label "0_FPGA_INITN"
 		(shape bidirectional)
-		(at 179.07 113.03 0)
+		(at 78.74 83.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "b1544682-9a09-482a-8f5e-d69fb0473309")
+		(uuid "c1fb757e-2d0d-4100-804c-cee9b9d94895")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.8666 113.03 0)
+			(at 61.9434 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7240,55 +6952,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "1_LED0"
-		(shape bidirectional)
-		(at 262.89 111.76 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b7debd56-6def-441e-b58c-4028a3d4a3f0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 273.8202 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "1_LED1"
-		(shape bidirectional)
-		(at 262.89 114.3 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c09493e1-01f3-46b9-aed7-806cdbe04cc0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 273.8202 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -7316,33 +6980,9 @@
 			)
 		)
 	)
-	(global_label "0_LED11"
+	(global_label "0_FPGA_DONE"
 		(shape bidirectional)
-		(at 78.74 137.16 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c7aea1d0-1d0e-4b01-b19a-7c4310f36ca6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 66.6003 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "1_LED2"
-		(shape bidirectional)
-		(at 262.89 116.84 0)
+		(at 129.54 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7350,9 +6990,9 @@
 			)
 			(justify left)
 		)
-		(uuid "c9006a23-f5b8-4ced-a576-715312da7a64")
+		(uuid "c492270c-f27f-4d30-82f4-0a8363468ef9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 273.8202 116.84 0)
+			(at 146.5784 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7361,6 +7001,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "0_ICOM_AUX10"
+		(shape bidirectional)
+		(at 45.72 132.08 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ca1a31d3-8100-41ce-bf83-2c000a7e2f87")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 27.7745 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -7388,9 +7052,9 @@
 			)
 		)
 	)
-	(global_label "0_ICOM_AUX8"
+	(global_label "0_ICOM_AUX0"
 		(shape bidirectional)
-		(at 78.74 86.36 180)
+		(at 45.72 106.68 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7398,9 +7062,9 @@
 			)
 			(justify right)
 		)
-		(uuid "d0181237-4b69-407c-8838-aa9c6cb43742")
+		(uuid "d142fdf0-23eb-465d-a8ab-be9f62bb3062")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.004 86.36 0)
+			(at 28.984 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7436,9 +7100,9 @@
 			)
 		)
 	)
-	(global_label "0_ICOM_AUX2"
+	(global_label "0_LED5"
 		(shape bidirectional)
-		(at 78.74 71.12 180)
+		(at 78.74 134.62 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7446,9 +7110,9 @@
 			)
 			(justify right)
 		)
-		(uuid "de5fda00-c4df-4040-8d65-09c0e605c0a2")
+		(uuid "dbb0c34a-0552-4eb7-bdf7-68608d29b235")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.004 71.12 0)
+			(at 67.8098 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7460,33 +7124,9 @@
 			)
 		)
 	)
-	(global_label "1_LED5"
+	(global_label "0_LED11"
 		(shape bidirectional)
-		(at 262.89 124.46 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ef519940-bf15-40be-a8aa-26a7e8a6a6c0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 273.8202 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "0_LED15"
-		(shape bidirectional)
-		(at 78.74 147.32 180)
+		(at 78.74 119.38 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7494,9 +7134,9 @@
 			)
 			(justify right)
 		)
-		(uuid "f553ba71-7096-4d3c-b59f-a914ab53730c")
+		(uuid "e2ceb19f-37bd-443f-b28f-6ad8ff366c41")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 66.6003 147.32 0)
+			(at 66.6003 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7508,33 +7148,9 @@
 			)
 		)
 	)
-	(global_label "0_FPGA_DONE"
+	(global_label "0_LED10"
 		(shape bidirectional)
-		(at 179.07 107.95 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f655369e-933a-438a-82da-01eeb7532bee")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.1084 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "0_ICOM_AUX4"
-		(shape bidirectional)
-		(at 78.74 76.2 180)
+		(at 78.74 121.92 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7542,9 +7158,9 @@
 			)
 			(justify right)
 		)
-		(uuid "f94f7b13-93f1-4d96-867c-15b1cf9e03e0")
+		(uuid "fd274d54-550c-4ae0-97da-bb231672f1fe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.004 76.2 0)
+			(at 66.6003 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
