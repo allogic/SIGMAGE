@@ -10738,30 +10738,6 @@
 			)
 		)
 	)
-	(global_label "0_FPGA_USART1_TX"
-		(shape bidirectional)
-		(at 367.03 95.25 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2203cc2f-401f-4b11-a657-565d6040dca6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 389.2088 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "0_ADC4_OSR"
 		(shape bidirectional)
 		(at 161.29 38.1 0)
@@ -12226,6 +12202,30 @@
 			)
 		)
 	)
+	(global_label "0_FPGA_USART1_RX"
+		(shape bidirectional)
+		(at 109.22 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "74b0fd9c-440b-487d-b7ae-19332dc8ea64")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 131.7012 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "0_RE10_B"
 		(shape bidirectional)
 		(at 213.36 101.6 0)
@@ -13042,30 +13042,6 @@
 			)
 		)
 	)
-	(global_label "0_FPGA_USART1_RX"
-		(shape bidirectional)
-		(at 367.03 97.79 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9988b7ca-7283-487a-9f72-e5724bf20a7b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 389.5112 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "0_ICOM_AUX2"
 		(shape bidirectional)
 		(at 339.09 100.33 0)
@@ -13823,6 +13799,30 @@
 		(uuid "d999f37f-383b-4ae6-98f1-1b11fad74df2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 386.3665 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "0_FPGA_USART1_TX"
+		(shape bidirectional)
+		(at 161.29 33.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "daa01de6-7eb3-407e-b2c1-e212fd2f3012")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 183.4688 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
