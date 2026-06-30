@@ -5732,6 +5732,54 @@
 		)
 		(uuid "5bb53e91-6edc-4cf4-9e47-25a6dd2f7958")
 	)
+	(global_label "1_LED10"
+		(shape bidirectional)
+		(at 262.89 137.16 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0215b249-ccad-4d13-a3fe-014c08a995ce")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 275.0297 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "1_LED8"
+		(shape bidirectional)
+		(at 262.89 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "02db77bd-d421-4ab6-bf0e-3e320b29fc7f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 273.8202 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "0_LED12"
 		(shape bidirectional)
 		(at 78.74 116.84 180)
@@ -5924,6 +5972,30 @@
 			)
 		)
 	)
+	(global_label "1_LED0"
+		(shape bidirectional)
+		(at 262.89 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "21f1d3d0-e9df-4f64-84aa-2daf1f0ceffc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 273.8202 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "0_ICOM_AUX9"
 		(shape bidirectional)
 		(at 45.72 129.54 180)
@@ -5948,19 +6020,19 @@
 			)
 		)
 	)
-	(global_label "0_LED2"
+	(global_label "1_LED2"
 		(shape bidirectional)
-		(at 78.74 142.24 180)
+		(at 262.89 116.84 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "3056936f-3b48-4bad-afa3-fc78dc016f7a")
+		(uuid "27d482c6-f4e2-4a06-b3d5-0880b631b903")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 67.8098 142.24 0)
+			(at 273.8202 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5968,7 +6040,31 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
+			)
+		)
+	)
+	(global_label "1_LED13"
+		(shape bidirectional)
+		(at 262.89 144.78 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "317789bb-0915-47ae-a35f-67bb683eb194")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 275.0297 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -6020,6 +6116,30 @@
 			)
 		)
 	)
+	(global_label "1_LED1"
+		(shape bidirectional)
+		(at 262.89 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "365f528a-b2d0-4d9a-9be6-b2e8ec533f40")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 273.8202 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "0_LED14"
 		(shape bidirectional)
 		(at 78.74 111.76 180)
@@ -6041,6 +6161,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "1_LED12"
+		(shape bidirectional)
+		(at 262.89 142.24 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3e15761d-e336-4928-bd8d-eecea0a9d0ba")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 275.0297 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -6092,30 +6236,6 @@
 			)
 		)
 	)
-	(global_label "0_LED1"
-		(shape bidirectional)
-		(at 78.74 144.78 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "45661859-6f19-4570-b805-7adb3bb77e0d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 67.8098 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "0_FPGA_PROGRAMN"
 		(shape bidirectional)
 		(at 129.54 88.9 0)
@@ -6129,6 +6249,30 @@
 		(uuid "45705570-949a-459d-bac7-6dfc69a66121")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 151.7794 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "1_LED3"
+		(shape bidirectional)
+		(at 262.89 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "47069db1-7bcd-450d-871a-94a97f9448a7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 273.8202 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6201,6 +6345,54 @@
 		(uuid "47e3ef1e-5c5f-4e63-813b-bebf0067e7ec")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 215.9765 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "0_LED3"
+		(shape bidirectional)
+		(at 78.74 137.16 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4a07ed40-7be2-402d-935a-c90410086be8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 67.8098 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "0_LED1"
+		(shape bidirectional)
+		(at 78.74 142.24 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4a4c38f3-2cac-41e8-b8f1-55b2f4dfe669")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 67.8098 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6308,6 +6500,30 @@
 			)
 		)
 	)
+	(global_label "1_LED11"
+		(shape bidirectional)
+		(at 262.89 139.7 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "69bc0fc7-a069-4d69-8bb2-1c10c130e89a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 275.0297 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "0_SDCARD_SPI_MISO"
 		(shape bidirectional)
 		(at 129.54 58.42 0)
@@ -6334,7 +6550,7 @@
 	)
 	(global_label "0_LED6"
 		(shape bidirectional)
-		(at 78.74 132.08 180)
+		(at 78.74 134.62 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6342,9 +6558,9 @@
 			)
 			(justify right)
 		)
-		(uuid "6b8f0fc9-6424-43eb-a200-38b63acab19b")
+		(uuid "6f87d3a6-c745-4625-a42c-c0b6aa0efd5a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 67.8098 132.08 0)
+			(at 67.8098 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6548,9 +6764,9 @@
 			)
 		)
 	)
-	(global_label "0_LED4"
+	(global_label "0_LED5"
 		(shape bidirectional)
-		(at 78.74 137.16 180)
+		(at 78.74 132.08 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6558,9 +6774,9 @@
 			)
 			(justify right)
 		)
-		(uuid "85363b95-1c40-4c70-9d96-4dcd2f3405cf")
+		(uuid "84e7fea2-4159-47bb-8f06-eb9606885e18")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 67.8098 137.16 0)
+			(at 67.8098 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6620,6 +6836,30 @@
 			)
 		)
 	)
+	(global_label "1_LED9"
+		(shape bidirectional)
+		(at 262.89 134.62 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "984f082f-9f6d-402c-9577-e62886d9f660")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 273.8202 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "0_RE9_C"
 		(shape bidirectional)
 		(at 129.54 99.06 0)
@@ -6633,6 +6873,30 @@
 		(uuid "9ee0b5f0-8dd0-4ab9-8f92-a4ec1077ec2e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 141.6797 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "1_LED14"
+		(shape bidirectional)
+		(at 262.89 147.32 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a1c47ade-7da6-4665-9f79-64cd6567d5c0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 275.0297 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6788,6 +7052,30 @@
 			)
 		)
 	)
+	(global_label "1_LED6"
+		(shape bidirectional)
+		(at 262.89 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ae585a4c-1534-48a3-bb15-3149f553be0c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 273.8202 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "0_ICOM_AUX3"
 		(shape bidirectional)
 		(at 45.72 114.3 180)
@@ -6809,6 +7097,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "1_LED15"
+		(shape bidirectional)
+		(at 262.89 149.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b3f54f99-e9f4-4d9e-9a19-52724cad77ce")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 275.0297 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -6884,9 +7196,33 @@
 			)
 		)
 	)
-	(global_label "0_LED3"
+	(global_label "1_LED5"
 		(shape bidirectional)
-		(at 78.74 139.7 180)
+		(at 262.89 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b86aedda-2cb0-40b7-9562-167978409ccc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 273.8202 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "0_LED2"
+		(shape bidirectional)
+		(at 78.74 144.78 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6894,9 +7230,9 @@
 			)
 			(justify right)
 		)
-		(uuid "b9877ac6-fc9d-4e54-aadc-00d65b319964")
+		(uuid "b97baf74-90fa-4243-8ea2-3d91e76cb546")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 67.8098 139.7 0)
+			(at 67.8098 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6921,6 +7257,30 @@
 		(uuid "bfc44f31-311c-4e56-925a-5d1b21c83234")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 60.492 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "0_LED4"
+		(shape bidirectional)
+		(at 78.74 139.7 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c1b3c33c-05e3-4b81-a368-6112a50c8fba")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 67.8098 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7052,6 +7412,30 @@
 			)
 		)
 	)
+	(global_label "1_LED7"
+		(shape bidirectional)
+		(at 262.89 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cf40366b-77e1-49ac-895f-117555166895")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 273.8202 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "0_ICOM_AUX0"
 		(shape bidirectional)
 		(at 45.72 106.68 180)
@@ -7076,6 +7460,30 @@
 			)
 		)
 	)
+	(global_label "1_LED4"
+		(shape bidirectional)
+		(at 262.89 121.92 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d66de560-8c3b-4e01-95db-36b03f5eea90")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 273.8202 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "0_FPGA_SPI_CS"
 		(shape bidirectional)
 		(at 129.54 116.84 0)
@@ -7097,30 +7505,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "0_LED5"
-		(shape bidirectional)
-		(at 78.74 134.62 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "dbb0c34a-0552-4eb7-bdf7-68608d29b235")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 67.8098 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
