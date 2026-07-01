@@ -14332,84 +14332,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 367.03 209.55 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d287f46b-f70a-444a-8e87-553b536be752")
-		(property "Reference" "#PWR089"
-			(at 367.03 213.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC_5V"
-			(at 363.728 204.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 367.03 209.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 367.03 209.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 367.03 209.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f0a702b0-6e11-480b-8f2a-f1f6e766120a")
-		)
-		(instances
-			(project "SIGMAGE"
-				(path "/6fbe3371-b6a3-4e28-aef4-4e5865f4674e/ccd460ba-3ae1-4da8-87e1-cc701b1f693c"
-					(reference "#PWR089")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 71.12 121.92 0)
 		(unit 1)
@@ -14647,6 +14569,84 @@
 			(project "SIGMAGE"
 				(path "/6fbe3371-b6a3-4e28-aef4-4e5865f4674e/ccd460ba-3ae1-4da8-87e1-cc701b1f693c"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 367.03 209.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e5efb629-2903-4285-9f3e-942e1cf7e48f")
+		(property "Reference" "#PWR089"
+			(at 367.03 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 367.03 204.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 367.03 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 367.03 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 367.03 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bcd139ae-22ee-49eb-9fca-c2986d2f0222")
+		)
+		(instances
+			(project "SIGMAGE"
+				(path "/6fbe3371-b6a3-4e28-aef4-4e5865f4674e/ccd460ba-3ae1-4da8-87e1-cc701b1f693c"
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
